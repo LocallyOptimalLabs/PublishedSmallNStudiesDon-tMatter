@@ -1,0 +1,83 @@
+{
+  "response": {
+    "docs": [
+      {
+        "abstract": [
+          "Background: The importance of replication in the social and behavioural sciences has been emphasized for decades. Various frequentist and Bayesian approaches have been proposed to qualify a replication study as successful or unsuccessful. One of them is meta-analysis. The focus of the present study is on the way meta-analysis functions as a replication success metric. To investigate this, original and replication studies that are part of two large-scale replication projects were used. For each original study, the probability of replication success was calculated using meta-analysis under different assumptions of the underlying population effect when replication results were unknown. The accuracy of the predicted overall replication success was evaluated once replication results became available using adjusted Brier scores. Results: Our results showed that meta-analysis performed poorly when used as a replication success metric. In many cases, quantifying replication success using meta-analysis resulted in the conclusion where the replication was deemed a success regardless of the results of the replication study. Discussion: We conclude that when using meta-analysis as a replication success metric, it has a relatively high probability of finding evidence in favour of a non-zero population effect even when it is zero. This behaviour largely results from the significance of the original study. Furthermore, we argue that there are fundamental reasons against using meta-analysis as a metric for replication success. "
+        ],
+        "author_display": [
+          "Jasmine Muradchanian",
+          "Rink Hoekstra",
+          "Henk Kiers",
+          "Don van Ravenzwaaij"
+        ],
+        "id": "10.1371/journal.pone.0308495",
+        "journal": "PLOS ONE",
+        "publication_date": "2024-12-11T00:00:00Z",
+        "title": "Evaluating meta-analysis as a replication success measure"
+      },
+      {
+        "abstract": [
+          "\nThe vast majority of published results in the literature is statistically significant, which raises concerns about their reliability. The Reproducibility Project Psychology (RPP) and Experimental Economics Replication Project (EE-RP) both replicated a large number of published studies in psychology and economics. The original study and replication were statistically significant in 36.1% in RPP and 68.8% in EE-RP suggesting many null effects among the replicated studies. However, evidence in favor of the null hypothesis cannot be examined with null hypothesis significance testing. We developed a Bayesian meta-analysis method called snapshot hybrid that is easy to use and understand and quantifies the amount of evidence in favor of a zero, small, medium and large effect. The method computes posterior model probabilities for a zero, small, medium, and large effect and adjusts for publication bias by taking into account that the original study is statistically significant. We first analytically approximate the methods performance, and demonstrate the necessity to control for the original study\u2019s significance to enable the accumulation of evidence for a true zero effect. Then we applied the method to the data of RPP and EE-RP, showing that the underlying effect sizes of the included studies in EE-RP are generally larger than in RPP, but that the sample sizes of especially the included studies in RPP are often too small to draw definite conclusions about the true effect size. We also illustrate how snapshot hybrid can be used to determine the required sample size of the replication akin to power analysis in null hypothesis significance testing and present an easy to use web application (https://rvanaert.shinyapps.io/snapshot/) and R code for applying the method.\n"
+        ],
+        "author_display": [
+          "Robbie C. M. van Aert",
+          "Marcel A. L. M. van Assen"
+        ],
+        "id": "10.1371/journal.pone.0175302",
+        "journal": "PLOS ONE",
+        "publication_date": "2017-04-07T00:00:00Z",
+        "title": "Bayesian evaluation of effect size after replicating an original study"
+      },
+      {
+        "abstract": [
+          "\nRecent large-scale replication projects (RPs) have estimated concerningly low reproducibility rates. Further, they reported substantial degrees of shrinkage of effect size, where the replication effect size was found to be, on average, much smaller than the original effect size. Within these RPs, the included original-replication study-pairs can vary with respect to aspects of study design, outcome measures, and descriptive features of both original and replication study population and study team. This often results in between-study-pair heterogeneity, i.e., variation in effect size differences across study-pairs that goes beyond expected statistical variation. When broader claims about the reproducibility of an entire field are based on such heterogeneous data, it becomes imperative to conduct a rigorous analysis of the amount and sources of shrinkage and heterogeneity within and between included study-pairs. Methodology from the meta-analysis literature provides an approach for quantifying the heterogeneity present in RPs with an additive or multiplicative parameter. Meta-regression methodology further allows for an investigation into the sources of shrinkage and heterogeneity. We propose the use of location-scale meta-regressions as a means to directly relate the identified characteristics with shrinkage (represented by the location) and heterogeneity (represented by the scale). This provides valuable insights into drivers and factors associated with high or low reproducibility rates and therefore contextualises results of RPs. The proposed methodology is illustrated using publicly available data from the Replication Project Psychology and the Replication Project Experimental Economics. All analysis scripts and data are available online.\n"
+        ],
+        "author_display": [
+          "Rachel Heyard",
+          "Leonhard Held"
+        ],
+        "id": "10.1371/journal.pone.0327799",
+        "journal": "PLOS One",
+        "publication_date": "2025-08-01T00:00:00Z",
+        "title": "Meta-regression to explain shrinkage and heterogeneity in large-scale replication projects"
+      },
+      {
+        "abstract": [
+          "\nWe measure how accurately replication of experimental results can be predicted by black-box statistical models. With data from four large-scale replication projects in experimental psychology and economics, and techniques from machine learning, we train predictive models and study which variables drive predictable replication. The models predicts binary replication with a cross-validated accuracy rate of 70% (AUC of 0.77) and estimates of relative effect sizes with a Spearman \u03c1 of 0.38. The accuracy level is similar to market-aggregated beliefs of peer scientists [1, 2]. The predictive power is validated in a pre-registered out of sample test of the outcome of [3], where 71% (AUC of 0.73) of replications are predicted correctly and effect size correlations amount to \u03c1 = 0.25. Basic features such as the sample and effect sizes in original papers, and whether reported effects are single-variable main effects or two-variable interactions, are predictive of successful replication. The models presented in this paper are simple tools to produce cheap, prognostic replicability metrics. These models could be useful in institutionalizing the process of evaluation of new findings and guiding resources to those direct replications that are likely to be most informative.\n"
+        ],
+        "author_display": [
+          "Adam Altmejd",
+          "Anna Dreber",
+          "Eskil Forsell",
+          "Juergen Huber",
+          "Taisuke Imai",
+          "Magnus Johannesson",
+          "Michael Kirchler",
+          "Gideon Nave",
+          "Colin Camerer"
+        ],
+        "id": "10.1371/journal.pone.0225826",
+        "journal": "PLOS ONE",
+        "publication_date": "2019-12-05T00:00:00Z",
+        "title": "Predicting the replicability of social science lab experiments"
+      },
+      {
+        "abstract": [
+          "\nGenome-wide association studies (GWAS) are commonly used to identify genomic variants that are associated with complex traits, and estimate the magnitude of this association for each variant. However, it has been widely observed that the association estimates of variants tend to be lower in a replication study than in the study that discovered those associations. A phenomenon known as Winner\u2019s Curse is responsible for this upward bias present in association estimates of significant variants in the discovery study. We review existing Winner\u2019s Curse correction methods which require only GWAS summary statistics in order to make adjustments. In addition, we propose modifications to improve existing methods and propose a novel approach which uses the parametric bootstrap. We evaluate and compare methods, first using a wide variety of simulated data sets and then, using real data sets for three different traits. The metric, estimated mean squared error (MSE) over significant SNPs, was primarily used for method assessment. Our results indicate that widely used conditional likelihood based methods tend to perform poorly. The other considered methods behave much more similarly, with our proposed bootstrap method demonstrating very competitive performance. To complement this review, we have developed an R package, \u2018winnerscurse\u2019 which can be used to implement these various Winner\u2019s Curse adjustment methods to GWAS summary statistics.\nAuthor summary: A genome-wide association study is designed to analyse many common genetic variants in thousands of samples and identify which variants are associated with a trait of interest. It provides estimates of association strength for each variant and variants are classified as associated if their test statistics obtained in the study pass a chosen significance threshold. However, due to a phenomenon known as Winner\u2019s Curse, the association estimates of these significant variants tend to be upward biased and greater in magnitude than their true values. Naturally, this bias has adverse consequences for downstream statistical techniques which use these estimates. In this paper, we look at current methods which have been designed to combat Winner\u2019s Curse and propose modifications to these methods in order to improve performance. Using a wide variety of simulated data sets as well as real data, we perform a thorough evaluation of these methods. We use a metric which allows us to identify which methods, on average, produce adjusted estimates for significant variants that are closest to the true values. To accompany our work, we have created an R package, \u2018winnerscurse\u2019, which allows users to easily apply Winner\u2019s Curse correction methods to their data sets. "
+        ],
+        "author_display": [
+          "Amanda Forde",
+          "Gibran Hemani",
+          "John Ferguson"
+        ],
+        "id": "10.1371/journal.pgen.1010546",
+        "journal": "PLOS Genetics",
+        "publication_date": "2023-09-18T00:00:00Z",
+        "title": "Review and further developments in statistical corrections for Winner\u2019s Curse in genetic association studies"
+      }
+    ],
+    "numFound": 9,
+    "start": 0
+  }
+}

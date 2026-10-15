@@ -4,18 +4,19 @@ This report answers whether each individual-replication candidate is a current r
 
 ## Candidate Summary
 
-- `already_in_current_root_table`: 34
+- `already_in_current_root_table`: 35
 - `not_row_rejected_after_value_scan`: 18
 - `not_row_rejected_seed_or_non_pair`: 7
-- `not_row_source_blocked_or_manual_acquisition`: 5
-- `not_row_unresolved_original_target`: 23
-- `promoted_to_current_root_row`: 22
+- `not_row_source_blocked_or_manual_acquisition`: 4
+- `not_row_unresolved_original_target`: 22
+- `promoted_to_current_root_row`: 23
 
 ## Result-Option Summary
 
-- `not_row_rejected_after_value_scan`: 23
-- `not_row_source_blocked_or_manual_acquisition`: 5
-- `row_in_current_root_table`: 39
+- `not_row_held`: 1
+- `not_row_rejected_after_value_scan`: 22
+- `not_row_source_blocked_or_manual_acquisition`: 4
+- `row_in_current_root_table`: 43
 
 ## Current Promoted Rows
 
@@ -55,9 +56,13 @@ This report answers whether each individual-replication candidate is a current r
 - `fig1_pair_12cdc01727ec470b` / `api_candidate_de98537749100357`: Race-erased effect H2: increased coalition encoding with visual coalitional cue; D 1.22 -> 0.852; N 107 -> 463.
 - `fig1_pair_3d2956ef5143202b|fig1_pair_5a1ac3972f37a5d2` / `api_candidate_6babb48338f16a8a`: Preferred versus nonpreferred music effect on bench press repetitions to failure; D 0.84 -> 0.12; N 12 -> 28.
 - `fig1_pair_3d2956ef5143202b|fig1_pair_5a1ac3972f37a5d2` / `api_candidate_6babb48338f16a8a`: Preferred versus nonpreferred music effect on bench press motivation; D 5.90 -> 0.34; N 12 -> 28.
+- `fig1_pair_b432f0a94c542a5e` / `api_candidate_af2810096cc74997`: Newman and Cain Experiment 3 charity-versus-advertising no-counterfactual liking / Alcala et al. Experiment 1; D 0.3301 -> 0.84; N 145 -> 208.
+- `fig1_pair_97ca9f9be3852820` / `api_candidate_af2810096cc74997`: Newman and Cain Experiment 2 charity-versus-corporate morality / Alcala et al. Experiment 2; D 0.4654 -> 0.2851; N 93 -> 345.
 - `fig1_pair_63188176b801fc89` / `api_candidate_359168184573cff4`: Parbery-Clark enhanced upper-harmonics encoding to /da/ in babble / large-scale multisite direct replication; D 1.04 -> 0.023; N 31 -> 162.
 - `fig1_pair_1e2b413a086fb571` / `api_candidate_359168184573cff4`: Parbery-Clark reduced babble degradation in /da/ encoding / large-scale multisite direct replication; D 1.05 -> 0.012; N 31 -> 162.
 - `fig1_pair_39a76231928dbfe9` / `api_candidate_359168184573cff4`: Wong enhanced F0 encoding for linguistic pitch in quiet / large-scale multisite direct replication; D 1.11 -> 0.22; N 20 -> 145.
+- `fig1_pair_f8dcb5289647135c` / `api_candidate_359168184573cff4`: Wong years of musical training and dynamic F0 encoding / large-scale multisite direct replication; D 1.02 -> 0.10; N 20 -> 266.
+- `fig1_pair_05bea52240ec8ca8` / `api_candidate_359168184573cff4`: Wong age of start and enhanced F0 tracking / large-scale multisite direct replication; D 1.16 -> 0.05; N 16 -> 231.
 
 ## Artifacts
 

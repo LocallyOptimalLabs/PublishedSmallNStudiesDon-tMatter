@@ -205,98 +205,8 @@ Candidates to work:
     "known_replication_support_text": "Mirrored Crossref metadata for Lehmann and Calin-Jageman (2017), DOI 10.1027/1864-9335/a000296, reports two preregistered replications: men rating women, d = 0.09, 95% CI [-0.17, 0.34], N = 242; women rating men, signed d = -0.09, 95% CI [-0.30, 0.12], N = 360. Hogrefe full/PDF routes currently mirror Cloudflare challenge pages, not value-bearing article text.",
     "conversion_or_policy_note": "Do not promote from metadata alone. Replication D magnitudes are exposed in Crossref abstract text, but original D/N values and exact matched original study/outcome rows remain missing from local value-bearing bytes.",
     "source_object_urls_from_search": [],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch001/IND-015/crossref_red_romance_10_1027_1864_9335_a000296.json | data/raw/replication_projects/individual_search_batch001/IND-015/hogrefe_red_romance_full_attempt.html | data/raw/replication_projects/individual_search_batch001/IND-015/hogrefe_red_romance_pdf_attempt.html",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch001/IND-015/crossref_red_romance_10_1027_1864_9335_a000296.json | data/raw/replication_projects/individual_search_batch001/IND-015/hogrefe_red_romance_full_attempt.html | data/raw/replication_projects/individual_search_batch001/IND-015/hogrefe_red_romance_pdf_attempt.html | data/raw/replication_projects/individual_search_batch001/IND-015/red_meta_analysis_probe/pmc10480976_meta_analysis.html",
     "requested_gpt_action": "manual_acquisition_of_hogrefe_article_or_author_manuscript",
-    "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
-  },
-  {
-    "candidate_id": "IND-017",
-    "prior_gpt_decision": "needs_more_evidence",
-    "prior_row_policy": "d_equivalent_figure1b",
-    "prior_replication_kind": "direct_replication",
-    "local_verifier_action": "held",
-    "local_reason": "Signing-at-the-beginning endpoint type and values unresolved.",
-    "candidate_name": "Signing-at-the-beginning dishonesty direct replication",
-    "candidate_route": "d_equivalent_figure1b",
-    "current_local_scan_decision": "source_blocked_needs_manual_acquisition",
-    "original_title": "",
-    "original_doi": "",
-    "replication_title": "",
-    "replication_doi": "",
-    "outcome_or_result_option": "Signing-at-the-beginning dishonesty direct replication",
-    "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
-      "N_replication": ""
-    },
-    "current_blocker": "source_blocked_needs_manual_acquisition",
-    "known_original_support_text": "Candidate relation is strong, but PNAS source bytes with exact values were not mirrored in this batch.",
-    "known_replication_support_text": "The high-powered direct replication appears potentially row-eligible, pending source values.",
-    "conversion_or_policy_note": "Could be Figure 1B or strict SMD depending on whether the final endpoint is binary cheating or continuous dishonesty amount.",
-    "source_object_urls_from_search": [],
-    "local_source_file_summary_or_paths": "",
-    "requested_gpt_action": "manual_acquisition_of_pnas_article_supplement_or_data_code_for_values",
-    "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
-  },
-  {
-    "candidate_id": "IND-019",
-    "prior_gpt_decision": "needs_more_evidence",
-    "prior_row_policy": "coverage_only",
-    "prior_replication_kind": "close_replication",
-    "local_verifier_action": "held",
-    "local_reason": "Mating-motive target mappings and values unresolved.",
-    "candidate_name": "Mating-motive consumer/risk replication studies",
-    "candidate_route": "coverage_worklist",
-    "current_local_scan_decision": "not_row_remaining_targets_need_study_level_mapping",
-    "original_title": "Multiple mating-motive consumer/risk studies, including Griskevicius and related original targets",
-    "original_doi": "",
-    "replication_title": "Romance, Risk, and Replication: Can Consumer Choices and Risk-Taking Be Primed by Mating Motives?",
-    "replication_doi": "10.1037/xge0000116",
-    "outcome_or_result_option": "Mating-motive consumer/risk replication studies, remaining targets",
-    "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
-      "N_replication": ""
-    },
-    "current_blocker": "source_blocked_needs_manual_acquisition",
-    "known_original_support_text": "Mirrored Shanks article, OSF meta-analysis workbook, and OSF complete-data workbook expose many romantic-priming source-result assertions and replication study datasets.",
-    "known_replication_support_text": "Only the individually reviewed Greitemeyer Study 5/6/7a/7b and Li Study 8 rows are promoted in this pass. The article's other studies map to Griskevicius, Li, and other source families with smaller focal replication samples, changed measures, broader original contrasts, or multiple outcomes that need separate study-level review.",
-    "conversion_or_policy_note": "Do not collapse the article's full eight-study package or the 43-effect meta-analysis into one Figure 1 row. Promote only individually matched rows with explicit original and replication value support.",
-    "source_object_urls_from_search": [],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch001/IND-019/01_psycnet_apa_org_443_doilanding_doi_10_1037_xge0000116_95f52a94846c.html | data/raw/replication_projects/individual_search_batch001/IND-019/01_psycnet_apa_org_443_doilanding_doi_10_1037_xge0000116_627a68d5258e.html | data/raw/replication_projects/individual_search_batch001/IND-019/crossref_greitemeyer_2013_romantic_motives_risk_taking.json | data/raw/replication_projects/individual_search_batch001/IND-019/crossref_griskevicius_2007_blatant_benevolence.json | data/raw/replication_projects/individual_search_batch001/IND-019/osf_ytvj7_Priming_Mating_Motives_complete_data.xlsx | data/raw/replication_projects/individual_search_batch001/IND-019/osf_ytvj7_files_api.json | data/raw/replication_projects/individual_search_batch001/IND-019/osf_zubfs_Meta-analysis_data.xlsx | data/raw/replication_projects/individual_search_batch001/IND-019/osf_zubfs_files_api.json | data/raw/replication_projects/individual_search_batch001/IND-019/shanks_mating_motives_accepted_manuscript.pdf | data/raw/replication_projects/individual_search_batch001/IND-019/shanks_mating_motives_accepted_manuscript.txt",
-    "requested_gpt_action": "manual_acquisition_of_jep_general_article_and_supplement",
-    "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
-  },
-  {
-    "candidate_id": "IND-022",
-    "prior_gpt_decision": "needs_more_evidence",
-    "prior_row_policy": "d_equivalent_figure1b",
-    "prior_replication_kind": "clinical_followup",
-    "local_verifier_action": "held",
-    "local_reason": "EGDT trial event counts not mirrored in this batch.",
-    "candidate_name": "Early goal-directed therapy mortality follow-up trials",
-    "candidate_route": "d_equivalent_figure1b",
-    "current_local_scan_decision": "needs_event_counts_or_open_trial_source_objects",
-    "original_title": "",
-    "original_doi": "",
-    "replication_title": "",
-    "replication_doi": "",
-    "outcome_or_result_option": "Early goal-directed therapy mortality follow-up trials",
-    "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
-      "N_replication": ""
-    },
-    "current_blocker": "needs_event_counts_or_open_trial_source_objects",
-    "known_original_support_text": "Search intake identifies Rivers et al. 2001 as the original EGDT mortality trial, but NEJM source objects were not mirrored in this batch.",
-    "known_replication_support_text": "Search intake identifies ProCESS, ARISE, and ProMISe as larger multicenter follow-ups; event counts still need local source extraction.",
-    "conversion_or_policy_note": "Route to D-equivalent Figure 1B only after event counts or OR/RR/RD and baseline risk are extracted.",
-    "source_object_urls_from_search": [],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch001/IND-022/05_figshare_com_articles_dataset_promise_trial_data_1359853_444b3c0512cd.html [html_or_xml, 2009 bytes] | data/raw/replication_projects/individual_search_batch001/IND-022/05_figshare_com_articles_dataset_promise_trial_data_1359853_1df22b9dc761.html [html_or_xml, 2009 bytes] | data/raw/replication_projects/individual_search_batch001/IND-022/05_figshare_com_articles_dataset_promise_trial_data_1359853_6cac6983810a.html [html_or_xml, 2009 bytes] | data/raw/replication_projects/individual_search_batch001/IND-022/05_figshare_com_articles_dataset_promise_trial_data_1359853_cad4dc2967c8.html [html_or_xml, 2009 bytes]",
-    "requested_gpt_action": "mirror_open_trial_reports_or_registry_records_and_extract_event_counts",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
   {
@@ -330,36 +240,6 @@ Candidates to work:
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
   {
-    "candidate_id": "IND-024",
-    "prior_gpt_decision": "needs_more_evidence",
-    "prior_row_policy": "d_equivalent_figure1b",
-    "prior_replication_kind": "clinical_followup",
-    "local_verifier_action": "held",
-    "local_reason": "Intensive-insulin mortality event counts not mirrored in this batch.",
-    "candidate_name": "Intensive insulin/tight glucose control ICU mortality follow-up",
-    "candidate_route": "d_equivalent_figure1b",
-    "current_local_scan_decision": "needs_event_counts_or_open_trial_source_objects",
-    "original_title": "",
-    "original_doi": "",
-    "replication_title": "",
-    "replication_doi": "",
-    "outcome_or_result_option": "Intensive insulin/tight glucose control ICU mortality follow-up",
-    "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
-      "N_replication": ""
-    },
-    "current_blocker": "needs_event_counts_or_open_trial_source_objects",
-    "known_original_support_text": "Search intake identifies van den Berghe et al. 2001 as the original intensive-insulin ICU trial, but value-bearing source bytes were not mirrored in this batch.",
-    "known_replication_support_text": "Search intake identifies NICE-SUGAR as the larger follow-up with N = 6104, but event counts still need local extraction.",
-    "conversion_or_policy_note": "Route to D-equivalent Figure 1B only after event counts or OR/RR/RD and baseline risk are extracted.",
-    "source_object_urls_from_search": [],
-    "local_source_file_summary_or_paths": "",
-    "requested_gpt_action": "resolve_nejm_or_open_source_routes_and_extract_mortality_counts",
-    "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
-  },
-  {
     "candidate_id": "api_candidate_006071e798115bf1",
     "prior_gpt_decision": "needs_more_evidence",
     "prior_row_policy": "coverage_only",
@@ -385,7 +265,7 @@ Candidates to work:
     "known_replication_support_text": "Mirrored article reports a registered replication in Turkey and the main belief-in-God outcome means/SDs and t statistic.",
     "conversion_or_policy_note": "Open article was mirrored and the registered-replication relation is real. The article reports original Study 3 N = 373 across four conditions and replication results for two conditions, but it uses assumed/reanalyzed small d values for planning rather than the matched original reported effect for the exact plotted contrast.",
     "source_object_urls_from_search": [],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/01_academicrepository_khas_edu_tr_handle_20_500_12469_2831_d0bd654fa705.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/02_www_cambridge_org_core_journals_judgment_and_decision_making_article_doe_a1ce03884c97.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/03_jbaron_org_journal_18_18412_jdm18412_html_76b3d2c676b7.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/04_doaj_org_article_5937e200778e46fa85dc65470859823c_568d6dfc514e.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/05_doaj_org_article_82a252b91a674344b6a5f8d0792f7774_5de1e476642e.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/06_api_osf_io_v2_registrations_734eu_f7ebd2ff263e.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/07_osf_io_dh5e8_c1df7be23f68.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/08_openalex_org_w2888851667_16b660aaccf6.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/09_www_cambridge_org_core_journals_judgment_and_decision_making_article_doe_0c3a74662f6a.html",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/01_academicrepository_khas_edu_tr_handle_20_500_12469_2831_d0bd654fa705.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/02_www_cambridge_org_core_journals_judgment_and_decision_making_article_doe_a1ce03884c97.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/03_jbaron_org_journal_18_18412_jdm18412_html_76b3d2c676b7.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/04_doaj_org_article_5937e200778e46fa85dc65470859823c_568d6dfc514e.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/05_doaj_org_article_82a252b91a674344b6a5f8d0792f7774_5de1e476642e.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/06_api_osf_io_v2_registrations_734eu_f7ebd2ff263e.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/07_osf_io_dh5e8_c1df7be23f68.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/08_openalex_org_w2888851667_16b660aaccf6.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/09_www_cambridge_org_core_journals_judgment_and_decision_making_article_doe_0c3a74662f6a.html | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/original_attempts/shenhav_rand_greene_2012_jepg.pdf | data/raw/replication_projects/individual_search_batch006/api_candidate_006071e798115bf1/original_attempts/shenhav_rand_greene_2012_jepg.txt",
     "requested_gpt_action": "Extract Shenhav/Rand/Greene original two-condition effect and N for the intuitive-mindset belief-in-God target, then map to the replication t/N.",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
@@ -417,68 +297,6 @@ Candidates to work:
     "source_object_urls_from_search": [],
     "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch004/api_candidate_025c30471725eba5/01_journals_plos_org_plosone_article_id_10_1371_journal_pone_0237007_f5db93457e71.html",
     "requested_gpt_action": "retain_as_context_source_until_exact_original_target_is_resolved",
-    "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
-  },
-  {
-    "candidate_id": "api_candidate_0367fa32a3d09f7b",
-    "prior_gpt_decision": "needs_more_evidence",
-    "prior_row_policy": "coverage_only",
-    "prior_replication_kind": "direct_replication",
-    "local_verifier_action": "held",
-    "local_reason": "Loftus registered-report value-bearing texts unresolved.",
-    "candidate_name": "Loftus (1979) -> Does blatantly contradictory information reduce the misinformation effect? A Registered Report replication of Loftus (1979)",
-    "candidate_route": "coverage_only",
-    "current_local_scan_decision": "source_blocked_needs_value_bearing_article",
-    "original_title": "Loftus (1979)",
-    "original_doi": "",
-    "replication_title": "Does blatantly contradictory information reduce the misinformation effect? A Registered Report replication of Loftus (1979)",
-    "replication_doi": "10.1111/lcrp.12242",
-    "outcome_or_result_option": "Loftus misinformation effect registered-report replication",
-    "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
-      "N_replication": ""
-    },
-    "current_blocker": "value_bearing_source_object_needed",
-    "known_original_support_text": "",
-    "known_replication_support_text": "",
-    "conversion_or_policy_note": "Do not promote from metadata alone. The batch found affirmative replication-language evidence, but did not mirror enough value-bearing source text for a matched original effect, original N, replication effect, and replication N under the current Figure 1 row policy.",
-    "source_object_urls_from_search": [
-      "https://doi.org/10.1111/lcrp.12242"
-    ],
-    "local_source_file_summary_or_paths": "",
-    "requested_gpt_action": "Acquire the Loftus misinformation registered-report replication and extract matched original/replication effect/N if publicly available.",
-    "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
-  },
-  {
-    "candidate_id": "api_candidate_112b3ad59e12752d",
-    "prior_gpt_decision": "needs_more_evidence",
-    "prior_row_policy": "strict_figure1a",
-    "prior_replication_kind": "direct_replication",
-    "local_verifier_action": "held",
-    "local_reason": "Prosocial-spending original exposes p only locally; no matched D/conversion inputs.",
-    "candidate_name": "Prosocial spending and post-windfall happiness original specification",
-    "candidate_route": "strict_figure1a",
-    "current_local_scan_decision": "not_row_original_effect_not_sufficiently_exposed",
-    "original_title": "the only experiment reported in Dunn, Aknin, and Norton (2008)",
-    "original_doi": "",
-    "replication_title": "Prosocial spending encourages happiness: A replication of the only experiment reported in Dunn, Aknin, and Norton (2008)",
-    "replication_doi": "10.1371/journal.pone.0272434",
-    "outcome_or_result_option": "Prosocial spending and post-windfall happiness original specification",
-    "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "46",
-      "D_replication": ".001",
-      "N_replication": "133"
-    },
-    "current_blocker": "not_row_original_effect_not_sufficiently_exposed",
-    "known_original_support_text": "Mirrored PLOS article reports the Dunn et al. original experiment N = 46 and original p = .042 for the focal analysis, but does not expose a matched original D or enough original ANCOVA inputs.",
-    "known_replication_support_text": "Mirrored PLOS article reports replication N = 133 and original-specification result F(1,130) = .35, p = .557, partial eta squared = .001.",
-    "conversion_or_policy_note": "Do not promote until the original article or supplement supplies a matched effect size/statistic sufficient for the same ANCOVA-style endpoint.",
-    "source_object_urls_from_search": [],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch003/api_candidate_112b3ad59e12752d/01_journals_plos_org_plosone_article_id_10_1371_journal_pone_0272434_be76b034e1b0.html",
-    "requested_gpt_action": "manual_acquisition_of_original_dunn_aknin_norton_value_inputs_if_prioritized",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
   {
@@ -556,24 +374,24 @@ Candidates to work:
     "local_reason": "Sex-difference reaction original D/N and single focal outcome unresolved.",
     "candidate_name": "Reactions to female- versus male-favoring sex differences",
     "candidate_route": "coverage_only",
-    "current_local_scan_decision": "not_row_original_effect_and_d_route_not_sufficiently_exposed",
-    "original_title": "a counterintuitive finding.",
-    "original_doi": "",
-    "replication_title": "People react more positively to female- than to male-favoring sex differences: A direct replication of a counterintuitive finding.",
+    "current_local_scan_decision": "not_row_replication_n_not_larger",
+    "original_title": "Reactions to male-favoring vs. female-favoring sex differences: A pre-registered experiment and Southeast Asian replication",
+    "original_doi": "10.1111/bjop.12463",
+    "replication_title": "People react more positively to female- than to male-favoring sex differences: A direct replication of a counterintuitive finding",
     "replication_doi": "10.1371/journal.pone.0266171",
     "outcome_or_result_option": "Reactions to female- versus male-favoring sex differences",
     "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
+      "D_original": "0.50",
+      "N_original": "492",
+      "D_replication": "0.58",
       "N_replication": "303"
     },
     "current_blocker": "not_row_original_effect_and_d_route_not_sufficiently_exposed",
-    "known_original_support_text": "Mirrored PLOS article says the study is a direct replication of the authors' earlier study on reactions to sex-difference findings.",
-    "known_replication_support_text": "Mirrored abstract reports 303 participants and replicated the less-positive reaction to male-favoring differences.",
-    "conversion_or_policy_note": "Open PLOS/PMC article was mirrored and the direct-replication relation is real. The article reports a multi-factor reaction-score replication with the earlier study as context, but this batch did not extract a matched original D/N and replication D/N for a single focal outcome.",
+    "known_original_support_text": "Mirrored OSF original paper and supplementary tables report Study 1 N = 492 and the focal overall Reaction to Research Sex Favoured effect F(1, 488) = 31.90, p < .001, d = 0.50.",
+    "known_replication_support_text": "Mirrored PMC/PLOS replication article reports a direct replication with final N = 303 and the focal overall-reaction main effect of Sex Favored, F(1, 299) = 24.48, p < .001, d = 0.58.",
+    "conversion_or_policy_note": "Open PLOS/PMC article and OSF source files were mirrored, and the direct-replication relation is real. The matched focal overall-reaction contrast is source-backed, but the 2022 exact replication analyzed N = 303 versus original Study 1 N = 492, so it fails the current Figure 1 larger-replication rule.",
     "source_object_urls_from_search": [],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/01_journals_plos_org_plosone_article_id_10_1371_journal_pone_0266171_7c8e7ffc22d0.html | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/02_pmc_ncbi_nlm_nih_gov_articles_pmc8967052_13d49c6d103e.html | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/03_pubmed_ncbi_nlm_nih_gov_35353872_31bee0960424.html",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/01_journals_plos_org_plosone_article_id_10_1371_journal_pone_0266171_7c8e7ffc22d0.html | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/02_pmc_ncbi_nlm_nih_gov_articles_pmc8967052_13d49c6d103e.html | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/03_pubmed_ncbi_nlm_nih_gov_35353872_31bee0960424.html | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/04_cronfa_swansea_bjop12463_accepted_manuscript_20260507.pdf | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/04_cronfa_swansea_record_51534_20260507.html | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/05_cronfa_swansea_51534_author_original_20260507.pdf | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/06_osf_6n5up_files_api_20260507.json | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/07_osf_ctnez_files_api_20260507.json | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/08_osf_6n5up_osfstorage_api_20260507.json | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/09_osf_original_paper_stewart_williams_2020_20260507.pdf | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/09_osf_original_paper_stewart_williams_2020_20260507.txt | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/10_osf_original_supplementary_tables_20260507.pdf | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/10_osf_original_supplementary_tables_20260507.txt | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/11_osf_original_study1_data_20260507.sav | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/12_osf_exact_replication_data_20260507.sav | data/raw/replication_projects/individual_search_batch006/api_candidate_4dc2cff8320f0b0e/manifest_sha256.tsv",
     "requested_gpt_action": "retain_as_context_until_original_effect_and_single_outcome_d_route_are_extracted",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
@@ -610,38 +428,6 @@ Candidates to work:
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
   {
-    "candidate_id": "api_candidate_5d432a85cc83bb79",
-    "prior_gpt_decision": "needs_more_evidence",
-    "prior_row_policy": "coverage_only",
-    "prior_replication_kind": "close_replication",
-    "local_verifier_action": "held",
-    "local_reason": "Self-construal spatial-memory exact original/replication values unresolved.",
-    "candidate_name": "the effects of self-construal priming on spatial memory recall -> Cognition and the self: Attempt of an independent close replication of the effects of self-construal priming on spatial memory recall",
-    "candidate_route": "coverage_only",
-    "current_local_scan_decision": "source_blocked_needs_value_bearing_article",
-    "original_title": "the effects of self-construal priming on spatial memory recall",
-    "original_doi": "",
-    "replication_title": "Cognition and the self: Attempt of an independent close replication of the effects of self-construal priming on spatial memory recall",
-    "replication_doi": "10.1016/j.jesp.2017.08.005",
-    "outcome_or_result_option": "the effects of self-construal priming on spatial memory recall -> Cognition and the self: Attempt of an independent close replication of the effects of self-construal priming on spatial memory recall",
-    "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
-      "N_replication": ""
-    },
-    "current_blocker": "value_bearing_source_object_needed",
-    "known_original_support_text": "",
-    "known_replication_support_text": "",
-    "conversion_or_policy_note": "Do not promote from metadata alone. The batch found affirmative replication-language evidence, but did not mirror enough value-bearing source text for a matched original effect, original N, replication effect, and replication N under the current Figure 1 row policy.",
-    "source_object_urls_from_search": [
-      "https://doi.org/10.1016/j.jesp.2017.08.005"
-    ],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch006/api_candidate_5d432a85cc83bb79/01_linkinghub_elsevier_com_retrieve_pii_s0022103117302792_a27eb70e6f9a.html [html, 2748 bytes] | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_5d432a85cc83bb79/doi_resolver__10_1016_j_jesp_2017_08_005__linkinghub_elsevier_com__a27eb70e6f9a.html [html, 2748 bytes] | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_5d432a85cc83bb79/openalex_landing_page_url__10_1016_j_jesp_2017_08_005__api_osf_io__47b17b104376.bin [json_like, 6512 bytes] | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_5d432a85cc83bb79/openalex_landing_page_url__10_1016_j_jesp_2017_08_005__osf_io__c1df7be23f68.html [html, 4190 bytes]",
-    "requested_gpt_action": "manual_acquisition_or_repository_parse_if_prioritized",
-    "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
-  },
-  {
     "candidate_id": "api_candidate_64a39a53876c51c1",
     "prior_gpt_decision": "needs_more_evidence",
     "prior_row_policy": "strict_figure1a",
@@ -671,7 +457,7 @@ Candidates to work:
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC12610937/",
       "https://pubmed.ncbi.nlm.nih.gov/41234291/"
     ],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/01_psycnet_apa_org_443_doilanding_doi_10_1037_law0000469_64104e8822dc.html | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/02_pmc_ncbi_nlm_nih_gov_articles_pmc12610937_d5386ee1d706.html | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/03_pubmed_ncbi_nlm_nih_gov_41234291_9c3b5f3a6df6.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_64a39a53876c51c1/openalex_landing_page_url__10_1037_law0000469__pubmed_ncbi_nlm_nih_gov__6685cfd787f7.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_64a39a53876c51c1/openalex_landing_page_url__10_1037_law0000469__pubmed_ncbi_nlm_nih_gov__a4d4de9df92d.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_64a39a53876c51c1/semantic_scholar_landing_page__10_1037_law0000469__www_semanticscholar_org__43f2b75ad98e.html",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/01_psycnet_apa_org_443_doilanding_doi_10_1037_law0000469_64104e8822dc.html | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/02_pmc_ncbi_nlm_nih_gov_articles_pmc12610937_d5386ee1d706.html | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/03_pubmed_ncbi_nlm_nih_gov_41234291_9c3b5f3a6df6.html | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/pickel2018_headers.txt | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/pickel2018_pubmed_headers.txt | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/pickel_sneyd_2018_attempt.html | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/pickel_sneyd_2018_pubmed.html | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/pickel_sneyd_2018_squarespace.pdf | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/pickel_sneyd_2018_squarespace.txt | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/pickel_sneyd_2018_squarespace_headers.txt | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/NIHMS2094767-supplement-3.docx | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/data_analysis_script_output.zip | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/extracted/Analyses/Analyses/singlePaperMeta.qmd | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/extracted/Analyses/Cleaned Data/Exp 1 data.csv | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/extracted/Analyses/Cleaned Data/Exp 2 data.csv | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/extracted/Analyses/Cleaned Data/Exp 4a data.csv | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/extracted/Analyses/Cleaned Data/Exp 4b data.csv | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/extracted/Analyses/Output/Analyses/Single-Paper Meta-Analysis.html | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/osf_data_analysis_folder_files.json | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/osf_tz7nb_files_osfstorage.json | data/raw/replication_projects/individual_search_batch006/api_candidate_64a39a53876c51c1/supplement_osf/preregistration_deviation_table.docx | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_64a39a53876c51c1/openalex_landing_page_url__10_1037_law0000469__pubmed_ncbi_nlm_nih_gov__6685cfd787f7.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_64a39a53876c51c1/openalex_landing_page_url__10_1037_law0000469__pubmed_ncbi_nlm_nih_gov__a4d4de9df92d.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_64a39a53876c51c1/semantic_scholar_landing_page__10_1037_law0000469__www_semanticscholar_org__43f2b75ad98e.html",
     "requested_gpt_action": "Resolve Pickel and Sneyd (2018) Experiment 2 original N/effect and map it to the replication's target-description or lineup outcome.",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
@@ -703,40 +489,8 @@ Candidates to work:
     "source_object_urls_from_search": [
       "https://doi.org/10.1177/1948550617740941"
     ],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_705797b93ca7def0/semantic_scholar_landing_page__10_1177_1948550617740941__www_semanticscholar_org__3ed038622535.html",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch006/api_candidate_705797b93ca7def0/crawford_etal_2017_money_priming_replication_pdf.pdf | data/raw/replication_projects/individual_search_batch006/api_candidate_705797b93ca7def0/crawford_etal_2017_money_priming_replication_pdf.txt | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_705797b93ca7def0/semantic_scholar_landing_page__10_1177_1948550617740941__www_semanticscholar_org__3ed038622535.html",
     "requested_gpt_action": "manual_acquisition_or_repository_parse_if_prioritized",
-    "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
-  },
-  {
-    "candidate_id": "api_candidate_710fd7eb55fc9d77",
-    "prior_gpt_decision": "needs_more_evidence",
-    "prior_row_policy": "coverage_only",
-    "prior_replication_kind": "clinical_followup",
-    "local_verifier_action": "held",
-    "local_reason": "Original scopolamine value-bearing article remains blocked; matched crossover effect definition unresolved.",
-    "candidate_name": "Scopolamine's Antidepressant Efficacy in Major Depressive Disorder -> Replication of Scopolamine's Antidepressant Efficacy in Major Depressive Disorder: A Randomized, Placebo-Controlled Clinical Trial",
-    "candidate_route": "coverage_only",
-    "current_local_scan_decision": "source_blocked_original_article_value_missing",
-    "original_title": "Scopolamine's Antidepressant Efficacy in Major Depressive Disorder",
-    "original_doi": "",
-    "replication_title": "Replication of Scopolamine's Antidepressant Efficacy in Major Depressive Disorder: A Randomized, Placebo-Controlled Clinical Trial",
-    "replication_doi": "10.1016/j.biopsych.2009.11.021",
-    "outcome_or_result_option": "Scopolamine's Antidepressant Efficacy in Major Depressive Disorder -> Replication of Scopolamine's Antidepressant Efficacy in Major Depressive Disorder: A Randomized, Placebo-Controlled Clinical Trial",
-    "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
-      "N_replication": ""
-    },
-    "current_blocker": "value_bearing_source_object_needed",
-    "known_original_support_text": "Mirrored replication PMC/PDF reports the initial scopolamine trial as total n = 18 with MDD n = 9 and bipolar disorder n = 9; direct JAMA original article acquisition attempts were blocked by the publisher/CAPTCHA route.",
-    "known_replication_support_text": "Mirrored replication PMC/PDF reports n = 23 randomized, 22 analyzed, and source-reported scopolamine-placebo effect sizes d = 1.2 and d = 1.7 for Blocks 1 and 2.",
-    "conversion_or_policy_note": "Do not promote until the original value-bearing article or an authoritative mirrored source provides the selected original effect size and exact outcome locator.",
-    "source_object_urls_from_search": [
-      "https://doi.org/10.1016/j.biopsych.2009.11.021"
-    ],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/01_linkinghub_elsevier_com_retrieve_pii_s0006322309014140_e1444cde4e85.html [html, 2741 bytes] | data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/manual/jama_original_html.html [html_or_xml, 5511 bytes] | data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/manual/original_attempts/01.pdf [html_or_xml, 5674 bytes] | data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/manual/original_attempts/02.html [html_or_xml, 5737 bytes] | data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/manual/original_attempts/03.html [html_or_xml, 5680 bytes] | data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/manual/original_attempts/04.html [html_or_xml, 5632 bytes] | data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/manual/original_attempts/05.html [html_or_xml, 5665 bytes] | data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/manual/pmc_scopolamine_html.html [html_or_xml, 179426 bytes] | data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/manual/wisc_scopolamine_pdf.pdf [pdf, 539089 bytes] | data/raw/replication_projects/individual_search_batch002/api_candidate_710fd7eb55fc9d77/manual/wisc_scopolamine_pdf.txt [txt, 41499 bytes] | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_710fd7eb55fc9d77/doi_resolver__10_1016_j_biopsych_2009_11_021__linkinghub_elsevier_com__e1444cde4e85.html [html, 2741 bytes] | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_710fd7eb55fc9d77/embedded_pdf__0757fa465543__nihms170258.pdf [html_or_xml, 1817 bytes] | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_710fd7eb55fc9d77/openalex_landing_page_url__10_1016_j_biopsych_2009_11_021__pmc_ncbi_nlm_nih_gov__510404a069c2.html [html_or_xml, 179426 bytes] | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_710fd7eb55fc9d77/openalex_landing_page_url__10_1016_j_biopsych_2009_11_021__pubmed_ncbi_nlm_nih_gov__2860fa381db8.html [html_or_xml, 162461 bytes] | ... 2 more local files omitted from prompt row",
-    "requested_gpt_action": "Acquire the original scopolamine antidepressant article or authoritative table and determine the matched crossover D/N route for the replication.",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
   {
@@ -799,7 +553,7 @@ Candidates to work:
     "source_object_urls_from_search": [
       "https://doi.org/10.1080/15213269.2021.1884096"
     ],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_b3869535651b5f0e/openalex_landing_page_url__10_1080_15213269_2021_1884096__osf_io__c1df7be23f68.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_b3869535651b5f0e/openalex_landing_page_url__10_1080_15213269_2021_1884096__researchrepository_wvu_edu__b62ea57de8cc.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_b3869535651b5f0e/wvu_character_morality_replication.pdf | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_b3869535651b5f0e/wvu_character_morality_replication_viewcontent_20260507.pdf",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_b3869535651b5f0e/openalex_landing_page_url__10_1080_15213269_2021_1884096__osf_io__c1df7be23f68.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_b3869535651b5f0e/openalex_landing_page_url__10_1080_15213269_2021_1884096__researchrepository_wvu_edu__b62ea57de8cc.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_b3869535651b5f0e/wvu_character_morality_replication.pdf | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_b3869535651b5f0e/wvu_character_morality_replication_retry_20260507.pdf | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_b3869535651b5f0e/wvu_character_morality_replication_viewcontent_20260507.pdf",
     "requested_gpt_action": "manual_acquisition_or_repository_parse_if_prioritized",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
@@ -833,7 +587,7 @@ Candidates to work:
       "https://www.ncbi.nlm.nih.gov/pmc/articles/8262135",
       "https://openalex.org/W3122990348"
     ],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch001/api_candidate_c49eb133d5977b06/02_pmc_ncbi_nlm_nih_gov_articles_pmc8262135_f0add6db277d.html | data/raw/replication_projects/individual_search_batch001/api_candidate_c49eb133d5977b06/03_openalex_org_w3122990348_158469730ed2.html | data/raw/replication_projects/individual_search_batch001/api_candidate_c49eb133d5977b06/02_pmc_ncbi_nlm_nih_gov_articles_pmc8262135_5425c883081d.html | data/raw/replication_projects/individual_search_batch001/api_candidate_c49eb133d5977b06/02_pmc_ncbi_nlm_nih_gov_articles_pmc8262135_6dcd4fd4d23b.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/brown_rabbitt_pdf.pdf | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/brown_rabbitt_pdf.txt | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/cinii.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/doi.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/pubmed.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/sage_full.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/sage_pdf.pdf | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/rabbitt_replication_pmc.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_c49eb133d5977b06/embedded_pdf__1c22cd936e7e__nihms-1679219.pdf | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_c49eb133d5977b06/openalex_landing_page_url__10_1080_25742442_2021_1896908__dialnet_unirioja_es__12b96061995d.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_c49eb133d5977b06/semantic_scholar_landing_page__10_1080_25742442_2021_1896908__www_semanticscholar_org__15a2f15e1ff9.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_c49eb133d5977b06/semantic_scholar_open_access_pdf__10_1080_25742442_2021_1896908__pmc_ncbi_nlm_nih_gov__d4139a16a798.html",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch001/api_candidate_c49eb133d5977b06/02_pmc_ncbi_nlm_nih_gov_articles_pmc8262135_f0add6db277d.html | data/raw/replication_projects/individual_search_batch001/api_candidate_c49eb133d5977b06/03_openalex_org_w3122990348_158469730ed2.html | data/raw/replication_projects/individual_search_batch001/api_candidate_c49eb133d5977b06/02_pmc_ncbi_nlm_nih_gov_articles_pmc8262135_5425c883081d.html | data/raw/replication_projects/individual_search_batch001/api_candidate_c49eb133d5977b06/02_pmc_ncbi_nlm_nih_gov_articles_pmc8262135_6dcd4fd4d23b.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/brown_rabbitt_pdf.pdf | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/brown_rabbitt_pdf.txt | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/cinii.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/doi.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/jina_doi_markdown.txt | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/jina_sage_markdown.txt | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/jina_sage_pdf_markdown.txt | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/pubmed.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/sage_full.html | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/original_attempts/sage_pdf.pdf | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/Preprint.pdf | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/Preprint.txt | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/Rabbitt_prereg.pdf | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/._data_analysis | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/data_analysis/._.DS_Store | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/data_analysis/._.Rhistory | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/data_analysis/._Figure2.png | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/data_analysis/._Figure2.tiff | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/data_analysis/._RabbittAnalysis.R | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/data_analysis/._correct_responses.csv | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/data_analysis/._exclude.csv | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/data_analysis/._longresponse.csv | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/__MACOSX/data_analysis/._rabbitt_data_from_gorilla.csv | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/data_analysis/.DS_Store | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/data_analysis/.Rhistory | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/data_analysis/Figure2.png | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/data_analysis/Figure2.tiff | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/data_analysis/RabbittAnalysis.R | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/data_analysis/correct_responses.csv | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/data_analysis/exclude.csv | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/data_analysis/longresponse.csv | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis/data_analysis/rabbitt_data_from_gorilla.csv | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/data_analysis.zip | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/files.json | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/osf_qjbxw/node.json | data/raw/replication_projects/individual_search_batch002/api_candidate_c49eb133d5977b06/manual/rabbitt_replication_pmc.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_c49eb133d5977b06/embedded_pdf__1c22cd936e7e__nihms-1679219.pdf | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_c49eb133d5977b06/openalex_landing_page_url__10_1080_25742442_2021_1896908__dialnet_unirioja_es__12b96061995d.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_c49eb133d5977b06/semantic_scholar_landing_page__10_1080_25742442_2021_1896908__www_semanticscholar_org__15a2f15e1ff9.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_c49eb133d5977b06/semantic_scholar_open_access_pdf__10_1080_25742442_2021_1896908__pmc_ncbi_nlm_nih_gov__d4139a16a798.html",
     "requested_gpt_action": "Resolve Rabbitt (1968) Experiment 2 original analyzed N and confirm the exact target-description outcome that maps to the open preregistered weapon-focus replication.",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
@@ -865,39 +619,7 @@ Candidates to work:
     "source_object_urls_from_search": [
       "https://doi.org/10.1521/soco.2021.39.5.591"
     ],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/openalex_landing_page_url__10_1521_soco_2021_39_5_591__api_osf_io__8b5db1424b47.bin | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/openalex_landing_page_url__10_1521_soco_2021_39_5_591__osf_io__c1df7be23f68.html",
-    "requested_gpt_action": "manual_acquisition_or_repository_parse_if_prioritized",
-    "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
-  },
-  {
-    "candidate_id": "api_candidate_ccea3138ba9e9efa",
-    "prior_gpt_decision": "needs_more_evidence",
-    "prior_row_policy": "coverage_only",
-    "prior_replication_kind": "close_replication",
-    "local_verifier_action": "held",
-    "local_reason": "Resource-scarcity conceptual replication values and target mapping unresolved.",
-    "candidate_name": "Study 1 of Rodeheffer et al. (2012) in Japan -> Resource scarcity priming and face perception: A preregistered conceptual replication of Study 1 of Rodeheffer et al. (2012) in Japan",
-    "candidate_route": "coverage_only",
-    "current_local_scan_decision": "source_blocked_conceptual_replication_needs_values",
-    "original_title": "Study 1 of Rodeheffer et al. (2012) in Japan",
-    "original_doi": "",
-    "replication_title": "Resource scarcity priming and face perception: A preregistered conceptual replication of Study 1 of Rodeheffer et al. (2012) in Japan",
-    "replication_doi": "10.1016/j.cresp.2023.100169",
-    "outcome_or_result_option": "Resource scarcity priming and face perception",
-    "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
-      "N_replication": ""
-    },
-    "current_blocker": "value_bearing_source_object_needed",
-    "known_original_support_text": "",
-    "known_replication_support_text": "",
-    "conversion_or_policy_note": "Do not promote from metadata alone. The batch found affirmative replication-language evidence, but did not mirror enough value-bearing source text for a matched original effect, original N, replication effect, and replication N under the current Figure 1 row policy.",
-    "source_object_urls_from_search": [
-      "https://doi.org/10.1016/j.cresp.2023.100169"
-    ],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch006/api_candidate_ccea3138ba9e9efa/01_linkinghub_elsevier_com_retrieve_pii_s2666622723000825_e627c0c4e417.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccea3138ba9e9efa/doi_resolver__10_1016_j_cresp_2023_100169__linkinghub_elsevier_com__e627c0c4e417.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccea3138ba9e9efa/openalex_landing_page_url__10_1016_j_cresp_2023_100169__doaj_org__045ab68cf623.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccea3138ba9e9efa/sciencedirect_s2666622723000825_resource_scarcity_face_perception.pdf",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/01_osf_name_priming_data_20260507.rar | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/02_osf_name_priming_analysis_syntax_20260507.R | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/03_osf_name_priming_experiment_20260507.rar | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/article_attempts/jusepeitis_dissertation_name_priming_replication_20260508.pdf | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/article_attempts/jusepeitis_dissertation_name_priming_replication_20260508.txt | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/556db04dfdf99b26054b1768_ebapt_repl2012_2020-10-12_16h53.40.244.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/56d8ed30d13f6b000c542ce7_ebapt_repl2012_2020-10-12_16h45.04.903.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5702439e7a84480009b6413d_ebapt_repl2012_2020-10-12_16h20.52.339.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/58a0a74460cd820001e99d04_ebapt_repl2012_2020-10-12_17h04.00.305.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/58c537bfb101a7000129391a_ebapt_repl2012_2020-10-12_16h34.08.222.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/58d4ebdec8677b0001a2107b_ebapt_repl2012_2020-10-12_16h56.17.187.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/59bc3a373a9ab60001119730_ebapt_repl2012_2020-10-12_16h47.22.119.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5a0b3848844c7a00015e4cf5_ebapt_repl2012_2020-10-12_16h54.41.867.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5afdcfb796a88e0001ff3fdc_ebapt_repl2012_2020-10-12_16h34.57.973.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5b0d0f0ebd9c3100015655d9_ebapt_repl2012_2020-10-12_16h42.18.753.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5b648251bd56550001bf31fd_ebapt_repl2012_2020-10-12_16h39.01.760.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5be4b528453f3b000189eeb4_ebapt_repl2012_2020-10-12_16h00.53.439.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5be6b18edcdffd00012742ec_ebapt_repl2012_2020-10-12_16h46.52.881.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5c1b7fbebdb7e80001834945_ebapt_repl2012_2020-10-12_15h29.36.061.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5c338ac6c75f190001e7fb97_ebapt_repl2012_2020-10-12_15h16.40.479.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5c3665ba25d5920001199bec_ebapt_repl2012_2020-10-12_16h39.00.149.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5c3b07f0688b59000102d44e_ebapt_repl2012_2020-10-12_16h43.44.221.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5c3d0d156d874c0001bd80f8_ebapt_repl2012_2020-10-12_16h52.33.723.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5c79d035998fb70001efcf1e_ebapt_repl2012_2020-10-12_16h41.47.420.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5c854499f29fd90001a2c6c0_ebapt_repl2012_2020-10-12_16h51.12.470.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5cac76acd6a3130016e3542b_ebapt_repl2012_2020-10-12_16h46.15.376.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5cbf710909dc4a001c1af7b5_ebapt_repl2012_2020-10-12_15h42.31.957.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5cddd8482f24b70018d1a57d_ebapt_repl2012_2020-10-12_16h42.05.302.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5cfceedaac238700182fd78b_ebapt_repl2012_2020-10-12_16h50.03.363.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5d2f449b9f98c5001a6c3598_ebapt_repl2012_2020-10-12_16h30.37.780.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5d53bc573d414c0001f3f007_ebapt_repl2012_2020-10-12_15h20.01.217.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5d6fda2bde432b0019b19ba7_ebapt_repl2012_2020-10-12_16h54.20.301.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5d79fdc2cf587a001a3c1d53_ebapt_repl2012_2020-10-12_16h53.15.303.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5da0f6e6b16ded001628cfd7_ebapt_repl2012_2020-10-12_16h56.48.338.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5da727bfc2a70a0011a128e0_ebapt_repl2012_2020-10-12_16h30.37.466.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5da7f34e25a3890016e536bb_ebapt_repl2012_2020-10-13_15h39.50.541.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5dd08cf019eecb169dc131ba_ebapt_repl2012_2020-10-12_16h55.58.229.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5dee2c94ad51834cf95af141_ebapt_repl2012_2020-10-12_17h02.18.624.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e0a1904e863562b1b299b3a_ebapt_repl2012_2020-10-12_16h31.15.459.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e19e8964af67a25fe2dedd9_ebapt_repl2012_2020-10-12_16h31.20.758.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e21ce87a79c2b4bd0b8f096_ebapt_repl2012_2020-10-12_15h35.58.406.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e2ccde0f6283e000bd3fc97_ebapt_repl2012_2020-10-12_16h36.47.512.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e5163d4873db0000b04b00f_ebapt_repl2012_2020-10-12_17h01.24.632.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e5832478c2b6f03f9acd234_ebapt_repl2012_2020-10-12_15h17.34.310.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e5baf4674c9533805ebae09_ebapt_repl2012_2020-10-12_16h38.54.348.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e5fbff6de7bcc2fc7f396db_ebapt_repl2012_2020-10-12_16h33.49.238.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e6d2835e0de62000922c8c2_ebapt_repl2012_2020-10-12_16h52.17.831.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e6e28b24acb203ddcbbc059_ebapt_repl2012_2020-10-12_16h42.29.934.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e8f3166c38d4a1fee4f08cc_ebapt_repl2012_2020-10-12_16h30.48.828.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5e94aa8e11d9b92eff5f1a16_ebapt_repl2012_2020-10-12_16h38.31.924.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ea14bf64f71e2000acbc618_ebapt_repl2012_2020-10-12_15h38.16.681.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ea563a366da51000b0a15e2_ebapt_repl2012_2020-10-12_15h57.41.142.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ea76b989a31b913d6e8f809_ebapt_repl2012_2020-10-12_16h32.21.895.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ea8286db500e122d8c9a19c_ebapt_repl2012_2020-10-14_09h29.06.979.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ea94f21fb690102f181d74d_ebapt_repl2012_2020-10-12_16h40.22.823.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ea9797bba9d14067376865d_ebapt_repl2012_2020-10-12_15h29.19.939.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ea9aae7ae93690e1ba7a99d_ebapt_repl2012_2020-10-12_16h50.19.389.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5eb181ce611ac50989d4bd03_ebapt_repl2012_2020-10-12_16h35.39.801.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5eb8ffbad25d258696a07c34_ebapt_repl2012_2020-10-12_15h20.24.922.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ebb16149ca0440dee9f9f61_ebapt_repl2012_2020-10-12_16h35.59.287.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ed102aa081ad5000960454c_ebapt_repl2012_2020-10-12_15h35.54.250.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ee109bf0173420dde18a960_ebapt_repl2012_2020-10-12_16h35.03.416.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5ee7acdb4e70e705cf1afe84_ebapt_repl2012_2020-10-12_16h53.29.010.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5eec7e3fc1a268000977b80b_ebapt_repl2012_2020-10-12_16h48.57.186.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5eee888b66da9e33cc3255a7_ebapt_repl2012_2020-10-12_16h57.09.170.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f06084122eb5a1227c74e31_ebapt_repl2012_2020-10-12_16h46.51.429.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f0ba1d25a4ca34cfb84d421_ebapt_repl2012_2020-10-12_16h37.09.293.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f0d9ede34d11c0176884a58_ebapt_repl2012_2020-10-12_16h59.06.247.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f0f2d844bd1730900000db5_ebapt_repl2012_2020-10-12_16h51.13.166.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f0f59fa7f396506b1c9d889_ebapt_repl2012_2020-10-12_16h50.45.599.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f17d20539078c0800cb4e7b_ebapt_repl2012_2020-10-12_16h58.27.197.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f17d428bd9d12188729a005_ebapt_repl2012_2020-10-12_15h08.53.559.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f17f19860e0fd09f24bdbfd_ebapt_repl2012_2020-10-12_16h02.27.800.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f185b5110646a00097ad68a_ebapt_repl2012_2020-10-12_16h38.31.688.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f1b69bb06c7d636c51e1917_ebapt_repl2012_2020-10-12_16h35.49.408.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f1c442e79caaa4b8a53eed3_ebapt_repl2012_2020-10-12_16h52.58.419.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f1d646d6807dd674c8666b0_ebapt_repl2012_2020-10-12_16h53.16.228.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f21d770d10e6915a51f1251_ebapt_repl2012_2020-10-12_16h43.18.560.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f23c2bb95e7ff1a1bd79a69_ebapt_repl2012_2020-10-12_16h55.38.916.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f256d997ee6c41efe46450c_ebapt_repl2012_2020-10-12_16h35.51.249.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f26ac012c3253000810f747_ebapt_repl2012_2020-10-14_09h29.47.836.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f2dba0d9b99b70d9372563d_ebapt_repl2012_2020-10-12_16h34.00.311.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f319af1ffb5b108c512a882_ebapt_repl2012_2020-10-12_15h39.54.806.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f3342fec5947d15604de5ea_ebapt_repl2012_2020-10-12_16h36.15.959.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f392e09e30eac47168adb72_ebapt_repl2012_2020-10-12_16h47.57.253.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f49837a1782f64f283c66c6_ebapt_repl2012_2020-10-12_16h40.30.336.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f4cd7926e1f3e8ed56bd215_ebapt_repl2012_2020-10-12_16h51.40.495.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f4d0bf47200c995a830e51f_ebapt_repl2012_2020-10-12_16h29.35.017.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f509ef3a8de8e21b09e82eb_ebapt_repl2012_2020-10-12_16h34.50.049.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f5e5ccbba0acc0d855f67e9_ebapt_repl2012_2020-10-12_16h44.48.706.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f6218d864b0fe2046c7d4a2_ebapt_repl2012_2020-10-12_16h31.39.318.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f6338275152ec3ed903be42_ebapt_repl2012_2020-10-12_16h49.54.247.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f68c08cf9c15f0333c6d281_ebapt_repl2012_2020-10-12_15h53.10.486.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f6cb7f8b5f3c709d49bd88b_ebapt_repl2012_2020-10-12_17h00.01.207.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f707ac93d9ed564a8b47939_ebapt_repl2012_2020-10-12_17h15.11.737.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f75d43fed909d28697acdc9_ebapt_repl2012_2020-10-12_17h30.10.493.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f75f5d98ef339016a98661d_ebapt_repl2012_2020-10-12_16h42.30.480.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f778cad5a7eb92e6365ebb9_ebapt_repl2012_2020-10-12_16h34.18.609.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f7c09657b93161f82ed7610_ebapt_repl2012_2020-10-12_16h33.45.914.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f8051b402daee04b8108440_ebapt_repl2012_2020-10-12_16h45.33.109.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/5f805610004fc9055b5e6885_ebapt_repl2012_2020-10-12_16h36.48.712.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/extracted_data_20260507/Prolific/prolific_export_5f76e60eedfdcc18da67cc96.csv | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/openalex_landing_page_url__10_1521_soco_2021_39_5_591__api_osf_io__8b5db1424b47.bin | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/openalex_landing_page_url__10_1521_soco_2021_39_5_591__osf_io__c1df7be23f68.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/osf_6awqn_children_api_20260507.json | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/osf_6awqn_files_api_20260507.json | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/osf_6awqn_osfstorage_api_20260507.json | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/osf_8nawp_osfstorage_api_20260507.json | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/osf_bnfsv_osfstorage_api_20260507.json | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_ccd98d70dd2472bf/osf_hbzv8_osfstorage_api_20260507.json",
     "requested_gpt_action": "manual_acquisition_or_repository_parse_if_prioritized",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
@@ -910,26 +632,26 @@ Candidates to work:
     "local_reason": "CBCA contextual-bias original and replication values unresolved.",
     "candidate_name": "the Criteria‐Based Content Analysis Condition in Bogaard Et al. (2014) -> Contextual Bias in Verbal Credibility Assessment: A Preregistered Direct Replication of the Criteria‐Based Content Analysis Condition in Bogaard Et al. (2014)",
     "candidate_route": "coverage_only",
-    "current_local_scan_decision": "source_blocked_needs_value_bearing_article",
-    "original_title": "the Criteria‐Based Content Analysis Condition in Bogaard Et al. (2014)",
-    "original_doi": "",
-    "replication_title": "Contextual Bias in Verbal Credibility Assessment: A Preregistered Direct Replication of the Criteria‐Based Content Analysis Condition in Bogaard Et al. (2014)",
+    "current_local_scan_decision": "not_row_duplicate_existing_contextual_bias_osf_raw_source_family",
+    "original_title": "Contextual bias in verbal credibility assessment: Criteria-Based Content Analysis, Reality Monitoring and Scientific Content Analysis",
+    "original_doi": "10.1002/acp.2959",
+    "replication_title": "Contextual Bias in Verbal Credibility Assessment: A Preregistered Direct Replication of the Criteria-Based Content Analysis Condition in Bogaard et al. (2014)",
     "replication_doi": "10.1002/acp.70168",
-    "outcome_or_result_option": "Contextual bias in Criteria-Based Content Analysis",
+    "outcome_or_result_option": "CBCA positive versus negative contextual-information score",
     "current_numeric_fields_if_any": {
-      "D_original": "",
-      "N_original": "",
-      "D_replication": "",
-      "N_replication": ""
+      "D_original": "0.577068",
+      "N_original": "32",
+      "D_replication": "0.327149",
+      "N_replication": "105"
     },
     "current_blocker": "value_bearing_source_object_needed",
-    "known_original_support_text": "",
-    "known_replication_support_text": "",
-    "conversion_or_policy_note": "Do not promote from metadata alone. The batch found affirmative replication-language evidence, but did not mirror enough value-bearing source text for a matched original effect, original N, replication effect, and replication N under the current Figure 1 row policy.",
+    "known_original_support_text": "Mirrored OSF node f2xrv is titled as a preregistered direct replication of the CBCA condition of Bogaard et al. (2014). Its Original Study folder includes Original Dataset.sav. The mirrored Bogaard Analysis.R script filters the original data to conditie == 1 for the CBCA condition, sums 19 CBCA criteria for two negative-information statements and two positive-information statements, averages the two statements per valence, and computes Cohen's d as the paired mean difference divided by the standard deviation of paired differences. Recomputing from Original Dataset.sav gives 128 total cases, 32 CBCA-condition cases, positive mean = 12.984375, negative mean = 10.234375, mean paired difference = 2.75, paired-difference SD = 4.765467, t(31) = 3.264391, and dz = 0.577068.",
+    "known_replication_support_text": "Mirrored OSF FinalData.xlsx has one DataFull sheet with 105 analyzed replication rows. Mirrored FinalData.R records the CBCA original effect estimate to_cbca = 0.577 and replication effect estimate tr_cbca = 0.327 for the replication Bayes factor. Recomputing the matched positive-versus-negative CBCA contrast from the Pos1/Pos2 and Neg1/Neg2 CBCA columns gives positive mean = 15.248652, negative mean = 13.959357, mean paired difference = 1.289295, paired-difference SD = 3.940999, t(104) = 3.352283, and dz = 0.327149.",
+    "conversion_or_policy_note": "The mirrored OSF files resolve the candidate values, but the same underlying CBCA raw-data contrast is already represented in the current root table by the source family `Contextual bias in verbal credibility (OSF raw)` as `contextual_bias_cbca_scores`. Do not add a second plotted row for the same source-result; retain these candidate-local mirrors as support context if source_result rows are rebuilt.",
     "source_object_urls_from_search": [
       "https://doi.org/10.1002/acp.70168"
     ],
-    "local_source_file_summary_or_paths": "",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/acp_70168.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/bogaard_2014_contextual_bias_accepted.pdf | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/bogaard_2014_contextual_bias_citeseerx.pdf | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/osf_f2xrv/original_dataset.sav | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/osf_f2xrv/osf_node_f2xrv_api_20260507.json | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/osf_f2xrv/replication_bogaard_analysis.R | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/osf_f2xrv/replication_finaldata.R | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/osf_f2xrv/replication_finaldata.xlsx | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/portsmouth_original.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/portsmouth_original_slash.html | data/raw/replication_projects/individual_auto_mining_blockers/api_candidate_d51bbeeeb3386937/rg_replication.html",
     "requested_gpt_action": "manual_acquisition_or_repository_parse_if_prioritized",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },
@@ -1179,7 +901,7 @@ Candidates to work:
     "known_replication_support_text": "Mirrored PLOS paper reports Study 1 analyzed N = 71 after exclusions, with focal close/far cells 22 and 22; the focal replication N is therefore smaller than the original focal N.",
     "conversion_or_policy_note": "The clean focal contrast fails the current larger-replication-N rule. The companion Study 2 may be usable only after original Study 3 effect extraction.",
     "source_object_urls_from_search": [],
-    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/01_journals_plos_org_plosone_article_file_id_10_1371_journal_pone_0042510_t_6c57bac0ed58.pdf | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/02_journals_plos_org_plosone_article_id_10_1371_journal_pone_0042510_b6712e218027.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/03_pubmed_ncbi_nlm_nih_gov_22952597_586846f50ecf.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/05_journals_plos_org_plosone_article_id_10_1371_journal_pone_0042510_b6712e218027.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/06_doaj_org_article_e8e46da29cce40e8a55999b5cda66f5d_d1a30f9535c8.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/07_pmc_ncbi_nlm_nih_gov_articles_pmc3430642_33c0ec5ac84f.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/08_openalex_org_w2106777508_158469730ed2.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/03_pubmed_ncbi_nlm_nih_gov_22952597_0e7131dc0940.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/03_pubmed_ncbi_nlm_nih_gov_22952597_47e83895724e.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/07_pmc_ncbi_nlm_nih_gov_articles_pmc3430642_d9760d492c6e.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/07_pmc_ncbi_nlm_nih_gov_articles_pmc3430642_f0e81aaab47f.html",
+    "local_source_file_summary_or_paths": "data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/01_journals_plos_org_plosone_article_file_id_10_1371_journal_pone_0042510_t_6c57bac0ed58.pdf | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/02_journals_plos_org_plosone_article_id_10_1371_journal_pone_0042510_b6712e218027.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/03_pubmed_ncbi_nlm_nih_gov_22952597_586846f50ecf.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/05_journals_plos_org_plosone_article_id_10_1371_journal_pone_0042510_b6712e218027.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/06_doaj_org_article_e8e46da29cce40e8a55999b5cda66f5d_d1a30f9535c8.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/07_pmc_ncbi_nlm_nih_gov_articles_pmc3430642_33c0ec5ac84f.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/08_openalex_org_w2106777508_158469730ed2.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/03_pubmed_ncbi_nlm_nih_gov_22952597_0e7131dc0940.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/03_pubmed_ncbi_nlm_nih_gov_22952597_47e83895724e.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/07_pmc_ncbi_nlm_nih_gov_articles_pmc3430642_d9760d492c6e.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/07_pmc_ncbi_nlm_nih_gov_articles_pmc3430642_f0e81aaab47f.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/original_williams_bargh_2008/crossref_10.1111_j.1467-9280.2008.02084.x.json | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/original_williams_bargh_2008/pmc_html.html | data/raw/replication_projects/individual_search_batch001/api_candidate_9db26ff9b8058473/original_williams_bargh_2008/pmc_xml.html",
     "requested_gpt_action": "do_not_promote_unless_policy_allows_smaller_focal_replication_or_original_study3_effect_is_extracted",
     "expected_json_decision_values": "ready_for_row | needs_more_evidence | native_only | reject"
   },

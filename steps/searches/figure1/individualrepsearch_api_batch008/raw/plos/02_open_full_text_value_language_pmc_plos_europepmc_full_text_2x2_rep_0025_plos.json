@@ -1,0 +1,94 @@
+{
+  "response": {
+    "docs": [
+      {
+        "abstract": [
+          "\nThe replicability crisis in psychology demands direct replications to test the reliability of relevant phenomena. Prime-to-behavior effects have been an area under intense scrutiny given its surprising results. However, intuitive unsurprising effects have been mostly neglected, while they may lack robustness as well. In the present study, we focused on an intuitive prime-to-behavior effect in which Kay and Ross (2003) used a 2x2 design to test cooperation/competition priming crossed with an explicit/non-explicit construal of a Prisoner\u2019s Dilemma (PD). They found a stronger assimilation effect of priming when the situational construal anteceded the decision, but we could not reproduce their findings in the present close replication, despite counting on higher power. Even with limitations due to the unavailability of original materials, this replication presents evidence that questions the existence of the original finding, and highlights the need for further replications to get a deeper understanding of the hypothesized effect. The complete project is available at: https://osf.io/dhfns/.\n"
+        ],
+        "author_display": [
+          "Anabel Belaus",
+          "Cecilia Reyna",
+          "Esteban Freidin"
+        ],
+        "id": "10.1371/journal.pone.0209263",
+        "journal": "PLOS ONE",
+        "publication_date": "2018-12-20T00:00:00Z",
+        "title": "Testing the effect of cooperative/competitive priming on the Prisoner\u2019s Dilemma. A replication study"
+      },
+      {
+        "abstract": [
+          "Background: Climate change and urbanization will alter the global distribution of disease vectors, changing the disease burden in yet unpredictable ways. Aedes aegypti is a mosquito responsible for transmitting dengue, Zika, chikungunya, and yellow fever viruses that breeds in containers associated with urban environments. We sought to understand how ambient temperature and larval densities in the immature aquatic phases determine adult life history traits and dengue virus loads post-infection. We predicted that larval crowding and high temperatures would both lead to smaller mosquitoes that might struggle to invest in an immune response and, hence, would exhibit high viral loads. Methods: We first examined larval densities from urban and rural areas via a meta-analysis. We then used these data to inform a laboratory-based 2x2 design examining the interacting effects of temperature (21 vs. 26\u00b0C) and density (0.2 vs. 0.4 larvae/mL) on adult life history and dengue virus loads. Results: We found that urban areas had an ~8-fold increase in larval densities compared to more rural sites. In the lab, we found that crowding had more impact on mosquito traits than temperature. Crowding led to slower development, smaller mosquitoes, less survival, lower fecundity, and higher viral loads, as predicted. The higher temperature led to faster development, reduced fecundity, and lower viral loads. The virus-reducing effect of higher temperature rearing was, however, overwhelmed by the impact of larval crowding when both factors were present. Conclusions: These data reveal complex interactions between the environmental effects experienced by immature mosquitoes and adult traits. They especially highlight the importance of crowding with respect to adult viral loads. Together, these data suggest that urban environments might enhance dengue virus loads and, therefore, possibly transmission, a concerning result given the increasing rates of urbanization globally. Author summary: The mosquito Aedes aegypti is responsible for transmitting several viruses to humans, including Zika, yellow fever, chikungunya, and dengue. The geographic distribution of this tropical, anthropophilic mosquito vector continues to expand globally due to climate change and increasing urbanization. Ambient temperature and larval densities are two of the most powerful factors in the aquatic juvenile stage in determining adult mosquito traits. Using a meta-analysis, we reveal that urban environments are associated with greater crowding in the larval phase for Ae. aegypti. In the laboratory, we then demonstrate that similar levels of larval crowding also led to increased dengue virus loads in adults following an infectious bloodmeal, which may increase transmission. In contrast, higher temperatures in the larval phase were associated with reduced viral loads in adults, but only when crowding is not present. This is a concerning relationship given that 68% of the world\u2019s population will live in urban environments by 2050. "
+        ],
+        "author_display": [
+          "Heverton L. C. Dutra",
+          "Dustin J. Marshall",
+          "Belinda Comerford",
+          "Brianna P. McNulty",
+          "Anastacia M. Diaz",
+          "Matthew J. Jones",
+          "Austin J. Mejia",
+          "Ottar N. Bjornstad",
+          "Elizabeth A. McGraw"
+        ],
+        "id": "10.1371/journal.pntd.0012482",
+        "journal": "PLOS Neglected Tropical Diseases",
+        "publication_date": "2024-09-10T00:00:00Z",
+        "title": "Larval crowding enhances dengue virus loads in Aedes aegypti, a relationship that might increase transmission in urban environments"
+      },
+      {
+        "abstract": [
+          "\nAcute stress has been well-established to impair working memory. However, less is known about how writing about an unresolved stressor may influence working memory or working memory processes. We addressed these issues in the present study (N = 282) by randomly assigning participants to write about an unresolved stressful experience (stressful writing condition or the events of the previous day). We then both measured performance on a change detection task and used computational modeling to estimate the processes underlying performance: attention, capacity, and guessing bias. We found that, relative to the control condition, writing about a stressful experience impaired change detection task performance and significantly impaired task attention. These results show that the effects of writing about an unresolved stressor may mimic the effects of acute stress on working memory, rather than conforming to expectations from mood-as-information theory.\n"
+        ],
+        "author_display": [
+          "Colton L. Hunter",
+          "Grant S. Shields"
+        ],
+        "id": "10.1371/journal.pone.0304406",
+        "journal": "PLOS ONE",
+        "publication_date": "2024-07-05T00:00:00Z",
+        "title": "Writing about a stressful experience can impair visual working memory"
+      },
+      {
+        "abstract": [
+          "Confounding factors: In transcriptomics experimentation, confounding factors frequently exist alongside the intended experimental factors and can severely influence the outcome of a transcriptome analysis. Confounding factors are regularly discussed in methodological literature, but their actual, practical impact on the outcome and interpretation of transcriptomics experiments is, to our knowledge, not documented. For instance, in-vivo experimental factors; like Individual, Sample-Composition and Time-of-Day are potentially formidable confounding factors. To study these confounding factors, we designed an extensive in-vivo transcriptome experiment (n = 264) with UVR exposure of murine skin containing six consecutive samples from each individual mouse (n = 64). Analysis Approach: Evaluation of the confounding factors: Sample-Composition, Time-of-Day, Handling-Stress, and Individual-Mouse resulted in the identification of many genes that were affected by them. These genes sometimes showed over 30-fold expression differences. The most prominent confounding factor was Sample-Composition caused by mouse-dependent skin composition differences, sampling variation and/or influx/efflux of mobile cells. Although we can only evaluate these effects for known cell type specifically expressed genes in our complex heterogeneous samples, it is clear that the observed variations also affect the cumulative expression levels of many other non-cell-type-specific genes. ANOVA: ANOVA analysis can only attempt to neutralize the effects of the well-defined confounding factors, such as Individual-Mouse, on the experimental factors UV-Dose and Recovery-Time. Also, by definition, ANOVA only yields reproducible gene-expression differences, but we found that these differences were very small compared to the fold changes induced by the confounding factors, questioning the biological relevance of these ANOVA-detected differences. Furthermore, it turned out that many of the differentially expressed genes found by ANOVA were also present in the gene clusters associated with the confounding factors. Conclusion: Hence our overall conclusion is that confounding factors have a major impact on the outcome of in-vivo transcriptomics experiments. Thus the set-up, analysis, and interpretation of such experiments should be approached with the utmost prudence. "
+        ],
+        "author_display": [
+          "Oskar Bruning",
+          "Wendy Rodenburg",
+          "Paul F. K. Wackers",
+          "Conny van Oostrom",
+          "Martijs J. Jonker",
+          "Rob J. Dekker",
+          "Han Rauwerda",
+          "Wim A. Ensink",
+          "Annemieke de Vries",
+          "Timo M. Breit"
+        ],
+        "id": "10.1371/journal.pone.0145252",
+        "journal": "PLOS ONE",
+        "publication_date": "2016-01-20T00:00:00Z",
+        "title": "Confounding Factors in the Transcriptome Analysis of an In-Vivo Exposure Experiment"
+      },
+      {
+        "abstract": [
+          "\nLongevity is in part (25%) inherited, and genetic studies aim to uncover allelic variants that play an important role in prolonging life span. Results to date confirm only a few gene variants associated with longevity, while others show inconsistent results. However, GWAS studies concentrate on single nucleotide polymorphisms, and there are only a handful of studies investigating variable number of tandem repeat variations related to longevity. Recently, Grady and colleagues (2013) reported a remarkable (66%) accumulation of those carrying the 7 repeat allele of the dopamine D4 receptor gene in a large population of 90\u2013109 years old Californian centenarians, as compared to an ancestry-matched young population. In the present study we demonstrate the same association using continuous age groups in an 18\u201397 years old Caucasian sample (N = 1801, p = 0.007). We found a continuous pattern of increase from 18\u201375, however frequency of allele 7 carriers decreased in our oldest age groups. Possible role of gene-environment interaction effects driven by historical events are discussed. In accordance with previous findings, we observed association preferentially in females (p = 0.003). Our results underlie the importance of investigating non-disease related genetic variants as inherited components of longevity, and confirm, that the 7-repeat allele of the dopamine D4 receptor gene is a longevity enabling genetic factor, accumulating in the elderly female population.\n"
+        ],
+        "author_display": [
+          "Anna Szekely",
+          "Eszter Kotyuk",
+          "Julianna Bircher",
+          "Andrea Vereczkei",
+          "David A. Balota",
+          "Maria Sasvari-Szekely",
+          "Zsolt Ronai"
+        ],
+        "id": "10.1371/journal.pone.0167753",
+        "journal": "PLOS ONE",
+        "publication_date": "2016-12-19T00:00:00Z",
+        "title": "Association between Age and the 7 Repeat Allele of the Dopamine D4 Receptor Gene"
+      }
+    ],
+    "numFound": 236,
+    "start": 0
+  }
+}

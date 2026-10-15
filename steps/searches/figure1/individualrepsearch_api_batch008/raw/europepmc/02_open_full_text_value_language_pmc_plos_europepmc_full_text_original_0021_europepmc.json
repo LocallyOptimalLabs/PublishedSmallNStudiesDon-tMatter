@@ -1,0 +1,1089 @@
+{
+  "hitCount": 931,
+  "nextCursorMark": "AoIIQDOojyg1MzE4Njg3Ng==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(\"original study\" \"replication study\" \"d =\") AND FIRST_PDATE:[1990-01-01 TO 2026-12-31]&cursorMark=AoIIQDOojyg1MzE4Njg3Ng==&resultType=core&pageSize=5&format=json",
+  "request": {
+    "cursorMark": "*",
+    "pageSize": 5,
+    "queryString": "(\"original study\" \"replication study\" \"d =\") AND FIRST_PDATE:[1990-01-01 TO 2026-12-31]",
+    "resultType": "core",
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "abstractText": "<p>Replication studies play an important role in scientific knowledge generation, but researchers lack a coherent account of how to conclude whether a finding has been replicated. This paper provides such an account by connecting methodological falsificationism and the Neyman-Pearson approach to statistical inferences in the context of the analysis of replication studies. From this perspective, the goal of a replication study is to examine whether the same basic statement that was made in an original study can also be made when new data are collected in a faithful empirical realization of the original test. If the original study made an ordinal claim based on a statistical decision rule, the replication study should evaluate whether the same claim can be made using the same inferential criterion. We argue that the original effect size estimate should also be treated as part of the original claim, and therefore that replication studies should additionally examine whether the effect size differs meaningfully from the original estimate. We illustrate how such comparisons can be performed for correlations by using equivalence tests and point out the importance of reflecting on which difference between replication studies is large enough to matter. More broadly, we argue that researchers should choose an analysis strategy for replication studies where their philosophy of science and statistical framework are coherently aligned.</p>",
+        "authMan": "N",
+        "authorList": {
+          "author": [
+            {
+              "firstName": "Daniel",
+              "fullName": "Lakens D",
+              "initials": "D",
+              "lastName": "Lakens"
+            },
+            {
+              "firstName": "Nina Maria",
+              "fullName": "Leach NM",
+              "initials": "NM",
+              "lastName": "Leach"
+            },
+            {
+              "firstName": "Antal",
+              "fullName": "Haans A",
+              "initials": "A",
+              "lastName": "Haans"
+            },
+            {
+              "firstName": "Duygu",
+              "fullName": "Uygun Tun\u00e7 D",
+              "initials": "D",
+              "lastName": "Uygun Tun\u00e7"
+            },
+            {
+              "firstName": "Mehmet Necip",
+              "fullName": "Tun\u00e7 MN",
+              "initials": "MN",
+              "lastName": "Tun\u00e7"
+            }
+          ]
+        },
+        "authorString": "Lakens D, Leach NM, Haans A, Uygun Tun\u00e7 D, Tun\u00e7 MN.",
+        "bookOrReportDetails": {
+          "publisher": "PsyArXiv",
+          "yearOfPublication": 2026
+        },
+        "citedByCount": 0,
+        "dateOfCreation": "2026-05-06",
+        "doi": "10.31234/osf.io/7ydgu_v1",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2026-05-06",
+        "firstPublicationDate": "2026-04-30",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.31234/osf.io/7ydgu_v1"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "N",
+        "hasPDF": "N",
+        "hasReferences": "N",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "N",
+        "id": "PPR1185568",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "isOpenAccess": "N",
+        "nihAuthMan": "N",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "pubYear": "2026",
+        "source": "PPR",
+        "title": "How to analyze a replication study"
+      },
+      {
+        "abstractText": "In the past decade, there has been considerable concern about the reproducibility of psychological research. We suggest that in-class replications are a feasible setting for the replication of psychophysiological findings and present our conceptual in-class replication of a finding by Sussman, Ritter, and Vaughan Jr. (1998). In the original study, infrequent pitch deviants (proportion: 20%) were presented either at fixed (i.e., predictable) positions or at random positions (i.e., as classic oddballs) in the auditory sequence. The authors found that deviants presented in the predictable condition did not elicit the mismatch negativity (MMN) in the event-related potential (ERP) when the tone sequence was presented at sufficiently fast stimulus onset asynchronies (SOAs) but deviants presented in the random condition elicited an MMN. We replicated a subset of the original conditions in a sample of 25 participants. Although we had changed some aspects of the original design we found frequentist and Bayesian statistical evidence in favor of ERP-differences in the predictable vs. the random condition in the MMN time window. In line with the original results deviants presented in the predictable condition did not elicit an MMN suggesting that the auditory system extracts regularly occurring patterns within fast-paced task-irrelevant acoustic input. However, sequential Bayes factor analysis showed a substantial between-participant variability in the random condition obscuring the presence of a reliable MMN. We discuss potential inter-individual differences in segregating fast-paced sound sequences into separate streams as an explanation for this phenomenon. We further discuss advantages and disadvantages of in-class replications in psychophysiological research.",
+        "affiliation": "Institut f\u00fcr Psychologie, Universit\u00e4t Kassel, Kassel, Germany.",
+        "authMan": "N",
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut f\u00fcr Psychologie, Universit\u00e4t Kassel, Kassel, Germany."
+                  }
+                ]
+              },
+              "firstName": "Florian",
+              "fullName": "Scharf F",
+              "initials": "F",
+              "lastName": "Scharf"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Wilhelm-Wundt-Institut f\u00fcr Psychologie, Universit\u00e4t Leipzig, Leipzig, Germany. Electronic address: dagmar_mueller@uni-leipzig.de."
+                  }
+                ]
+              },
+              "firstName": "Dagmar",
+              "fullName": "M\u00fcller D",
+              "initials": "D",
+              "lastName": "M\u00fcller"
+            }
+          ]
+        },
+        "authorString": "Scharf F, M\u00fcller D.",
+        "citedByCount": 0,
+        "dateOfCompletion": "2026-03-05",
+        "dateOfCreation": "2026-01-20",
+        "dateOfRevision": "2026-03-05",
+        "doi": "10.1016/j.ijpsycho.2026.113330",
+        "electronicPublicationDate": "2026-01-18",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2026-01-22",
+        "firstPublicationDate": "2026-01-18",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ijpsycho.2026.113330"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "N",
+        "hasPDF": "N",
+        "hasReferences": "Y",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "N",
+        "id": "41558583",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "isOpenAccess": "N",
+        "journalInfo": {
+          "dateOfPublication": "2026 Mar",
+          "journal": {
+            "essn": "1872-7697",
+            "isoabbreviation": "Int J Psychophysiol",
+            "issn": "0167-8760",
+            "medlineAbbreviation": "Int J Psychophysiol",
+            "nlmid": "8406214",
+            "title": "International journal of psychophysiology : official journal of the International Organization of Psychophysiology"
+          },
+          "journalIssueId": 4132523,
+          "monthOfPublication": 3,
+          "printPublicationDate": "2026-03-01",
+          "volume": "221",
+          "yearOfPublication": 2026
+        },
+        "keywordList": {
+          "keyword": [
+            "Prediction",
+            "Mismatch Negativity (Mmn)",
+            "Auditory Event-related Potential",
+            "In-class Replication",
+            "Sound Pattern Extraction"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by",
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "descriptorName": "Humans",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Electroencephalography",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Acoustic Stimulation",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Reproducibility of Results",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Auditory Perception",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Reaction Time",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Contingent Negative Variation",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Evoked Potentials, Auditory",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Adolescent",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Adult",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Female",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Male",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Young Adult",
+              "majorTopic_YN": "N"
+            }
+          ]
+        },
+        "nihAuthMan": "N",
+        "pageInfo": "113330",
+        "pmid": "41558583",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2026",
+        "publicationStatus": "ppublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "Predictable changes within fast-paced sound sequences do not elicit the mismatch negativity: A conceptual in-class replication study."
+      },
+      {
+        "abstractText": "Reproducibility is recognized as essential to scientific progress and integrity. Replication studies and large-scale replication projects, aiming to quantify different aspects of reproducibility, have become more common. Since no standardized approach to measuring reproducibility exists, a diverse set of metrics has emerged and a comprehensive overview is needed. We conducted a scoping review to identify large-scale replication projects that used metrics and methodological papers that proposed or discussed metrics. The project list was compiled by the authors. For the methodological papers, we searched Scopus, MedLine, PsycINFO and EconLit. Records were screened in duplicate against pre-defined inclusion criteria. Demographic information on included records and information on reproducibility metrics used, suggested or discussed was extracted. We identified 49 large-scale projects and 97 methodological papers and extracted 50 metrics. The metrics were characterized based on type (formulas and/or statistical models, frameworks, graphical representations, studies and questionnaires, algorithms), input required and appropriate application scenarios. Each metric addresses a distinct question. Our review provides a comprehensive resource in the form of a 'live', interactive table for future replication teams and meta-researchers, offering support in how to select the most appropriate metrics that are aligned with research questions and project goals.",
+        "affiliation": "Center for Reproducible Science, University of Zurich Institute of Epidemiology Biostatistics and Prevention, Zurich, Switzerland.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5454-2508"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8927-3483"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1331-6683"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2212-1626"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2934-3010"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5871-997X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7531-4333"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8686-5325"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2779-320X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3635-3660"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4737-2349"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Reproducible Science, University of Zurich Institute of Epidemiology Biostatistics and Prevention, Zurich, Switzerland."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7531-4333"
+              },
+              "firstName": "Rachel",
+              "fullName": "Heyard R",
+              "initials": "R",
+              "lastName": "Heyard"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biostatistics, University of Zurich Institute of Epidemiology Biostatistics and Prevention, Zurich, Switzerland."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2779-320X"
+              },
+              "firstName": "Samuel",
+              "fullName": "Pawel S",
+              "initials": "S",
+              "lastName": "Pawel"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Political and Social Sciences, European University Institute, Fiesole, Italy."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5871-997X"
+              },
+              "firstName": "Joris",
+              "fullName": "Frese J",
+              "initials": "J",
+              "lastName": "Frese"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Bern, Bern, Switzerland."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5454-2508"
+              },
+              "firstName": "Bernhard",
+              "fullName": "Voelkl B",
+              "initials": "B",
+              "lastName": "Voelkl"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Bern, Bern, Switzerland."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2934-3010"
+              },
+              "firstName": "Hanno",
+              "fullName": "W\u00fcrbel H",
+              "initials": "H",
+              "lastName": "W\u00fcrbel"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Berlin Institute of Health at Charit\u00e9 QUEST Center for Responsible Research, Berlin, Germany."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4737-2349"
+              },
+              "firstName": "Sarah",
+              "fullName": "McCann S",
+              "initials": "S",
+              "lastName": "McCann"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Reproducible Science, University of Zurich Institute of Epidemiology Biostatistics and Prevention, Zurich, Switzerland."
+                  },
+                  {
+                    "affiliation": "Department of Biostatistics, University of Zurich Institute of Epidemiology Biostatistics and Prevention, Zurich, Switzerland."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8686-5325"
+              },
+              "firstName": "Leonhard",
+              "fullName": "Held L",
+              "initials": "L",
+              "lastName": "Held"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departmentof Anesthesiology, Pain and Palliative Care, Radboud University Medical Center, Nijmegen, Gelderland, The Netherlands."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3635-3660"
+              },
+              "firstName": "Kimberley E",
+              "fullName": "Wever KE",
+              "initials": "KE",
+              "lastName": "Wever"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neurology and Center for Translational, Neuro- and Behavioral Sciences, University Hospital Essen, Essen, Nordrhein-Westfalen, Germany."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1331-6683"
+              },
+              "firstName": "Helena",
+              "fullName": "Hartmann H",
+              "initials": "H",
+              "lastName": "Hartmann"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research and Innovation Office, Torrens University Australia, Adelaide, South Australia, Australia."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2212-1626"
+              },
+              "firstName": "Louise",
+              "fullName": "Townsin L",
+              "initials": "L",
+              "lastName": "Townsin"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute for Molecular Medicine Finland, University of Helsinki, Helsinki, Uusimaa, Finland."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8927-3483"
+              },
+              "firstName": "Stephanie",
+              "fullName": "Zellers S",
+              "initials": "S",
+              "lastName": "Zellers"
+            }
+          ]
+        },
+        "authorString": "Heyard R, Pawel S, Frese J, Voelkl B, W\u00fcrbel H, McCann S, Held L, Wever KE, Hartmann H, Townsin L, Zellers S.",
+        "citedByCount": 1,
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "PPR946340",
+              "note": "Link created based on a title-first author match",
+              "orderIn": 10002,
+              "source": "PPR",
+              "type": "Preprint in"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCompletion": "2025-09-15",
+        "dateOfCreation": "2025-09-02",
+        "dateOfRevision": "2025-09-15",
+        "doi": "10.1098/rsos.242076",
+        "electronicPublicationDate": "2025-07-15",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2025-09-04",
+        "firstPublicationDate": "2025-07-15",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12395386"
+          ]
+        },
+        "fullTextReceivedDate": "2025-09-01",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1098/rsos.242076"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rsos.242076"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12395386"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12395386?pdf=render"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "HORIZON EUROPE Framework Programme",
+              "orderIn": 0
+            },
+            {
+              "agency": "Deutsche Forschungsgemeinschaft",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "40894102",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2025 Jul",
+          "issue": "7",
+          "journal": {
+            "essn": "2054-5703",
+            "isoabbreviation": "R Soc Open Sci",
+            "issn": "2054-5703",
+            "medlineAbbreviation": "R Soc Open Sci",
+            "nlmid": "101647528",
+            "title": "Royal Society open science"
+          },
+          "journalIssueId": 3970515,
+          "monthOfPublication": 7,
+          "printPublicationDate": "2025-07-01",
+          "volume": "12",
+          "yearOfPublication": 2025
+        },
+        "keywordList": {
+          "keyword": [
+            "Reproducibility",
+            "Generalizability",
+            "Replicability",
+            "Metrics",
+            "Translatability",
+            "Meta-research"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by",
+        "nihAuthMan": "N",
+        "pageInfo": "242076",
+        "pmcid": "PMC12395386",
+        "pmid": "40894102",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2025",
+        "publicationStatus": "epublish",
+        "source": "MED",
+        "title": "A scoping review on metrics to quantify reproducibility: a multitude of questions leads to a multitude of metrics."
+      },
+      {
+        "abstractText": "<p>Childhood maltreatment (CM) has long-lasting effects on physical and mental health with CM type specific effects being reported. Epigenetic processes, like deoxyribonucleic acid methylation (DNAm), might mediate this link, and CM types might be linked to differential alterations in DNAm. While a study by Cecil et al. (2016) suggests that different forms of CM share common but also exhibit distinct epigenetic signatures, it is unclear whether these results are generalizable to other high-risk samples. The aim of this preregistered study was to replicate the study of Cecil and colleagues (2016) in a sample of N = 116 previously out-of-home placed young adults (32% women, age mean = 26.38, SD = 3.49). Participants completed the Childhood Trauma Questionnaire - Short Form (CTQ-SF), DNA was extracted from whole blood and DNAm was assayed using the Illumina Infinium MethylationEPIC BeadChip Microarray. Using state-of the-art processing pipelines, we failed to replicate the original finding of common and shared epigenetic signatures by CM type. When using a pipeline that was closely matched to the original study, we could replicate that DNAm of cg07032930 was linked to emotional neglect, but in the reverse direction as in the original report. Overall, replication rates per CM subtype were only modest. These findings highlight challenges in independently replicating reported epigenetic associations in high-risk samples and underscore the importance of replication attempts in the field of behavioral epigenetics. Further research is needed to clarify the robustness and specificity of DNAm signatures linked to distinct CM types.</p>",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0856-1342"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1655-5479"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3507-1883"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7343-880X"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1655-5479"
+              },
+              "firstName": "Maria",
+              "fullName": "Meier M",
+              "initials": "M",
+              "lastName": "Meier"
+            },
+            {
+              "firstName": "Laura",
+              "fullName": "Gurri L",
+              "initials": "L",
+              "lastName": "Gurri"
+            },
+            {
+              "firstName": "Katharina",
+              "fullName": "Beck K",
+              "initials": "K",
+              "lastName": "Beck"
+            },
+            {
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7343-880X"
+              },
+              "firstName": "Delfine",
+              "fullName": "d'Huart D",
+              "initials": "D",
+              "lastName": "d'Huart"
+            },
+            {
+              "firstName": "Philippe",
+              "fullName": "Jawinski P",
+              "initials": "P",
+              "lastName": "Jawinski"
+            },
+            {
+              "firstName": "Cyril",
+              "fullName": "Boonmann C",
+              "initials": "C",
+              "lastName": "Boonmann"
+            },
+            {
+              "firstName": "Christina",
+              "fullName": "Stadler C",
+              "initials": "C",
+              "lastName": "Stadler"
+            },
+            {
+              "firstName": "Marc",
+              "fullName": "Schmid M",
+              "initials": "M",
+              "lastName": "Schmid"
+            },
+            {
+              "firstName": "David",
+              "fullName": "B\u00fcrgin D",
+              "initials": "D",
+              "lastName": "B\u00fcrgin"
+            },
+            {
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3507-1883"
+              },
+              "firstName": "Eva",
+              "fullName": "Unternaehrer E",
+              "initials": "E",
+              "lastName": "Unternaehrer"
+            }
+          ]
+        },
+        "authorString": "Meier M, Gurri L, Beck K, d'Huart D, Jawinski P, Boonmann C, Stadler C, Schmid M, B\u00fcrgin D, Unternaehrer E.",
+        "bookOrReportDetails": {
+          "publisher": "PsyArXiv",
+          "yearOfPublication": 2025
+        },
+        "citedByCount": 0,
+        "dateOfCreation": "2025-08-18",
+        "doi": "10.31234/osf.io/9j2v7_v1",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2025-08-21",
+        "firstPublicationDate": "2025-08-08",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.31234/osf.io/9j2v7_v1"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.31234/osf.io/9j2v7_v1"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "N",
+        "hasPDF": "N",
+        "hasReferences": "N",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "PPR1067631",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "isOpenAccess": "N",
+        "license": "cc by",
+        "nihAuthMan": "N",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "pubYear": "2025",
+        "source": "PPR",
+        "title": "Epigenetic signatures of different types of childhood maltreatment in a high-risk sample: a preregistered replication study"
+      },
+      {
+        "abstractText": "This review reflects on the lessons and limitations of the first large, collaborative replication project in sports and exercise science. We discuss the challenges and barriers faced, while also exploring the broader contribution of replication to the field. This project faced many practical challenges when preparing studies for replication, specifically the poor reporting of statistical information, the availability of original raw data and the prioritisation of feasibility at the risk of some bias. However, we believe these issues reflect the larger sports and exercise science field. Therefore, our research culture needs to change to minimise the active engagement in behaviours that reduce reproducibility and replicability, and enable collective evaluation of research in line with the foundations of scientific rigour. In addition, discourse with the original study authors was a challenging process as many were unwilling to engage and this indicates a problematic perception of replication. We also reflect on the contribution of replication to theory development in sports and exercise science so that this review can serve as a valuable resource for understanding replication and can aid future replication efforts.",
+        "affiliation": "School of Biological, Health and Sport Sciences, Technological University Dublin, Tallaght Campus, Blessington Road, Dublin 9, Ireland. jennymurphy1@outlook.ie.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8624-3828"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4359-8132"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4541-6283"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Biological, Health and Sport Sciences, Technological University Dublin, Tallaght Campus, Blessington Road, Dublin 9, Ireland. jennymurphy1@outlook.ie."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8624-3828"
+              },
+              "firstName": "Jennifer",
+              "fullName": "Murphy J",
+              "initials": "J",
+              "lastName": "Murphy"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute for Community Health Innovation, University of Arkansas for Medical Sciences Northwest, Springdale, AR, USA."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4541-6283"
+              },
+              "firstName": "Aaron R",
+              "fullName": "Caldwell AR",
+              "initials": "AR",
+              "lastName": "Caldwell"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Biological, Health and Sport Sciences, Technological University Dublin, Tallaght Campus, Blessington Road, Dublin 9, Ireland."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4359-8132"
+              },
+              "firstName": "Joe P",
+              "fullName": "Warne JP",
+              "initials": "JP",
+              "lastName": "Warne"
+            }
+          ]
+        },
+        "authorString": "Murphy J, Caldwell AR, Warne JP.",
+        "citedByCount": 1,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCompletion": "2025-10-10",
+        "dateOfCreation": "2025-06-16",
+        "dateOfRevision": "2026-04-07",
+        "doi": "10.1007/s40279-025-02200-x",
+        "electronicPublicationDate": "2025-06-16",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2025-06-16",
+        "firstPublicationDate": "2025-06-16",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12513977"
+          ]
+        },
+        "fullTextReceivedDate": "2025-10-13",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s40279-025-02200-x"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12513977"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12513977?pdf=render"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Irish Research Council",
+              "grantId": "GOIPG/2020/1155",
+              "orderIn": 0
+            },
+            {
+              "agency": "Technological University Dublin",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "40522611",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2025 Oct",
+          "issue": "10",
+          "journal": {
+            "essn": "1179-2035",
+            "isoabbreviation": "Sports Med",
+            "issn": "0112-1642",
+            "medlineAbbreviation": "Sports Med",
+            "nlmid": "8412297",
+            "title": "Sports medicine (Auckland, N.Z.)"
+          },
+          "journalIssueId": 4030888,
+          "monthOfPublication": 10,
+          "printPublicationDate": "2025-10-01",
+          "volume": "55",
+          "yearOfPublication": 2025
+        },
+        "language": "eng",
+        "license": "cc by",
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "descriptorName": "Humans",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Exercise",
+              "majorTopic_YN": "Y"
+            },
+            {
+              "descriptorName": "Reproducibility of Results",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Sports Medicine",
+              "majorTopic_YN": "Y"
+            },
+            {
+              "descriptorName": "Biomedical Research",
+              "majorTopic_YN": "Y"
+            },
+            {
+              "descriptorName": "Research Design",
+              "majorTopic_YN": "Y"
+            },
+            {
+              "descriptorName": "Sports",
+              "majorTopic_YN": "Y"
+            }
+          ]
+        },
+        "nihAuthMan": "N",
+        "pageInfo": "2365-2374",
+        "pmcid": "PMC12513977",
+        "pmid": "40522611",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2025",
+        "publicationStatus": "ppublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "Reflections on Conducting a Large Replication Project in Sports and Exercise Science."
+      }
+    ]
+  },
+  "version": "6.9"
+}

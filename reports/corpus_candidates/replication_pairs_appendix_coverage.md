@@ -17,7 +17,7 @@
 | EERP | 18 | 25 | 18 | 0 | 7 |
 | RPP / OSC 2015 | 98 | 103 | 98 | 0 | 5 |
 | RP:CB | 24 | 118 | 24 | 0 | 94 |
-| SCORE | 282 | 282 | 282 | 0 | 0 |
+| SCORE | 282 | 283 | 282 | 0 | 1 |
 | Experimental philosophy / x-phi | 33 | 34 | 33 | 0 | 1 |
 | Pipeline Project | 10 | 0 | 0 | 10 | 0 |
 | DellaVigna-Linos 2022 | 1 | 0 | 0 | 1 | 0 |

@@ -10,13 +10,13 @@ This recheck asks whether sources or rows previously blocked from strict Figure 
 
 - `route_to_d_equivalent_diagnostic_worklist`: 1 records, 88 counted evidence rows
 - `route_to_native_effect_diagnostic_worklist`: 6 records, 91 counted evidence rows
-- `route_to_coverage_denominator_catalog`: 19 records, 1281 counted evidence rows (1529 raw source-level row claims before de-duplicating row buckets)
+- `route_to_coverage_denominator_catalog`: 19 records, 1198 counted evidence rows (1446 raw source-level row claims before de-duplicating row buckets)
 - `route_to_missing_value_repair_worklist`: 7 records, 172 counted evidence rows (344 raw source-level row claims before de-duplicating row buckets)
 - `remain_context_or_rejected_no_alternate_subplot`: 46 records, 0 counted evidence rows
 
 ## Concrete Row-Level Findings
 
-- **Root D/N rows blocked by current Figure 1A gate**: 752 rows -> `route_to_coverage_denominator_catalog` / `plot1d_source_object_coverage_denominator`. D/N rows exist but failed a current plot rule; they remain useful for denominator and robustness accounting.
+- **Root D/N rows blocked by current Figure 1A gate**: 669 rows -> `route_to_coverage_denominator_catalog` / `plot1d_source_object_coverage_denominator`. D/N rows exist but failed a current plot rule; they remain useful for denominator and robustness accounting.
 - **PSA006 trolley multi-lab replication package**: 271 rows -> `route_to_coverage_denominator_catalog` / `plot1d_source_object_coverage_denominator`. Parsed row grain exists, but current extraction did not copy effect/N evidence.
 - **Roster-only original/follow-up pair rows**: 248 rows -> `route_to_coverage_denominator_catalog` / `plot1d_source_object_coverage_denominator`. Rows identify original/follow-up pair structure but public bytes do not expose effect and N.
 - **FORRT Replications and Reversals**: 10 rows -> `route_to_coverage_denominator_catalog` / `plot1d_source_object_coverage_denominator`. Candidate D/N-looking rows exist but need dedupe/field alignment before any Figure 1A use.

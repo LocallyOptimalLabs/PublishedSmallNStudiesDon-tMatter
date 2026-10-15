@@ -1,0 +1,88 @@
+{
+  "response": {
+    "docs": [
+      {
+        "abstract": [
+          "\nFor at least four decades, researchers have studied the effectiveness of interventions designed to increase well-being. These interventions have become known as positive psychology interventions (PPIs). Two highly cited meta-analyses examined the effectiveness of PPIs on well-being and depression: Sin and Lyubomirsky (2009) and Bolier et al. (2013). Sin and Lyubomirsky reported larger effects of PPIs on well-being (r = .29) and depression (r = .31) than Bolier et al. reported for subjective well-being (r = .17), psychological well-being (r = .10), and depression (r = .11). A detailed examination of the two meta-analyses reveals that the authors employed different approaches, used different inclusion and exclusion criteria, analyzed different sets of studies, described their methods with insufficient detail to compare them clearly, and did not report or properly account for significant small sample size bias. The first objective of the current study was to reanalyze the studies selected in each of the published meta-analyses, while taking into account small sample size bias. The second objective was to replicate each meta-analysis by extracting relevant effect sizes directly from the primary studies included in the meta-analyses. The present study revealed three key findings: (1) many of the primary studies used a small sample size; (2) small sample size bias was pronounced in many of the analyses; and (3) when small sample size bias was taken into account, the effect of PPIs on well-being were small but significant (approximately r = .10), whereas the effect of PPIs on depression were variable, dependent on outliers, and generally not statistically significant. Future PPI research needs to focus on increasing sample sizes. A future meta-analyses of this research needs to assess cumulative effects from a comprehensive collection of primary studies while being mindful of issues such as small sample size bias.\n"
+        ],
+        "author_display": [
+          "Carmela A. White",
+          "Bob Uttl",
+          "Mark D. Holder"
+        ],
+        "id": "10.1371/journal.pone.0216588",
+        "journal": "PLOS ONE",
+        "publication_date": "2019-05-29T00:00:00Z",
+        "title": "Meta-analyses of positive psychology interventions: The effects are much smaller than previously reported"
+      },
+      {
+        "abstract": [
+          "\n        Adaikalavan Ramasamy and colleagues outline seven key issues and suggest a\n\t\t\t\t\tstepwise approach in conducting a meta-analysis of microarray datasets.\n      "
+        ],
+        "author_display": [
+          "Adaikalavan Ramasamy",
+          "Adrian Mondry",
+          "Chris C Holmes",
+          "Douglas G Altman"
+        ],
+        "id": "10.1371/journal.pmed.0050184",
+        "journal": "PLoS Medicine",
+        "publication_date": "2008-09-02T00:00:00Z",
+        "title": "Key Issues in Conducting a Meta-Analysis of Gene Expression\n\t\t\t\t\tMicroarray Datasets"
+      },
+      {
+        "abstract": [
+          "Background: As the use of antiretroviral therapy (ART) increases, the issue of treatment failure is still a global challenge, particularly in a resource limited settings including Ethiopia. The results of former studies in Ethiopia were highly variable and inconsistent across studies. Thus, this systematic review and meta-analysis intended to provide the pooled estimation of treatment failure and associated factors among children on antiretroviral therapy. Methods: We searched international databases (i.e., PubMed, Google Scholar, Web of Science, Ethiopian Universities\u2019 online repository library, Scopus, and the Cochrane Library) during the period of February 30 to April 7, 2021. All identified observational studies reporting the proportion of treatment failure among HIV positive children in Ethiopia were included. Heterogeneity of the studies was checked using I2 test and Cochrane Q test statistics. We run Begg\u2019s regression test to assess publication bias. A random-effects meta-analysis model was performed to estimate the pooled prevalence of treatment failure. Results: The estimated pooled prevalence of treatment failure among children in Ethiopia was 12.34 (95%CI: 8.59, 16.10). Subgroup analysis of this review showed that the highest prevalence was observed in Addis Ababa (15.92%), followed by Oromia region (14.47%). Poor ART adherence (AOR = 2.53, CI: 2.03, 4.97), advanced WHO clinical staging (AOR = 1.66, CI: 1.24, 3.21), and opportunistic infections (AOR = 2.64 CI: 2.19, 4.31 were found to be significantly associated factors with childhood treatment failure. Conclusions: This study revealed that treatment failure among children on ART was high in Ethiopia. Poor ART adherence, advanced WHO clinical staging, opportunistic infections, and low level of CD4 cell counts increased the risk of treatment failure. "
+        ],
+        "author_display": [
+          "Belete Gelaw",
+          "Lemma Dessalegn",
+          "Eyasu Alem",
+          "Tiwabwork Tekalign",
+          "Tadele Lankirew",
+          "Kirubel Eshetu",
+          "Chalie Marew",
+          "Bogale Chekole",
+          "Amare Kassaw"
+        ],
+        "id": "10.1371/journal.pone.0261611",
+        "journal": "PLOS ONE",
+        "publication_date": "2022-04-14T00:00:00Z",
+        "title": "Prevalence and associated factors of treatment failure among children on ART in Ethiopia: A systematic review and meta-analysis"
+      },
+      {
+        "abstract": [
+          "\nThe present study aimed to systematically review and meta-analyze the concurrent and longitudinal relationship between caregiver sensitivity and preschool attachment measured using the Main and Cassidy (1988) and Cassidy and Marvin (1992) attachment classification systems. This review was pre-registered with the International Prospective Register of Systematic Reviews (PROSPERO; Registration Number CRD42017073417) and completed according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. The present review identified 36 studies made up of 21 samples (N = 3, 847) examining the relationship between caregiver sensitivity and preschool attachment. Eight primary meta-analyses were conducted separately according to the proximity of the assessment of sensitivity to attachment (i.e., concurrent versus longitudinal), operationalization of caregiver sensitivity (i.e., unidimensional versus multidimensional) and attachment categorizations (i.e., secure-insecure versus organized-disorganized). Overall, the meta-analyses revealed higher levels of caregiver sensitivity among caregivers with secure and organized preschoolers, relative to insecure and disorganized preschoolers, respectively. Medium effect sizes (g = .46 to .59) were found for both longitudinal and concurrent associations between caregiver sensitivity and preschool attachment when a unidimensional measure of caregiver sensitivity was employed, compared to small to medium effect sizes (g = .34 to .49) when a multidimensional measure of caregiver sensitivity was employed. Child age at attachment measurement was a significant moderator of the longitudinal association between unidimensional caregiver sensitivity and preschool attachment. Future directions for the literature and clinical implications are discussed.\n"
+        ],
+        "author_display": [
+          "Monica C. O\u2019Neill",
+          "Shaylea Badovinac",
+          "Rebecca Pillai Riddell",
+          "Jean-Fran\u00e7ois Bureau",
+          "Carla Rumeo",
+          "Stefano Costa"
+        ],
+        "id": "10.1371/journal.pone.0245061",
+        "journal": "PLOS ONE",
+        "publication_date": "2021-01-22T00:00:00Z",
+        "title": "The longitudinal and concurrent relationship between caregiver sensitivity and preschool attachment: A systematic review and meta-analysis"
+      },
+      {
+        "abstract": [
+          "Background: Approximately seven to nine percent of couples of reproductive age do not get pregnant despite regular and unprotected sexual intercourse. Various psychosocial interventions for women and men with fertility disorders are repeatedly found in the literature. The effects of these interventions on outcomes such as anxiety and depression, as well as on the probability of pregnancy, do not currently allow for reliable generalisable statements. This review includes studies published since 2015 performing a method-critical evaluation of the studies. Furthermore, we suggest how interventions could be implemented in the future to improve anxiety, depression, and pregnancy rates. Method: The project was registered with Prospero (CRD42021242683 13 April 2021). The literature search was conducted according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. Six databases were searched and 479 potential studies were discovered. After reviewing the full texts, ten studies were included for the synthesis. Not all studies reported the three outcomes: four studies each for depression, three for anxiety and nine studies for pregnancy rates were included in the meta-analysis, which was conducted using the Comprehensive meta-analysis (CMA) software. Results: Psychosocial interventions do not significantly change women\u2019s anxiety (Hedges\u2019 g -0,006; CI: -0,667 to 0,655; p = 0,985), but they have a significant impact on depression in infertile women (Hedges\u2019 g -0,893; CI: -1,644 to -0,145; p = 0,026). Implementations of psychosocial interventions during assisted reproductive technology (ART) treatment do not increase pregnancy rates (odds ratio 1,337; 95% CI 0,983 to 1,820; p = 0,064). The methodological critical evaluation indicates heterogeneous study design and samples. The results of the studies were determined with different methods and make comparability difficult. All these factors do not allow for a uniform conclusion. Methodological critical evaluation: Study design (duration and timing of intervention, type of intervention, type of data collection) and samples (age of women, reason for infertility, duration of infertility) are very heterogeneous. The results of the studies were determined with different methods and make comparability difficult. All these factors do not allow for a uniform conclusion. Conclusion: In order to be able to better compare psychosocial interventions and their influence on ART treatment and thus also to achieve valid results, a standardised procedure to the mentioned factors is necessary. "
+        ],
+        "author_display": [
+          "Franziska Kremer",
+          "Beate Ditzen",
+          "Tewes Wischmann"
+        ],
+        "id": "10.1371/journal.pone.0282065",
+        "journal": "PLOS ONE",
+        "publication_date": "2023-02-28T00:00:00Z",
+        "title": "RETRACTED: Effectiveness of psychosocial interventions for infertile women: A systematic review and meta-analysis with a focus on a method-critical evaluation"
+      }
+    ],
+    "numFound": 32,
+    "start": 0
+  }
+}

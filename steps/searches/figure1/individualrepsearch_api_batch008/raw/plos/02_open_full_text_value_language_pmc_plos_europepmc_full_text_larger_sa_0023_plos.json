@@ -1,0 +1,96 @@
+{
+  "response": {
+    "docs": [
+      {
+        "abstract": [
+          "\nSome evidence suggests that people behave more cooperatively and generously when observed or in the presence of images of eyes (termed the \u2018watching eyes\u2019 effect). Eye images are thought to trigger feelings of observation, which in turn motivate people to behave more cooperatively to earn a good reputation. However, several recent studies have failed to find evidence of the eyes effect. One possibility is that inconsistent evidence in support of the eyes effect is a product of individual differences in sensitivity or susceptibility to the cue. In fact, some evidence suggests that people who are generally more prosocial are less susceptible to situation-specific reputation-based cues of observation. In this paper, we sought to (1) replicate the eyes effect, (2) replicate the past finding that people who are dispositionally less prosocial are more responsive to observation than people who are more dispositionally more prosocial, and (3) determine if this effect extends to the watching eyes effect. Results from a pre-registered study showed that people did not give more money in a dictator game when decisions were made public or in the presence of eye images, even though participants felt more observed when decisions were public. That is, we failed to replicate the eyes effect and observation effect. An initial, but underpowered, interaction model suggests that egoists give less than prosocials in private, but not public, conditions. This suggests a direction for future research investigating if and how individual differences in prosociality influence observation effects.\n"
+        ],
+        "author_display": [
+          "Amanda Rotella",
+          "Adam Maxwell Sparks",
+          "Sandeep Mishra",
+          "Pat Barclay"
+        ],
+        "id": "10.1371/journal.pone.0255531",
+        "journal": "PLOS ONE",
+        "publication_date": "2021-10-06T00:00:00Z",
+        "title": "No effect of \u2018watching eyes\u2019: An attempted replication and extension investigating individual differences"
+      },
+      {
+        "abstract": [
+          "\nReplication is vital for increasing precision and accuracy of scientific claims. However, when replications \u201csucceed\u201d or \u201cfail,\u201d they could have reputational consequences for the claim\u2019s originators. Surveys of United States adults (N = 4,786), undergraduates (N = 428), and researchers (N = 313) showed that reputational assessments of scientists were based more on how they pursue knowledge and respond to replication evidence, not whether the initial results were true. When comparing one scientist that produced boring but certain results with another that produced exciting but uncertain results, opinion favored the former despite researchers\u2019 belief in more rewards for the latter. Considering idealized views of scientific practices offers an opportunity to address incentives to reward both innovation and verification.\n\nHow are scientists evaluated? Members of the general public, undergraduate students, and active researchers all agree that the research process, not the results, determines a scientist\u2019s reputation.\n"
+        ],
+        "author_display": [
+          "Charles R. Ebersole",
+          "Jordan R. Axt",
+          "Brian A. Nosek"
+        ],
+        "id": "10.1371/journal.pbio.1002460",
+        "journal": "PLOS Biology",
+        "publication_date": "2016-05-12T00:00:00Z",
+        "title": "Scientists\u2019 Reputations Are Based on Getting It Right, Not Being Right"
+      },
+      {
+        "abstract": [
+          "\nIn this preregistered study, we investigated whether the statistical power of a study is higher when researchers are asked to make a formal power analysis before collecting data. We compared the sample size descriptions from two sources: (i) a sample of pre-registrations created according to the guidelines for the Center for Open Science Preregistration Challenge (PCRs) and a sample of institutional review board (IRB) proposals from Tilburg School of Behavior and Social Sciences, which both include a recommendation to do a formal power analysis, and (ii) a sample of pre-registrations created according to the guidelines for Open Science Framework Standard Pre-Data Collection Registrations (SPRs) in which no guidance on sample size planning is given. We found that PCRs and IRBs (72%) more often included sample size decisions based on power analyses than the SPRs (45%). However, this did not result in larger planned sample sizes. The determined sample size of the PCRs and IRB proposals (Md = 90.50) was not higher than the determined sample size of the SPRs (Md = 126.00; W = 3389.5, p = 0.936). Typically, power analyses in the registrations were conducted with G*power, assuming a medium effect size, \u03b1 = .05 and a power of .80. Only 20% of the power analyses contained enough information to fully reproduce the results and only 62% of these power analyses pertained to the main hypothesis test in the pre-registration. Therefore, we see ample room for improvements in the quality of the registrations and we offer several recommendations to do so.\n"
+        ],
+        "author_display": [
+          "Marjan Bakker",
+          "Coosje L. S. Veldkamp",
+          "Olmo R. van den Akker",
+          "Marcel A. L. M. van Assen",
+          "Elise Crompvoets",
+          "How Hwee Ong",
+          "Jelte M. Wicherts"
+        ],
+        "id": "10.1371/journal.pone.0236079",
+        "journal": "PLOS ONE",
+        "publication_date": "2020-07-31T00:00:00Z",
+        "title": "Recommendations in pre-registrations and internal review board proposals promote formal power analyses but do not increase sample size"
+      },
+      {
+        "abstract": [
+          "\nPhenotypes have been proposed as a method of characterizing subgroups based on biopsychosocial factors to identify responders to analgesic treatments. This study aimed to, first, confirm phenotypes in patients with low back pain receiving physical therapy based on an a priori set of factors used to derive subgroups in other pain populations. Second, an exploratory analysis examined if phenotypes differentiated pain and disability outcomes at four weeks of physical therapy. Fifty-five participants completed psychological questionnaires and pressure pain threshold (PPT). Somatization, anxiety, and depression domains of the Symptom-Checklist-90-Revised, and PPT, were entered into a hierarchical agglomerative cluster analysis with Ward\u2019s method to identify phenotypes. Repeated measures ANOVAs assessed pain ratings and disability by phenotype at four weeks. Three clusters emerged: 1) high emotional distress and pain sensitivity (n = 10), 2) low emotional distress (n = 34), 3) low pain sensitivity (n = 11). As an exploratory study, clusters did not differentiate pain ratings or disability after four weeks of physical therapy (p\u2019s>0.05). However, trends were observed as magnitude of change for pain varied by phenotype. This supports the characterization of homogenous subgroups based on a protocol conducted in the clinical setting with varying effect sizes noted by phenotype for short-term changes in pain. As an exploratory study, future studies should aim to repeat this trial in a larger sample of patients.\n"
+        ],
+        "author_display": [
+          "Abigail T. Wilson",
+          "Joseph L. Riley III",
+          "Mark D. Bishop",
+          "Jason M. Beneciuk",
+          "Yenisel Cruz-Almeida",
+          "Keri Markut",
+          "Charlotte Redd",
+          "Nicholas LeBlond",
+          "Patrick H. Pham",
+          "David Shirey",
+          "Joel E. Bialosky"
+        ],
+        "id": "10.1371/journal.pone.0281517",
+        "journal": "PLOS ONE",
+        "publication_date": "2023-02-14T00:00:00Z",
+        "title": "Pain phenotyping and investigation of outcomes in physical therapy: An exploratory study in patients with low back pain"
+      },
+      {
+        "abstract": [
+          "\n        There is growing evidence that post-copulatory sexual selection, mediated by sperm competition, influences the evolution of sperm phenotypes. Evidence for pre-copulatory sexual selection effects on sperm traits, on the other hand, is rather scarce. A recent paper on the pied flycatcher, Ficedula hypoleuca, reported phenotypic associations between sperm length and two sexually selected male traits, i.e. plumage colour and arrival date, thus invoking pre-copulatory sexual selection for longer sperm. We were unable to replicate these associations with a larger data set from the same and two additional study populations; sperm length was not significantly related to either male plumage colour or arrival date. Furthermore, there was no significant difference in sperm length between populations despite marked differences in male plumage colour. We also found some evidence against the previously held assumption of longer sperm being qualitatively superior; longer sperm swam at the same speed as shorter sperm, but were less able to maintain speed over time. We argue that both empirical evidence and theoretical considerations suggest that the evolution of sperm morphology is not primarily associated with pre-copulatory sexual selection on male secondary sexual traits in this or other passerine bird species. The relatively large between-male variation in sperm length in this species is probably due to relaxed post-copulatory sexual selection.\n      "
+        ],
+        "author_display": [
+          "Jan T. Lifjeld",
+          "Terje Laskemoen",
+          "Oddmund Kleven",
+          "A. Tiril M. Pedersen",
+          "Helene M. Lampe",
+          "Geir Rudolfsen",
+          "Tim Schmoll",
+          "Tore Slagsvold"
+        ],
+        "id": "10.1371/journal.pone.0032611",
+        "journal": "PLoS ONE",
+        "publication_date": "2012-02-27T00:00:00Z",
+        "title": "No Evidence for Pre-Copulatory Sexual Selection on Sperm Length in a Passerine Bird"
+      }
+    ],
+    "numFound": 52,
+    "start": 0
+  }
+}

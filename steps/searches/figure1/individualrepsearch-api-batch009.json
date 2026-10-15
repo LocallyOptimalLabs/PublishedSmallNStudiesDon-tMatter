@@ -1,0 +1,892 @@
+{
+  "batch_id": "batch009",
+  "candidates": [
+    {
+      "blockers": [
+        "resolve_original_target",
+        "fetch_full_text_or_source_object",
+        "extract_effect_and_n"
+      ],
+      "candidate_id": "api_candidate_149878a191cd6b28",
+      "candidate_name": "unresolved original target -> Somatostatin Analogs for Preventing Postoperative Pancreatic Fistula: Past Evidence Reveals New Opportunities.",
+      "candidate_route": "coverage_only",
+      "candidate_unit_key": "candidate_unit_3823a005c982ccd3",
+      "confidence": "low",
+      "dedupe_risk": "medium",
+      "domain": "metadata_api_search",
+      "original_doi": "",
+      "original_title": "",
+      "query_ids": [
+        "07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0063"
+      ],
+      "raw_record_paths": [
+        "steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0063_europepmc.json"
+      ],
+      "recommended_next_action": "resolve_original_target_or_fetch_full_text",
+      "relation_evidence_strength": 4,
+      "relation_evidence_type": "clinical_confirmatory_trial",
+      "relation_score": 4,
+      "relationship_evidence": {
+        "relation_score": 4,
+        "replication_kind": "metadata_relation_candidate",
+        "value_score": 0,
+        "verbatim_or_paraphrased_basis": "domized control trials demonstrated a benefit of octreotide in reducing POPF, although subsequent single-center studies failed to confirm these results. Despite additional studies demonstrating a significant reduction in POPF with the use of newer SSAs including pasireotide and lanreotide, surgical practices in the use of somatostatin analogs in preventin",
+        "where_seen": "clinical_confirmatory_trial"
+      },
+      "replication_doi": "10.1245/s10434-025-17660-8",
+      "replication_or_followup": {
+        "authors_year": "Goodsell KE; Chauhan SSB; Pillarisetty VG; Sham JG. (2025)",
+        "doi": "10.1245/s10434-025-17660-8",
+        "effect_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "n_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "source_object_urls": [
+          "https://doi.org/10.1245/s10434-025-17660-8",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13046395/",
+          "https://pubmed.ncbi.nlm.nih.gov/40576898/"
+        ],
+        "title": "Somatostatin Analogs for Preventing Postoperative Pancreatic Fistula: Past Evidence Reveals New Opportunities.",
+        "url": "https://doi.org/10.1245/s10434-025-17660-8"
+      },
+      "replication_title": "Somatostatin Analogs for Preventing Postoperative Pancreatic Fistula: Past Evidence Reveals New Opportunities.",
+      "screening_status": "api_relation_screened",
+      "source_object_urls": [
+        "https://doi.org/10.1245/s10434-025-17660-8",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13046395/",
+        "https://pubmed.ncbi.nlm.nih.gov/40576898/"
+      ],
+      "source_objects_to_mirror_first": [
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://doi.org/10.1245/s10434-025-17660-8",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13046395/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40576898/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        }
+      ],
+      "surfaces": [
+        "europepmc"
+      ],
+      "value_availability": {
+        "conversion_route": "unknown_until_full_text",
+        "effect_metric": "unknown",
+        "has_original_effect": "unclear",
+        "has_original_n": "unclear",
+        "has_replication_or_followup_effect": "unclear",
+        "has_replication_or_followup_n": "unclear",
+        "replication_n_larger_than_original_n": "unclear"
+      },
+      "value_score": 0
+    },
+    {
+      "blockers": [
+        "resolve_original_target",
+        "fetch_full_text_or_source_object",
+        "extract_effect_and_n"
+      ],
+      "candidate_id": "api_candidate_d8c7109960cd06ce",
+      "candidate_name": "unresolved original target -> Glenzocimab Efficacy and Safety Added to Intravenous Thrombolysis With or Without Mechanical Thrombectomy in Patients With Acute Ischemic Stroke-ACTISAVE: A Prospective, Randomized, Double-Blind Study.",
+      "candidate_route": "coverage_only",
+      "candidate_unit_key": "candidate_unit_7d47592f20da3972",
+      "confidence": "low",
+      "dedupe_risk": "medium",
+      "domain": "metadata_api_search",
+      "original_doi": "",
+      "original_title": "",
+      "query_ids": [
+        "07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0066"
+      ],
+      "raw_record_paths": [
+        "steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0066_europepmc.json"
+      ],
+      "recommended_next_action": "resolve_original_target_or_fetch_full_text",
+      "relation_evidence_strength": 4,
+      "relation_evidence_type": "clinical_confirmatory_trial",
+      "relation_score": 4,
+      "relationship_evidence": {
+        "relation_score": 4,
+        "replication_kind": "metadata_relation_candidate",
+        "value_score": 2,
+        "verbatim_or_paraphrased_basis": "curring respectively in 60 (28.6%) and 63 (29.9%) patients in glenzocimab and placebo arms.<h4>Conclusions</h4>ACTISAVE failed to confirm a beneficial effect of glenzocimab on mRS in patients with acute ischemic stroke treated by thrombolysis.<h4>Registration</h4>URL: https://www.clinicaltrials.gov; Unique identifier: NCT05070260.",
+        "where_seen": "clinical_confirmatory_trial"
+      },
+      "replication_doi": "10.1161/strokeaha.125.052935",
+      "replication_or_followup": {
+        "authors_year": "K\u00f6hrmann M; Berrouschot J; Serena J; Bornstein NM; Iversen HK; Kalladka D; Krastev G; Molina CA; Peeters A; \u0160a\u0148\u00e1k D; Sibon IP; Della Schiava L; Tembl JI; Masjuan J; Soda H; Richard S; Eichlova Z; Czap AL; Avenard G; Binay S; Bougamra S; Comenducci A; Drumez E; Meilhoc A; Pletan Y; Sari A; Toledano E; Grouin JM; Grotta JC; ACTISAVE Study Group. (2026)",
+        "doi": "10.1161/strokeaha.125.052935",
+        "effect_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "n_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "source_object_urls": [
+          "https://doi.org/10.1161/strokeaha.125.052935",
+          "https://pubmed.ncbi.nlm.nih.gov/42044230/"
+        ],
+        "title": "Glenzocimab Efficacy and Safety Added to Intravenous Thrombolysis With or Without Mechanical Thrombectomy in Patients With Acute Ischemic Stroke-ACTISAVE: A Prospective, Randomized, Double-Blind Study.",
+        "url": "https://doi.org/10.1161/strokeaha.125.052935"
+      },
+      "replication_title": "Glenzocimab Efficacy and Safety Added to Intravenous Thrombolysis With or Without Mechanical Thrombectomy in Patients With Acute Ischemic Stroke-ACTISAVE: A Prospective, Randomized, Double-Blind Study.",
+      "screening_status": "api_relation_screened",
+      "source_object_urls": [
+        "https://doi.org/10.1161/strokeaha.125.052935",
+        "https://pubmed.ncbi.nlm.nih.gov/42044230/"
+      ],
+      "source_objects_to_mirror_first": [
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://doi.org/10.1161/strokeaha.125.052935",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42044230/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        }
+      ],
+      "surfaces": [
+        "europepmc"
+      ],
+      "value_availability": {
+        "conversion_route": "unknown_until_full_text",
+        "effect_metric": "unknown",
+        "has_original_effect": "unclear",
+        "has_original_n": "unclear",
+        "has_replication_or_followup_effect": "unclear",
+        "has_replication_or_followup_n": "unclear",
+        "replication_n_larger_than_original_n": "unclear"
+      },
+      "value_score": 2
+    },
+    {
+      "blockers": [
+        "resolve_original_target",
+        "fetch_full_text_or_source_object",
+        "extract_effect_and_n"
+      ],
+      "candidate_id": "api_candidate_2dd91e62ffd37ce8",
+      "candidate_name": "unresolved original target -> Safety and feasibility of cerebrolysin in treatment of primary intracerebral hemorrhage (CLINCH)-a prospective, randomized, open-label, blinded endpoint pilot trial.",
+      "candidate_route": "coverage_only",
+      "candidate_unit_key": "candidate_unit_1e7fd6194f30cc65",
+      "confidence": "low",
+      "dedupe_risk": "medium",
+      "domain": "metadata_api_search",
+      "original_doi": "",
+      "original_title": "",
+      "query_ids": [
+        "07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0068"
+      ],
+      "raw_record_paths": [
+        "steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0068_europepmc.json"
+      ],
+      "recommended_next_action": "resolve_original_target_or_fetch_full_text",
+      "relation_evidence_strength": 4,
+      "relation_evidence_type": "clinical_confirmatory_trial",
+      "relation_score": 4,
+      "relationship_evidence": {
+        "relation_score": 4,
+        "replication_kind": "metadata_relation_candidate",
+        "value_score": 2,
+        "verbatim_or_paraphrased_basis": "generalizability but enhance the likelihood of detecting treatment effects. If positive, results would support a larger confirmatory trial and inform the sample size.",
+        "where_seen": "clinical_confirmatory_trial"
+      },
+      "replication_doi": "10.3389/fneur.2025.1602956",
+      "replication_or_followup": {
+        "authors_year": "Kobayashi A; Rutkowska K; Gocyla-Dudar K; Chelstowska B; Pozarowszczyk N; Karlinski M. (2025)",
+        "doi": "10.3389/fneur.2025.1602956",
+        "effect_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "n_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "source_object_urls": [
+          "https://doi.org/10.3389/fneur.2025.1602956",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12576854/",
+          "https://pubmed.ncbi.nlm.nih.gov/41180520/"
+        ],
+        "title": "Safety and feasibility of cerebrolysin in treatment of primary intracerebral hemorrhage (CLINCH)-a prospective, randomized, open-label, blinded endpoint pilot trial.",
+        "url": "https://doi.org/10.3389/fneur.2025.1602956"
+      },
+      "replication_title": "Safety and feasibility of cerebrolysin in treatment of primary intracerebral hemorrhage (CLINCH)-a prospective, randomized, open-label, blinded endpoint pilot trial.",
+      "screening_status": "api_relation_screened",
+      "source_object_urls": [
+        "https://doi.org/10.3389/fneur.2025.1602956",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12576854/",
+        "https://pubmed.ncbi.nlm.nih.gov/41180520/"
+      ],
+      "source_objects_to_mirror_first": [
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://doi.org/10.3389/fneur.2025.1602956",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12576854/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41180520/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        }
+      ],
+      "surfaces": [
+        "europepmc"
+      ],
+      "value_availability": {
+        "conversion_route": "unknown_until_full_text",
+        "effect_metric": "unknown",
+        "has_original_effect": "unclear",
+        "has_original_n": "unclear",
+        "has_replication_or_followup_effect": "unclear",
+        "has_replication_or_followup_n": "unclear",
+        "replication_n_larger_than_original_n": "unclear"
+      },
+      "value_score": 2
+    },
+    {
+      "blockers": [
+        "resolve_original_target",
+        "fetch_full_text_or_source_object",
+        "extract_effect_and_n"
+      ],
+      "candidate_id": "api_candidate_710fd7eb55fc9d77",
+      "candidate_name": "Scopolamine's Antidepressant Efficacy in Major Depressive Disorder -> Replication of Scopolamine's Antidepressant Efficacy in Major Depressive Disorder: A Randomized, Placebo-Controlled Clinical Trial",
+      "candidate_route": "coverage_only",
+      "candidate_unit_key": "candidate_unit_8fb9ff84022a8790",
+      "confidence": "medium",
+      "dedupe_risk": "high",
+      "domain": "metadata_api_search",
+      "original_doi": "",
+      "original_title": "Scopolamine's Antidepressant Efficacy in Major Depressive Disorder",
+      "query_ids": [
+        "07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0069"
+      ],
+      "raw_record_paths": [
+        "steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0069_crossref.json"
+      ],
+      "recommended_next_action": "resolve_original_target_or_fetch_full_text",
+      "relation_evidence_strength": 5,
+      "relation_evidence_type": "title_exact_replication",
+      "relation_score": 5,
+      "relationship_evidence": {
+        "relation_score": 5,
+        "replication_kind": "metadata_relation_candidate",
+        "value_score": 0,
+        "verbatim_or_paraphrased_basis": "Replication of Scopolamine's Antidepressant Efficacy in Major Depressive Disorder: A Randomized, Placebo-Controlled Clinical Trial",
+        "where_seen": "title_exact_replication"
+      },
+      "replication_doi": "10.1016/j.biopsych.2009.11.021",
+      "replication_or_followup": {
+        "authors_year": "Wayne C. Drevets; Maura L. Furey (2010)",
+        "doi": "10.1016/j.biopsych.2009.11.021",
+        "effect_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "n_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "source_object_urls": [
+          "https://doi.org/10.1016/j.biopsych.2009.11.021"
+        ],
+        "title": "Replication of Scopolamine's Antidepressant Efficacy in Major Depressive Disorder: A Randomized, Placebo-Controlled Clinical Trial",
+        "url": "https://doi.org/10.1016/j.biopsych.2009.11.021"
+      },
+      "replication_title": "Replication of Scopolamine's Antidepressant Efficacy in Major Depressive Disorder: A Randomized, Placebo-Controlled Clinical Trial",
+      "screening_status": "api_relation_screened",
+      "source_object_urls": [
+        "https://doi.org/10.1016/j.biopsych.2009.11.021"
+      ],
+      "source_objects_to_mirror_first": [
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://doi.org/10.1016/j.biopsych.2009.11.021",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        }
+      ],
+      "surfaces": [
+        "crossref"
+      ],
+      "value_availability": {
+        "conversion_route": "unknown_until_full_text",
+        "effect_metric": "unknown",
+        "has_original_effect": "unclear",
+        "has_original_n": "unclear",
+        "has_replication_or_followup_effect": "unclear",
+        "has_replication_or_followup_n": "unclear",
+        "replication_n_larger_than_original_n": "unclear"
+      },
+      "value_score": 0
+    },
+    {
+      "blockers": [
+        "resolve_original_target",
+        "fetch_full_text_or_source_object",
+        "extract_effect_and_n"
+      ],
+      "candidate_id": "api_candidate_6000aff0af587ba7",
+      "candidate_name": "unresolved original target -> Association between glucagon-like peptide-1 receptor agonists and risk of dementia in older adults with type 2 diabetes: A target trial emulation.",
+      "candidate_route": "coverage_only",
+      "candidate_unit_key": "candidate_unit_538dca2c256c3135",
+      "confidence": "low",
+      "dedupe_risk": "medium",
+      "domain": "metadata_api_search",
+      "original_doi": "",
+      "original_title": "",
+      "query_ids": [
+        "07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0069"
+      ],
+      "raw_record_paths": [
+        "steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0069_europepmc.json"
+      ],
+      "recommended_next_action": "resolve_original_target_or_fetch_full_text",
+      "relation_evidence_strength": 4,
+      "relation_evidence_type": "abstract_independent_validation",
+      "relation_score": 4,
+      "relationship_evidence": {
+        "relation_score": 4,
+        "replication_kind": "metadata_relation_candidate",
+        "value_score": 0,
+        "verbatim_or_paraphrased_basis": "ting a target trial using electronic health records from the University of Pennsylvania Health System (2019-2024), with external validation in the TriNetX U.S. Collaborative Network. Adults aged \u226550 with T2D, no prior dementia, and no GLP-1 RA, DPP4i, or SGLT2i use in the previous year were eligible. New GLP-1 RA users were propensity-score matched (1:1) to",
+        "where_seen": "abstract_independent_validation"
+      },
+      "replication_doi": "10.1111/dom.70384",
+      "replication_or_followup": {
+        "authors_year": "Zhou T; Tang H; Zhang B; Zhang D; Lu Y; Li L; Chen J; Chen Y; Asch DA; Chen Y. (2026)",
+        "doi": "10.1111/dom.70384",
+        "effect_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "n_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "source_object_urls": [
+          "https://doi.org/10.1111/dom.70384",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12890729/",
+          "https://pubmed.ncbi.nlm.nih.gov/41424236/"
+        ],
+        "title": "Association between glucagon-like peptide-1 receptor agonists and risk of dementia in older adults with type 2 diabetes: A target trial emulation.",
+        "url": "https://doi.org/10.1111/dom.70384"
+      },
+      "replication_title": "Association between glucagon-like peptide-1 receptor agonists and risk of dementia in older adults with type 2 diabetes: A target trial emulation.",
+      "screening_status": "api_relation_screened",
+      "source_object_urls": [
+        "https://doi.org/10.1111/dom.70384",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12890729/",
+        "https://pubmed.ncbi.nlm.nih.gov/41424236/"
+      ],
+      "source_objects_to_mirror_first": [
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://doi.org/10.1111/dom.70384",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12890729/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41424236/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        }
+      ],
+      "surfaces": [
+        "europepmc"
+      ],
+      "value_availability": {
+        "conversion_route": "unknown_until_full_text",
+        "effect_metric": "unknown",
+        "has_original_effect": "unclear",
+        "has_original_n": "unclear",
+        "has_replication_or_followup_effect": "unclear",
+        "has_replication_or_followup_n": "unclear",
+        "replication_n_larger_than_original_n": "unclear"
+      },
+      "value_score": 0
+    },
+    {
+      "blockers": [
+        "resolve_original_target",
+        "fetch_full_text_or_source_object",
+        "extract_effect_and_n"
+      ],
+      "candidate_id": "api_candidate_38a533cdcb5c6bd0",
+      "candidate_name": "unresolved original target -> Unsupervised Machine Learning Reveals Novel Traumatic Brain Injury Patient Phenotypes with Distinct Acute Injury Profiles and Long-Term Outcomes.",
+      "candidate_route": "coverage_only",
+      "candidate_unit_key": "candidate_unit_87402f00aaddd6bb",
+      "confidence": "low",
+      "dedupe_risk": "medium",
+      "domain": "metadata_api_search",
+      "original_doi": "",
+      "original_title": "",
+      "query_ids": [
+        "07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0070"
+      ],
+      "raw_record_paths": [
+        "steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0070_europepmc.json"
+      ],
+      "recommended_next_action": "resolve_original_target_or_fetch_full_text",
+      "relation_evidence_strength": 4,
+      "relation_evidence_type": "abstract_independent_validation",
+      "relation_score": 4,
+      "relationship_evidence": {
+        "relation_score": 4,
+        "replication_kind": "metadata_relation_candidate",
+        "value_score": 1,
+        "verbatim_or_paraphrased_basis": "nces in baseline clinical feature profiles or long-term outcomes were observed. To test phenotype reproducibility in an external validation data set, we used a K-nearest neighbors algorithm to classify subjects in the Transforming Research and Clinical Knowledge in Traumatic Brain Injury (TRACK-TBI) Pilot data set into corresponding phenotypes, then measure",
+        "where_seen": "abstract_independent_validation"
+      },
+      "replication_doi": "10.1089/neu.2019.6705",
+      "replication_or_followup": {
+        "authors_year": "Folweiler KA; Sandsmark DK; Diaz-Arrastia R; Cohen AS; Masino AJ. (2020)",
+        "doi": "10.1089/neu.2019.6705",
+        "effect_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "n_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "source_object_urls": [
+          "https://doi.org/10.1089/neu.2019.6705",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7249479/",
+          "https://pubmed.ncbi.nlm.nih.gov/32008422/"
+        ],
+        "title": "Unsupervised Machine Learning Reveals Novel Traumatic Brain Injury Patient Phenotypes with Distinct Acute Injury Profiles and Long-Term Outcomes.",
+        "url": "https://doi.org/10.1089/neu.2019.6705"
+      },
+      "replication_title": "Unsupervised Machine Learning Reveals Novel Traumatic Brain Injury Patient Phenotypes with Distinct Acute Injury Profiles and Long-Term Outcomes.",
+      "screening_status": "api_relation_screened",
+      "source_object_urls": [
+        "https://doi.org/10.1089/neu.2019.6705",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7249479/",
+        "https://pubmed.ncbi.nlm.nih.gov/32008422/"
+      ],
+      "source_objects_to_mirror_first": [
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://doi.org/10.1089/neu.2019.6705",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7249479/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32008422/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        }
+      ],
+      "surfaces": [
+        "europepmc"
+      ],
+      "value_availability": {
+        "conversion_route": "unknown_until_full_text",
+        "effect_metric": "unknown",
+        "has_original_effect": "unclear",
+        "has_original_n": "unclear",
+        "has_replication_or_followup_effect": "unclear",
+        "has_replication_or_followup_n": "unclear",
+        "replication_n_larger_than_original_n": "unclear"
+      },
+      "value_score": 1
+    },
+    {
+      "blockers": [
+        "resolve_original_target",
+        "fetch_full_text_or_source_object",
+        "extract_effect_and_n"
+      ],
+      "candidate_id": "api_candidate_804fc8b002ac898b",
+      "candidate_name": "unresolved original target -> Vaccines for preventing infection with Pseudomonas aeruginosa in cystic fibrosis.",
+      "candidate_route": "coverage_only",
+      "candidate_unit_key": "candidate_unit_142a202f23f22f35",
+      "confidence": "low",
+      "dedupe_risk": "medium",
+      "domain": "metadata_api_search",
+      "original_doi": "",
+      "original_title": "",
+      "query_ids": [
+        "07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0071"
+      ],
+      "raw_record_paths": [
+        "steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0071_europepmc.json"
+      ],
+      "recommended_next_action": "resolve_original_target_or_fetch_full_text",
+      "relation_evidence_strength": 4,
+      "relation_evidence_type": "clinical_confirmatory_trial",
+      "relation_score": 4,
+      "relationship_evidence": {
+        "relation_score": 4,
+        "replication_kind": "metadata_relation_candidate",
+        "value_score": 2,
+        "verbatim_or_paraphrased_basis": "ely. No data have been published from one of the large trials, but the company stated in a press release that the trial failed to confirm the results from an earlier study and that further clinical development was suspended. In the other large trial, relative risk for chronic infection was 0.91 (95% confidence interval 0.55 to 1.49), and in the small tria",
+        "where_seen": "clinical_confirmatory_trial"
+      },
+      "replication_doi": "10.1002/14651858.cd001399.pub4",
+      "replication_or_followup": {
+        "authors_year": "Johansen HK; G\u00f8tzsche PC. (2015)",
+        "doi": "10.1002/14651858.cd001399.pub4",
+        "effect_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "n_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "source_object_urls": [
+          "https://doi.org/10.1002/14651858.cd001399.pub4",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7055511/",
+          "https://pubmed.ncbi.nlm.nih.gov/26298311/"
+        ],
+        "title": "Vaccines for preventing infection with Pseudomonas aeruginosa in cystic fibrosis.",
+        "url": "https://doi.org/10.1002/14651858.cd001399.pub4"
+      },
+      "replication_title": "Vaccines for preventing infection with Pseudomonas aeruginosa in cystic fibrosis.",
+      "screening_status": "api_relation_screened",
+      "source_object_urls": [
+        "https://doi.org/10.1002/14651858.cd001399.pub4",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7055511/",
+        "https://pubmed.ncbi.nlm.nih.gov/26298311/"
+      ],
+      "source_objects_to_mirror_first": [
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://doi.org/10.1002/14651858.cd001399.pub4",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7055511/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26298311/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        }
+      ],
+      "surfaces": [
+        "europepmc"
+      ],
+      "value_availability": {
+        "conversion_route": "unknown_until_full_text",
+        "effect_metric": "unknown",
+        "has_original_effect": "unclear",
+        "has_original_n": "unclear",
+        "has_replication_or_followup_effect": "unclear",
+        "has_replication_or_followup_n": "unclear",
+        "replication_n_larger_than_original_n": "unclear"
+      },
+      "value_score": 2
+    },
+    {
+      "blockers": [
+        "resolve_original_target",
+        "fetch_full_text_or_source_object",
+        "extract_effect_and_n"
+      ],
+      "candidate_id": "api_candidate_62872a0730bff4c1",
+      "candidate_name": "unresolved original target -> Thoracic epidural analgesia in intensive care unit patients with acute pancreatitis: the EPIPAN multicenter randomized controlled trial.",
+      "candidate_route": "coverage_only",
+      "candidate_unit_key": "candidate_unit_7f53e6e01b828dbe",
+      "confidence": "low",
+      "dedupe_risk": "medium",
+      "domain": "metadata_api_search",
+      "original_doi": "",
+      "original_title": "",
+      "query_ids": [
+        "07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0072"
+      ],
+      "raw_record_paths": [
+        "steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0072_europepmc.json"
+      ],
+      "recommended_next_action": "resolve_original_target_or_fetch_full_text",
+      "relation_evidence_strength": 4,
+      "relation_evidence_type": "clinical_confirmatory_trial",
+      "relation_score": 4,
+      "relationship_evidence": {
+        "relation_score": 4,
+        "replication_kind": "metadata_relation_candidate",
+        "value_score": 1,
+        "verbatim_or_paraphrased_basis": "h4>In a population of intensive care unit adults with acute pancreatitis and low requirement for intubation, this first multicenter randomized trial did not show the hypothesized benefit of epidural analgesia in addition to usual care. Safety of epidural analgesia in this setting requires further investigation.<h4>Trial registration</h4>ClinicalTrials.gov registrati",
+        "where_seen": "clinical_confirmatory_trial"
+      },
+      "replication_doi": "10.1186/s13054-023-04502-w",
+      "replication_or_followup": {
+        "authors_year": "Jabaudon M; Genevrier A; Jaber S; Windisch O; Bulyez S; Laterre PF; Escudier E; Sossou A; Guerci P; Bertrand PM; Danin PE; Bonnassieux M; B\u00fchler L; Heidegger CP; Chabanne R; Godet T; Roszyk L; Sapin V; Futier E; Pereira B; Constantin JM; EPIPAN study group. (2023)",
+        "doi": "10.1186/s13054-023-04502-w",
+        "effect_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "n_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "source_object_urls": [
+          "https://doi.org/10.1186/s13054-023-04502-w",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10230742/",
+          "https://pubmed.ncbi.nlm.nih.gov/37259157/"
+        ],
+        "title": "Thoracic epidural analgesia in intensive care unit patients with acute pancreatitis: the EPIPAN multicenter randomized controlled trial.",
+        "url": "https://doi.org/10.1186/s13054-023-04502-w"
+      },
+      "replication_title": "Thoracic epidural analgesia in intensive care unit patients with acute pancreatitis: the EPIPAN multicenter randomized controlled trial.",
+      "screening_status": "api_relation_screened",
+      "source_object_urls": [
+        "https://doi.org/10.1186/s13054-023-04502-w",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10230742/",
+        "https://pubmed.ncbi.nlm.nih.gov/37259157/"
+      ],
+      "source_objects_to_mirror_first": [
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://doi.org/10.1186/s13054-023-04502-w",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10230742/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37259157/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        }
+      ],
+      "surfaces": [
+        "europepmc"
+      ],
+      "value_availability": {
+        "conversion_route": "unknown_until_full_text",
+        "effect_metric": "unknown",
+        "has_original_effect": "unclear",
+        "has_original_n": "unclear",
+        "has_replication_or_followup_effect": "unclear",
+        "has_replication_or_followup_n": "unclear",
+        "replication_n_larger_than_original_n": "unclear"
+      },
+      "value_score": 1
+    },
+    {
+      "blockers": [
+        "resolve_original_target",
+        "fetch_full_text_or_source_object",
+        "extract_effect_and_n"
+      ],
+      "candidate_id": "api_candidate_856c767fbc3f6dfe",
+      "candidate_name": "unresolved original target -> Endogenous antioxidants predicted outcome and increased after treatment: A benzoate dose-finding, randomized, double-blind, placebo-controlled trial for Alzheimer's disease.",
+      "candidate_route": "coverage_only",
+      "candidate_unit_key": "candidate_unit_2fab81678e23dacd",
+      "confidence": "low",
+      "dedupe_risk": "medium",
+      "domain": "metadata_api_search",
+      "original_doi": "",
+      "original_title": "",
+      "query_ids": [
+        "07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0073"
+      ],
+      "raw_record_paths": [
+        "steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0073_europepmc.json"
+      ],
+      "recommended_next_action": "resolve_original_target_or_fetch_full_text",
+      "relation_evidence_strength": 4,
+      "relation_evidence_type": "clinical_confirmatory_trial",
+      "relation_score": 4,
+      "relationship_evidence": {
+        "relation_score": 4,
+        "replication_kind": "metadata_relation_candidate",
+        "value_score": 1,
+        "verbatim_or_paraphrased_basis": "ncer for patients with Alzheimer's disease (AD), schizophrenia, or late-life depression. Especially for AD treatment, a confirmatory trial with predictive biomarkers is urgently needed. This study aimed to confirm benzoate as a novel treatment for AD and to discover its optimal dose and biomarkers.<h4>Methods</h4>A 24-week, dose-finding, randomized, double",
+        "where_seen": "clinical_confirmatory_trial"
+      },
+      "replication_doi": "10.1111/pcn.13504",
+      "replication_or_followup": {
+        "authors_year": "Lane HY; Wang SH; Lin CH. (2023)",
+        "doi": "10.1111/pcn.13504",
+        "effect_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "n_text_or_table_hint": "metadata search hit; fetch full text/source object before value extraction",
+        "source_object_urls": [
+          "https://doi.org/10.1111/pcn.13504",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10099492/",
+          "https://pubmed.ncbi.nlm.nih.gov/36335573/"
+        ],
+        "title": "Endogenous antioxidants predicted outcome and increased after treatment: A benzoate dose-finding, randomized, double-blind, placebo-controlled trial for Alzheimer's disease.",
+        "url": "https://doi.org/10.1111/pcn.13504"
+      },
+      "replication_title": "Endogenous antioxidants predicted outcome and increased after treatment: A benzoate dose-finding, randomized, double-blind, placebo-controlled trial for Alzheimer's disease.",
+      "screening_status": "api_relation_screened",
+      "source_object_urls": [
+        "https://doi.org/10.1111/pcn.13504",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10099492/",
+        "https://pubmed.ncbi.nlm.nih.gov/36335573/"
+      ],
+      "source_objects_to_mirror_first": [
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://doi.org/10.1111/pcn.13504",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10099492/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        },
+        {
+          "object_type": "metadata_or_article_landing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36335573/",
+          "why_needed": "Resolve full text, original target, and value-bearing source objects."
+        }
+      ],
+      "surfaces": [
+        "europepmc"
+      ],
+      "value_availability": {
+        "conversion_route": "unknown_until_full_text",
+        "effect_metric": "unknown",
+        "has_original_effect": "unclear",
+        "has_original_n": "unclear",
+        "has_replication_or_followup_effect": "unclear",
+        "has_replication_or_followup_n": "unclear",
+        "replication_n_larger_than_original_n": "unclear"
+      },
+      "value_score": 1
+    }
+  ],
+  "generated_at": "2026-05-09T00:14:26.659372+00:00",
+  "high_confidence_rejections": [],
+  "recall_probe_results_path": "steps/searches/figure1/individualrepsearch-recall-probe-results-batch009.tsv",
+  "run_id": "2026-05-05_individual_replication_vast_search_batch009",
+  "searches_run": [
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0063__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0063_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22single-center%22+%22multicenter%22+%22failed+to+confirm%22+%22randomized+trial%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"single-center\" \"multicenter\" \"failed to confirm\" \"randomized trial\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0063__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0063_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22single-center%22+%22multicenter%22+%22failed+to+confirm%22+%22randomized+trial%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"single-center\" \"multicenter\" \"failed to confirm\" \"randomized trial\"",
+      "source": "europepmc",
+      "useful_hits": 1
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0064__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0064_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22landmark+trial%22+%22subsequent+trial%22+%22no+benefit%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"landmark trial\" \"subsequent trial\" \"no benefit\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0064__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0064_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22landmark+trial%22+%22subsequent+trial%22+%22no+benefit%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"landmark trial\" \"subsequent trial\" \"no benefit\"",
+      "source": "europepmc",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0065__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0065_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22pilot+trial%22+%22definitive+trial%22+%22same+outcome%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"pilot trial\" \"definitive trial\" \"same outcome\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0065__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0065_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22pilot+trial%22+%22definitive+trial%22+%22same+outcome%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"pilot trial\" \"definitive trial\" \"same outcome\"",
+      "source": "europepmc",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0066__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0066_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22phase+II%22+%22phase+III%22+%22failed+to+confirm%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"phase II\" \"phase III\" \"failed to confirm\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0066__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0066_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22phase+II%22+%22phase+III%22+%22failed+to+confirm%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"phase II\" \"phase III\" \"failed to confirm\"",
+      "source": "europepmc",
+      "useful_hits": 1
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0067__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0067_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22trial+reversal%22+%22original+trial%22+%22mortality%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"trial reversal\" \"original trial\" \"mortality\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0067__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0067_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22trial+reversal%22+%22original+trial%22+%22mortality%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"trial reversal\" \"original trial\" \"mortality\"",
+      "source": "europepmc",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0068__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0068_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22larger+trial%22+%22no+benefit%22+%22mortality%22+%22original%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"larger trial\" \"no benefit\" \"mortality\" \"original\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0068__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0068_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22larger+trial%22+%22no+benefit%22+%22mortality%22+%22original%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"larger trial\" \"no benefit\" \"mortality\" \"original\"",
+      "source": "europepmc",
+      "useful_hits": 1
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0069__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0069_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22randomized+trial%22+%22replication%22+%22event+counts%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"randomized trial\" \"replication\" \"event counts\"",
+      "source": "crossref",
+      "useful_hits": 1
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0069__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0069_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22randomized+trial%22+%22replication%22+%22event+counts%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"randomized trial\" \"replication\" \"event counts\"",
+      "source": "europepmc",
+      "useful_hits": 1
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0070__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0070_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22external+validation%22+%22original+trial%22+%22odds+ratio%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"external validation\" \"original trial\" \"odds ratio\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0070__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0070_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22external+validation%22+%22original+trial%22+%22odds+ratio%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"external validation\" \"original trial\" \"odds ratio\"",
+      "source": "europepmc",
+      "useful_hits": 1
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0071__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0071_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22failed+to+confirm%22+%22earlier+trial%22+%22mortality%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"failed to confirm\" \"earlier trial\" \"mortality\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0071__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0071_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22failed+to+confirm%22+%22earlier+trial%22+%22mortality%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"failed to confirm\" \"earlier trial\" \"mortality\"",
+      "source": "europepmc",
+      "useful_hits": 1
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0072__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0072_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22did+not+confirm%22+%22single-center%22+%22multicenter+randomized+trial%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"did not confirm\" \"single-center\" \"multicenter randomized trial\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0072__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0072_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22did+not+confirm%22+%22single-center%22+%22multicenter+randomized+trial%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"did not confirm\" \"single-center\" \"multicenter randomized trial\"",
+      "source": "europepmc",
+      "useful_hits": 1
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0073__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0073_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22confirmatory+trial%22+%22previous+trial%22+%22primary+outcome%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"confirmatory trial\" \"previous trial\" \"primary outcome\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0073__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0073_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22confirmatory+trial%22+%22previous+trial%22+%22primary+outcome%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"confirmatory trial\" \"previous trial\" \"primary outcome\"",
+      "source": "europepmc",
+      "useful_hits": 1
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0074__crossref; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/crossref/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0074_crossref.json; status=200; final_url=https://api.crossref.org/works?query.bibliographic=%22large+international+randomized+trial%22+%22failed+to+confirm%22&filter=type%3Ajournal-article%2Cfrom-pub-date%3A1990-01-01&rows=12&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Cabstract%2CURL%2Ctype&mailto=rexdouglass%40gmail.com",
+      "query_or_route": "\"large international randomized trial\" \"failed to confirm\"",
+      "source": "crossref",
+      "useful_hits": 0
+    },
+    {
+      "notes": "query_id=07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0074__europepmc; raw=steps/searches/figure1/individualrepsearch_api_batch009/raw/europepmc/07_clinical_d_equivalent_followup_pubmed_pmc_clinicaltrials_gov_crossref_0074_europepmc.json; status=200; final_url=https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22large+international+randomized+trial%22+%22failed+to+confirm%22%29+AND+FIRST_PDATE%3A%5B1990-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=core",
+      "query_or_route": "\"large international randomized trial\" \"failed to confirm\"",
+      "source": "europepmc",
+      "useful_hits": 0
+    }
+  ],
+  "strategy_id": "figure1_individual_replication_paper_level_search",
+  "task_id": "individual_replication_api_search_batch009"
+}
