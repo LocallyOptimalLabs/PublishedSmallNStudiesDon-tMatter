@@ -1,0 +1,125 @@
+{
+  "response": {
+    "docs": [
+      {
+        "abstract": [
+          "\nGenetic association studies of many heritable traits resulting from physiological testing often have modest sample sizes due to the cost and burden of the required phenotyping. This reduces statistical power and limits discovery of multiple genetic associations. We present a strategy to leverage pleiotropy between traits to both discover new loci and to provide mechanistic hypotheses of the underlying pathophysiology. Specifically, we combine a colocalization test with a locus-level test of pleiotropy. In simulations, we show that this approach is highly selective for identifying true pleiotropy driven by the same causative variant, thereby improves the chance to replicate the associations in underpowered validation cohorts and leads to higher interpretability. Here, as an exemplar, we use Obstructive Sleep Apnea (OSA), a common disorder diagnosed using overnight multi-channel physiological testing. We leverage pleiotropy with relevant cellular and cardio-metabolic phenotypes and gene expression traits to map new risk loci in an underpowered OSA GWAS. We identify several pleiotropic loci harboring suggestive associations to OSA and genome-wide significant associations to other traits, and show that their OSA association replicates in independent cohorts of diverse ancestries. By investigating pleiotropic loci, our strategy allows proposing new hypotheses about OSA pathobiology across many physiological layers. For example, we identify and replicate the pleiotropy across the plateletcrit, OSA and an eQTL of DNA primase subunit 1 (PRIM1) in immune cells. We find suggestive links between OSA, a measure of lung function (FEV1/FVC), and an eQTL of matrix metallopeptidase 15 (MMP15) in lung tissue. We also link a previously known genome-wide significant peak for OSA in the hexokinase 1 (HK1) locus to hematocrit and other red blood cell related traits. Thus, the analysis of pleiotropic associations has the potential to assemble diverse phenotypes into a chain of mechanistic hypotheses that provide insight into the pathogenesis of complex human diseases.\nAuthor summary: Large genetic studies with hundreds of thousands of patients have been successful at finding genetic variants that associate with disease traits in humans. However, smaller-scale studies can often have inadequate power to discover new genetic associations. Here, we use a small genetic study of Obstructive Sleep Apnea (OSA), to introduce a strategy that both helps find genetic associations and proposes biological hypotheses for the mechanisms behind those associations. To achieve this, we use large genetic studies carried out on traits that are related to OSA, and look for genetic variants that affect both OSA in our small study and the trait in question in the large study. By linking two or more traits at select loci, we were able to, among other results, find a locus that affects the expression of a gene in immune cells (DNA primase subunit 1), a marker of thrombotic and inflammatory processes (plateletcrit) and OSA. This results in a novel genetic association to OSA and a corresponding biological hypothesis behind its effect on OSA. "
+        ],
+        "author_display": [
+          "Sung Chun",
+          "Sebastian Akle",
+          "Athanasios Teodosiadis",
+          "Brian E. Cade",
+          "Heming Wang",
+          "Tamar Sofer",
+          "Daniel S. Evans",
+          "Katie L. Stone",
+          "Sina A. Gharib",
+          "Sutapa Mukherjee",
+          "Lyle J. Palmer",
+          "David Hillman",
+          "Jerome I. Rotter",
+          "Craig L. Hanis",
+          "John A. Stamatoyannopoulos",
+          "Susan Redline",
+          "Chris Cotsapas",
+          "Shamil R. Sunyaev"
+        ],
+        "id": "10.1371/journal.pgen.1010557",
+        "journal": "PLOS Genetics",
+        "publication_date": "2022-12-27T00:00:00Z",
+        "title": "Leveraging pleiotropy to discover and interpret GWAS results for sleep-associated traits"
+      },
+      {
+        "abstract": [
+          "\nThe olfactory system combines input from multiple receptor types to represent odor information, but there are few explicit examples relating olfactory receptor (OR) activity patterns to odor perception. To uncover these relationships, we performed genome-wide scans on odor-perception phenotypes for ten odors in 1000 Han Chinese and validated results for six of these odors in an ethnically diverse population (n = 364). In both populations, consistent with previous studies, we replicated three previously reported associations (\u03b2-ionone/OR5A1, androstenone/OR7D4, cis-3-hexen-1-ol/OR2J3 LD-band), but not for odors containing aldehydes, suggesting that olfactory phenotype/genotype studies are robust across populations. Two novel associations between an OR and odor perception contribute to our understanding of olfactory coding. First, we found a SNP in OR51B2 that associated with trans-3-methyl-2-hexenoic acid, a key component of human underarm odor. Second, we found two linked SNPs associated with the musk Galaxolide in a novel musk receptor, OR4D6, which is also the first human OR shown to drive specific anosmia to a musk compound. We noticed that SNPs detected for odor intensity were enriched with amino acid substitutions, implying functional changes of odor receptors. Furthermore, we also found that the derived alleles of the SNPs tend to be associated with reduced odor intensity, supporting the hypothesis that the primate olfactory gene repertoire has degenerated over time. This study provides information about coding for human body odor, and gives us insight into broader mechanisms of olfactory coding, such as how differential OR activation can converge on a similar percept.\nAuthor summary: Although genetic diversity in the olfactory receptor repertoire contributes to variation in odor perception, we have few explicit predictions relating variation in a specific OR to perception. Here, we performed genome-wide scans on odor-perception phenotypes for ten odors in 1000 Han Chinese and validated results for six of these odors in an ethnically diverse population (n = 364). We identified novel receptors for musk and human body odor that have implications for how structurally different molecules can have similar odors. Summarizing all the published genetic variation that associates with odor perception, we found that individuals with ancestral versions of the receptors tend to rate the corresponding odor as more intense, supporting the hypothesis that the primate olfactory gene repertoire has degenerated over time. This study of olfactory genetic and perceptual variation will improve our understanding of how the olfactory system encodes odor properties. "
+        ],
+        "author_display": [
+          "Bingjie Li",
+          "Marissa L. Kamarck",
+          "Qianqian Peng",
+          "Fei-Ling Lim",
+          "Andreas Keller",
+          "Monique A. M. Smeets",
+          "Joel D. Mainland",
+          "Sijia Wang"
+        ],
+        "id": "10.1371/journal.pgen.1009564",
+        "journal": "PLOS Genetics",
+        "publication_date": "2022-02-03T00:00:00Z",
+        "title": "From musk to body odor: Decoding olfaction through genetic variation"
+      },
+      {
+        "abstract": [
+          "Background: MicroRNAs (miRNAs) are a class of small regulatory RNAs around 21\u201325 nucleotides in length which govern many aspects of immunity including the host innate and adaptive responses to infection. RT-qPCR studies of select microRNAs show that vaccination alters the expression circulating microRNAs but the effect of vaccination on the global microRNA population (i.e. micronome) has never been studied. Aim: To describe vaccine associated changes in the expression of microRNAs 21 days after vaccination in children receiving a pandemic influenza (H1N1) vaccination. Method: Serum samples were obtained from children aged 6 months to 12 years enrolled in an open label randomised control trial of two pandemic influenza (H1N1) vaccines, in which participants received either ASO3B adjuvanted split virion or a whole virion non-adjuvanted vaccine. MicroRNA expression was profiled in a discovery cohort of participants prior to, and 21 days after vaccination using an Agilent microarray platform. Findings were followed up by RT-qPCR in the original discovery cohort and then in a validation cohort of participants taken from the same study. Results: 44 samples from 22 children were assayed in a discovery cohort. The microarray results revealed 19 microRNAs were differentially expressed after vaccination after adjustment for multiple testing. The microarray detected ubiquitous expression of several microRNAs which could not be validated by RT-qPCR, many of which have little evidence of existence in publicly available RNA sequencing data. Real time PCR (RT-qPCR) confirmed downregulation of miR-142-3p in the discovery cohort. These findings were not replicated in the subsequent validation cohort (n = 22). Conclusion: This study is the first study to profile microRNA expression after vaccination. An important feature of this study is many of the differentially expressed microRNAs could not be detected and validated by RT-qPCR. This study highlights the care that should be taken when interpreting omics biomarker discovery, highlighting the need for supplementary methods to validate microRNA microarray findings, and emphasises the importance of validation cohorts. Data from similar studies which do not meet these requirements should be interpreted with caution. "
+        ],
+        "author_display": [
+          "Ruth Elizabeth Drury",
+          "Andrew John Pollard",
+          "Daniel O\u2019Connor"
+        ],
+        "id": "10.1371/journal.pone.0221143",
+        "journal": "PLOS ONE",
+        "publication_date": "2019-08-20T00:00:00Z",
+        "title": "The effect of H1N1 vaccination on serum miRNA expression in children: A tale of caution for microRNA microarray studies"
+      },
+      {
+        "abstract": [
+          "\nMood disorders consist of two etiologically related, but distinctly treated illnesses, major depressive disorder (MDD) and bipolar disorder (BPD). These disorders share similarities in their clinical presentation, and thus show high rates of misdiagnosis. Recent research has revealed significant transcriptional differences within the inflammatory cytokine pathway between MDD patients and controls, and between BPD patients and controls, suggesting this pathway may possess important biomarker properties. This exploratory study attempts to identify disorder-specific transcriptional biomarkers within the inflammatory cytokine pathway, which can distinguish between control subjects, MDD patients and BPD patients. This is achieved using RNA extracted from subject blood and applying synthesized complementary DNA to quantitative PCR arrays containing primers for 87 inflammation-related genes. Initially, we use ANOVA to test for transcriptional differences in a \u2018discovery cohort\u2019 (total n\u200a=\u200a90) and then we use t-tests to assess the reliability of any identified transcriptional differences in a \u2018validation cohort\u2019 (total n\u200a=\u200a35). The two most robust and reliable biomarkers identified across both the discovery and validation cohort were Chemokine (C-C motif) ligand 24 (CCL24) which was consistently transcribed higher amongst MDD patients relative to controls and BPD patients, and C-C chemokine receptor type 6 (CCR6) which was consistently more lowly transcribed amongst MDD patients relative to controls. Results detailed here provide preliminary evidence that transcriptional measures within inflammation-related genes might be useful in aiding clinical diagnostic decision-making processes. Future research should aim to replicate findings detailed in this exploratory study in a larger medication-free sample and examine whether identified biomarkers could be used prospectively to aid clinical diagnosis.\n"
+        ],
+        "author_display": [
+          "Timothy R. Powell",
+          "Peter McGuffin",
+          "Ursula M. D'Souza",
+          "Sarah Cohen-Woods",
+          "Georgina M. Hosang",
+          "Charlotte Martin",
+          "Keith Matthews",
+          "Richard K. Day",
+          "Anne E. Farmer",
+          "Katherine E. Tansey",
+          "Leonard C. Schalkwyk"
+        ],
+        "id": "10.1371/journal.pone.0091076",
+        "journal": "PLoS ONE",
+        "publication_date": "2014-03-11T00:00:00Z",
+        "title": "Putative Transcriptomic Biomarkers in the Inflammatory Cytokine Pathway Differentiate Major Depressive Disorder Patients from Control Subjects and Bipolar Disorder Patients"
+      },
+      {
+        "abstract": [
+          "\nWe tested for germline variants showing association to colon cancer metastasis using a genome-wide association study that compared Ashkenazi Jewish individuals with stage IV metastatic colon cancers versus those with stage I or II non-metastatic colon cancers. In a two-stage study design, we demonstrated significant association to developing metastatic disease for rs60745952, that in Ashkenazi discovery and validation cohorts, respectively, showed an odds ratio (OR) = 2.3 (P = 2.73E-06) and OR = 1.89 (P = 8.05E-04) (exceeding validation threshold of 0.0044). Significant association to metastatic colon cancer was further confirmed by a meta-analysis of rs60745952 in these datasets plus an additional Ashkenazi validation cohort (OR = 1.92; 95% CI: 1.28\u20132.87), and by a permutation test that demonstrated a significantly longer haplotype surrounding rs60745952 in the stage IV samples. rs60745952, located in an intergenic region on chromosome 4q31.1, and not previously associated with cancer, is, thus, a germline genetic marker for susceptibility to developing colon cancer metastases among Ashkenazi Jews.\n"
+        ],
+        "author_display": [
+          "Sanford D. Markowitz",
+          "Nora L. Nock",
+          "Stephanie L. Schmit",
+          "Zsofia K. Stadler",
+          "Vijai Joseph",
+          "Lu Zhang",
+          "Joseph E. Willis",
+          "Peter Scacheri",
+          "Martina Veigl",
+          "Mark D. Adams",
+          "Leon Raskin",
+          "John F. Sullivan",
+          "Kelly Stratton",
+          "Jinru Shia",
+          "Nathan Ellis",
+          "Hedy S. Rennert",
+          "Christopher Manschreck",
+          "Li Li",
+          "Kenneth Offit",
+          "Robert C. Elston",
+          "Gadi Rennert",
+          "Stephen B. Gruber"
+        ],
+        "id": "10.1371/journal.pone.0146435",
+        "journal": "PLOS ONE",
+        "publication_date": "2016-01-11T00:00:00Z",
+        "title": "A Germline Variant on Chromosome 4q31.1 Associates with Susceptibility to Developing Colon Cancer Metastasis"
+      }
+    ],
+    "numFound": 288,
+    "start": 0
+  }
+}

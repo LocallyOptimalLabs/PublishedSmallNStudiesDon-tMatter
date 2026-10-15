@@ -1,0 +1,1195 @@
+{
+  "hitCount": 251,
+  "nextCursorMark": "AoIIQG/0jSg1MzY0OTc0OA==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(\"we replicated\" \"original\" \"Cohen's d\" \"participants\") AND FIRST_PDATE:[1990-01-01 TO 2026-12-31]&cursorMark=AoIIQG/0jSg1MzY0OTc0OA==&resultType=core&pageSize=5&format=json",
+  "request": {
+    "cursorMark": "*",
+    "pageSize": 5,
+    "queryString": "(\"we replicated\" \"original\" \"Cohen's d\" \"participants\") AND FIRST_PDATE:[1990-01-01 TO 2026-12-31]",
+    "resultType": "core",
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "abstractText": "The low prevalence effect, which posits that people are more likely to miss a present target when its prevalence rate is low, has important implications for real-world scenarios such as cancer screening and bomb detection. This effect has primarily been studied under full visibility; however, real-world scenarios often come with incomplete visibility. Occlusion and poor visibility introduce perceptual uncertainty, potentially altering how people decide whether a target is present. Here, we applied Bayesian decision theory to a visual search paradigm with partial occlusion, examining how target prevalence (prior) and the degree of occlusion (likelihood information) affect search decisions. Participants made target present/absent responses to target/distractor stimuli. In Experiment 1, all items were invisible, forcing participants to rely on trial feedback to learn the target's prevalence. Experiment 2 also provided trial feedback, but allowed either a small or large portion of the display to be visible. Target prevalence varied between blocks (high, 50%; low, 25%). Results showed that, when items were entirely hidden, participants learned to probability match the target's prevalence. However, when some items were visible, participants rarely responded present when the target was in the occluded region. Comparing the data with models (e.g., probability matching, Bayesian maximizing) revealed mixed strategies. This study introduces a novel method for investigating visual search under occlusion and suggests that, although people integrate prevalence and sensory input, their decisions are not fully Bayesian.",
+        "affiliation": "Department of Psychology, University of Minnesota, Minneapolis, MN, USA.",
+        "authMan": "N",
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology, University of Minnesota, Minneapolis, MN, USA."
+                  },
+                  {
+                    "affiliation": "mathimano@hotmail.com."
+                  },
+                  {
+                    "affiliation": "https://orcid.org/0000-0003-0964-7591."
+                  }
+                ]
+              },
+              "firstName": "Mathi",
+              "fullName": "Manavalan M",
+              "initials": "M",
+              "lastName": "Manavalan"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology, University of Minnesota, Minneapolis, MN, USA."
+                  },
+                  {
+                    "affiliation": "jiang166@umn.edu."
+                  }
+                ]
+              },
+              "firstName": "Vanessa G",
+              "fullName": "Lee VG",
+              "initials": "VG",
+              "lastName": "Lee"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology, University of Minnesota, Minneapolis, MN, USA."
+                  },
+                  {
+                    "affiliation": "idongavi@umn.edu."
+                  },
+                  {
+                    "affiliation": "https://orcid.org/0000-0003-1500-3864."
+                  }
+                ]
+              },
+              "firstName": "Iris",
+              "fullName": "Vilares I",
+              "initials": "I",
+              "lastName": "Vilares"
+            }
+          ]
+        },
+        "authorString": "Manavalan M, Lee VG, Vilares I.",
+        "citedByCount": 0,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCompletion": "2026-02-10",
+        "dateOfCreation": "2026-02-10",
+        "dateOfRevision": "2026-04-24",
+        "doi": "10.1167/jov.26.2.4",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2026-02-10",
+        "firstPublicationDate": "2026-02-01",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12898924"
+          ]
+        },
+        "fullTextReceivedDate": "2026-02-14",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1167/jov.26.2.4"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12898924"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12898924?pdf=render"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "41665298",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2026 Feb",
+          "issue": "2",
+          "journal": {
+            "essn": "1534-7362",
+            "isoabbreviation": "J Vis",
+            "issn": "1534-7362",
+            "medlineAbbreviation": "J Vis",
+            "nlmid": "101147197",
+            "title": "Journal of vision"
+          },
+          "journalIssueId": 4112273,
+          "monthOfPublication": 2,
+          "printPublicationDate": "2026-02-01",
+          "volume": "26",
+          "yearOfPublication": 2026
+        },
+        "language": "eng",
+        "license": "cc by-nc-nd",
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "descriptorName": "Humans",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Prevalence",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Bayes Theorem",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Photic Stimulation",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Visual Perception",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Attention",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Adult",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Female",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Male",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Young Adult",
+              "majorTopic_YN": "N"
+            }
+          ]
+        },
+        "nihAuthMan": "N",
+        "pageInfo": "4",
+        "pmcid": "PMC12898924",
+        "pmid": "41665298",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2026",
+        "publicationStatus": "ppublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "The influence of visibility and prevalence rate on visual search."
+      },
+      {
+        "abstractText": "<h4>Introduction</h4>Considerable research suggests there may be three primary qualities desired in romantic/sexual partners: physical attractiveness, interpersonal warmth, and social status. However, they might not capture the full range of needs served by what people seek in their partners; one omission may be compatibility.<h4>Methods</h4>In one volunteer (<i>N</i> = 339, 26% male, Aged = 18-70 years, <i>M</i> = 30.36 years) and one Prolific (<i>N</i> = 309, 51% male, Aged = 18-79 years, <i>M</i> = 26.74 years) dataset, we assessed the relative importance of physicality (e.g., height, attractiveness), compassion (e.g., kindness, generosity), competence (e.g., social status, intelligence), and compatibility (e.g., interpersonal coordination) in mate preferences as a function of sex differences, context effects, and people's pace of life, mating strategies, and social strategies.<h4>Results</h4>We replicated several established effects like physicality was valued in men strongly in the short-term context, and that more psychopathic and narcissistic people chose physicality more often in their long-term mates. Uniquely here, compatibility was more valued in the long-term context especially for women extending more parenting effort when considering short-term relationships and men who were less psychopathic when considering short-term relationships.<h4>Discussion</h4>Importantly, our research begins to carve out a unique space for considering compatibility as a further higher-order trait worthy of consideration in mating research.",
+        "affiliation": "Psychology Research Institute, VIZJA University, Warsaw, Poland.",
+        "authMan": "N",
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Psychology Research Institute, VIZJA University, Warsaw, Poland."
+                  }
+                ]
+              },
+              "firstName": "Peter Karl",
+              "fullName": "Jonason PK",
+              "initials": "PK",
+              "lastName": "Jonason"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Sciences, Psychology, and Sport, Federation University Australia, Ballarat, VIC, Australia."
+                  }
+                ]
+              },
+              "firstName": "Evita",
+              "fullName": "March E",
+              "initials": "E",
+              "lastName": "March"
+            }
+          ]
+        },
+        "authorString": "Jonason PK, March E.",
+        "citedByCount": 0,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCompletion": "2026-02-18",
+        "dateOfCreation": "2026-02-18",
+        "dateOfRevision": "2026-02-18",
+        "doi": "10.3389/fpsyg.2026.1725609",
+        "electronicPublicationDate": "2026-02-02",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2026-02-19",
+        "firstPublicationDate": "2026-02-02",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12907189"
+          ]
+        },
+        "fullTextReceivedDate": "2026-02-17",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fpsyg.2026.1725609"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12907189"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12907189?pdf=render"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "N",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "N",
+        "id": "41704411",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2026 ",
+          "journal": {
+            "essn": "1664-1078",
+            "isoabbreviation": "Front Psychol",
+            "issn": "1664-1078",
+            "medlineAbbreviation": "Front Psychol",
+            "nlmid": "101550902",
+            "title": "Frontiers in psychology"
+          },
+          "journalIssueId": 4112159,
+          "monthOfPublication": 0,
+          "printPublicationDate": "2026-01-01",
+          "volume": "17",
+          "yearOfPublication": 2026
+        },
+        "keywordList": {
+          "keyword": [
+            "Sex differences",
+            "Life History Theory",
+            "Evolutionary Psychology",
+            "Mate Preferences",
+            "Dark Triad"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by",
+        "nihAuthMan": "N",
+        "pageInfo": "1725609",
+        "pmcid": "PMC12907189",
+        "pmid": "41704411",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2026",
+        "publicationStatus": "epublish",
+        "source": "MED",
+        "title": "Moving beyond attraction, compassion, and competence: evidence for compatibility as a distinct component of mate preferences."
+      },
+      {
+        "abstractText": "Autism Spectrum Disorder (ASD) is characterized by certain difficulties in emotion-related processing. Recent research using electroencephalography (EEG) to measure somatosensory evoked potentials during emotion perception has shown reduced embodiment of emotional expressions in autistic compared to neurotypical individuals, independently from differences in visual processing. However, the underlying neural dynamics are not clear. In this study, we use Dynamic Causal Modeling (DCM) on EEG data to investigate whether reduced embodiment during emotion processing in ASD individuals is caused by changes in intrinsic connectivity within the somatosensory cortex, or by top-down modulatory effects from higher-order frontal areas. We constructed a model involving the primary and secondary right somatosensory cortex, the right supplementary motor area and the right inferior frontal gyrus, and tested effective connectivity during emotion or gender discrimination tasks in two groups of ASD and typically developing (TD) participants (n\u2009=\u200938, male and female, 2 females). Our results reveal that task-related differences in electrocortical activity between the emotion and gender tasks are causally explained by changes in intrinsic activity within the right primary somatosensory cortex (rS1) in both TD and ASD. Importantly, these intrinsic changes in rS1 are significantly different between TD and ASD groups and individual task-related changes in rS1 significantly correlate with alexithymia traits. Our study provides novel evidence on the neural dynamics underlying difficulties in emotion processing in ASD individuals, highlighting that differential intrinsic activations of the rS1 are causally involved in such difficulties, and suggests that they are mediated by alexithymia.",
+        "affiliation": "Psychology & Neuroscience Department, School of Health and Medical Sciences, City St George's, University of London, London, UK.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1222-2762"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4669-4573"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Psychology & Neuroscience Department, School of Health and Medical Sciences, City St George's, University of London, London, UK."
+                  },
+                  {
+                    "affiliation": "Cognition in Action (CIA) Unit, PHILAB, Department of Philosophy, University of Milan, Milan, Italy."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1222-2762"
+              },
+              "firstName": "Martina",
+              "fullName": "Fanghella M",
+              "initials": "M",
+              "lastName": "Fanghella"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Psychology & Neuroscience Department, School of Health and Medical Sciences, City St George's, University of London, London, UK."
+                  },
+                  {
+                    "affiliation": "Department of Neuroimaging, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, UK."
+                  }
+                ]
+              },
+              "firstName": "Danai",
+              "fullName": "Dima D",
+              "initials": "D",
+              "lastName": "Dima"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Psychology & Neuroscience Department, School of Health and Medical Sciences, City St George's, University of London, London, UK."
+                  }
+                ]
+              },
+              "firstName": "Dimitrios",
+              "fullName": "Pinotsis D",
+              "initials": "D",
+              "lastName": "Pinotsis"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Psychology & Neuroscience Department, School of Health and Medical Sciences, City St George's, University of London, London, UK."
+                  }
+                ]
+              },
+              "firstName": "Sebastian B",
+              "fullName": "Gaigg SB",
+              "initials": "SB",
+              "lastName": "Gaigg"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Psychology & Neuroscience Department, School of Health and Medical Sciences, City St George's, University of London, London, UK."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4669-4573"
+              },
+              "firstName": "Beatriz",
+              "fullName": "Calvo-Merino B",
+              "initials": "B",
+              "lastName": "Calvo-Merino"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Psychology & Neuroscience Department, School of Health and Medical Sciences, City St George's, University of London, London, UK."
+                  }
+                ]
+              },
+              "firstName": "Bettina",
+              "fullName": "Forster B",
+              "initials": "B",
+              "lastName": "Forster"
+            }
+          ]
+        },
+        "authorString": "Fanghella M, Dima D, Pinotsis D, Gaigg SB, Calvo-Merino B, Forster B.",
+        "citedByCount": 0,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCompletion": "2026-04-17",
+        "dateOfCreation": "2026-02-13",
+        "dateOfRevision": "2026-04-19",
+        "doi": "10.1002/aur.70197",
+        "electronicPublicationDate": "2026-02-13",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2026-02-14",
+        "firstPublicationDate": "2026-02-13",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13087861"
+          ]
+        },
+        "fullTextReceivedDate": "2026-04-22",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/aur.70197"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13087861"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13087861?pdf=render"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ministero dell'Universit\u00e0 e della Ricerca",
+              "grantId": "Departments of Excellence 2018-2022",
+              "orderIn": 0
+            },
+            {
+              "acronym": "MRC_",
+              "agency": "Medical Research Council",
+              "grantId": "MR/W011751/1",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "N",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "41684326",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2026 Apr",
+          "issue": "4",
+          "journal": {
+            "essn": "1939-3806",
+            "isoabbreviation": "Autism Res",
+            "issn": "1939-3792",
+            "medlineAbbreviation": "Autism Res",
+            "nlmid": "101461858",
+            "title": "Autism research : official journal of the International Society for Autism Research"
+          },
+          "journalIssueId": 4180355,
+          "monthOfPublication": 4,
+          "printPublicationDate": "2026-04-01",
+          "volume": "19",
+          "yearOfPublication": 2026
+        },
+        "keywordList": {
+          "keyword": [
+            "EEG",
+            "emotion",
+            "Somatosensory",
+            "Autism Spectrum Disorder",
+            "Embodiment",
+            "Dynamic Causal Modeling"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by",
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "descriptorName": "Somatosensory Cortex",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PP",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Humans",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Electroencephalography",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Emotions",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Evoked Potentials, Somatosensory",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Adolescent",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Adult",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Female",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Male",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Young Adult",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Autism Spectrum Disorder",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PP",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "nihAuthMan": "N",
+        "pageInfo": "e70197",
+        "pmcid": "PMC13087861",
+        "pmid": "41684326",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2026",
+        "publicationStatus": "ppublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "Changes in Intrinsic Activity of the Primary Somatosensory Cortex Causally Explain Differences in Emotion Perception in Autism."
+      },
+      {
+        "abstractText": "<h4>Introduction</h4>Although working memory (WM) deficits are well established in schizophrenia (SZ), their underlying source is still unclear. It has been proposed that these WM deficits may depend on an imbalance between cortical excitation and inhibition (E/I), but its importance for SZ remains unclear. A potential biomarker for E/I is visual Surround Suppression (SS), where the apparent contrast of a central grating is typically suppressed by a surround with parallel orientation (versus orthogonal). Here we exploited the SS phenomenon to test whether E/I contributes to WM impairments in schizophrenia.<h4>Methods</h4>Using centre-surround gratings, we measured psychophysical thresholds for contrast matching, detection and orientation discrimination, in 21 SZ patients and 20 matched controls. Using the same stimuli, we also measured WM accuracy and event-related potentials (ERPs) in a delayed-match-to-sample task.<h4>Results</h4>In SZ participants, reduced SS predicted impaired WM performance as well as general cognitive measures (CANTAB). Similar relationships were also observed between other early visual measures (impaired contrast detection and orientation discrimination), WM and general cognition. In response to SS, there was reduced amplitude visual ERPs (P1, N1 and P2) in patients compared with controls. Furthermore, across both groups the P1 amplitude correlated with visual SS.<h4>Conclusion</h4>Together, these findings provide evidence that imbalances in cortical excitation and inhibition may contribute to visual and some cognitive deficits in schizophrenia, and that SS may provide a behavioural and electrophysiological biomarker.",
+        "affiliation": "Centre for Clinical, Social and Cognitive Neuroscience, Department of Psychology and Neuroscience, City St George's, University of London, London, UK.",
+        "authMan": "N",
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Clinical, Social and Cognitive Neuroscience, Department of Psychology and Neuroscience, City St George's, University of London, London, UK."
+                  }
+                ]
+              },
+              "firstName": "Cristina",
+              "fullName": "Filannino C",
+              "initials": "C",
+              "lastName": "Filannino"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Clinical, Social and Cognitive Neuroscience, Department of Psychology and Neuroscience, City St George's, University of London, London, UK."
+                  }
+                ]
+              },
+              "firstName": "Elliot",
+              "fullName": "Freeman E",
+              "initials": "E",
+              "lastName": "Freeman"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology, Brunel University of London, UK."
+                  }
+                ]
+              },
+              "firstName": "Andrew",
+              "fullName": "Parton A",
+              "initials": "A",
+              "lastName": "Parton"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "East London NHS Trust, UK."
+                  }
+                ]
+              },
+              "firstName": "Neelam",
+              "fullName": "Laxhman N",
+              "initials": "N",
+              "lastName": "Laxhman"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Clinical, Social and Cognitive Neuroscience, Department of Psychology and Neuroscience, City St George's, University of London, London, UK."
+                  }
+                ]
+              },
+              "firstName": "Corinna",
+              "fullName": "Haenschel C",
+              "initials": "C",
+              "lastName": "Haenschel"
+            }
+          ]
+        },
+        "authorString": "Filannino C, Freeman E, Parton A, Laxhman N, Haenschel C.",
+        "citedByCount": 0,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCompletion": "2025-10-27",
+        "dateOfCreation": "2025-10-27",
+        "dateOfRevision": "2026-01-15",
+        "doi": "10.1016/j.scog.2025.100395",
+        "electronicPublicationDate": "2025-10-11",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2025-10-27",
+        "firstPublicationDate": "2025-10-11",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12549718"
+          ]
+        },
+        "fullTextReceivedDate": "2025-10-27",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.scog.2025.100395"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12549718"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12549718?pdf=render"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Mental Health Research UK",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute on Handicapped Research",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "41142048",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2026 Mar",
+          "journal": {
+            "essn": "2215-0013",
+            "isoabbreviation": "Schizophr Res Cogn",
+            "issn": "2215-0013",
+            "medlineAbbreviation": "Schizophr Res Cogn",
+            "nlmid": "101632223",
+            "title": "Schizophrenia research. Cognition"
+          },
+          "journalIssueId": 4028654,
+          "monthOfPublication": 3,
+          "printPublicationDate": "2026-03-01",
+          "volume": "43",
+          "yearOfPublication": 2026
+        },
+        "keywordList": {
+          "keyword": [
+            "Schizophrenia",
+            "ERP",
+            "Working memory",
+            "Visual Surround Suppression"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by",
+        "nihAuthMan": "N",
+        "pageInfo": "100395",
+        "pmcid": "PMC12549718",
+        "pmid": "41142048",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2026",
+        "publicationStatus": "epublish",
+        "source": "MED",
+        "title": "Visual suppression deficits as a biomarker of working memory impairment in schizophrenia."
+      },
+      {
+        "abstractText": "Multisensory processing is important for studying and understanding typical and atypical development; however, traditional paradigms involve numerous conditions and trials, making sessions long and tedious. A technique referred to as \"continuous-tracking\" has been introduced which can assess perceptual thresholds in a shorter time. We tested this technique in an audiovisual context by asking participants to track 1-minute audiovisual stimuli moving in a random walk. The stimuli could be visual, auditory, or audiovisual. In the last case, we had a congruent and incongruent condition with a spatiotemporal shift between the two stimuli, so either vision or audition led the walk by a given time. We further modulated the reliability of the visual stimulus to shift the weight toward the audio. We found a straightforward visual dominance regarding motion perception in audiovisual contexts. Regardless of its state, visual information interferes with auditory perception. Moreover, the continuous tracking yielded a new measurement of motion perception, the lag, giving information on the delay between visual and auditory information processing. Indeed, we observed that the tracking of auditory motion lagged relative to visual motion.",
+        "affiliation": "School of Psychology, The University of Sydney, Sydney, Australia.",
+        "authMan": "N",
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Psychology, The University of Sydney, Sydney, Australia."
+                  },
+                  {
+                    "affiliation": "Unit for Visually Impaired People (UVIP), Istituto Italiano di Tecnologia, Genoa, Italy."
+                  },
+                  {
+                    "affiliation": "alessia.tonelli@iit.it."
+                  },
+                  {
+                    "affiliation": "https://orcid.org/0000-0003-0317-2599."
+                  }
+                ]
+              },
+              "firstName": "Alessia",
+              "fullName": "Tonelli A",
+              "initials": "A",
+              "lastName": "Tonelli"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Psychology, The University of Sydney, Sydney, Australia."
+                  },
+                  {
+                    "affiliation": "Unit for Visually Impaired People (UVIP), Istituto Italiano di Tecnologia, Genoa, Italy."
+                  },
+                  {
+                    "affiliation": "Department of Psychology, Universit\u00e0 degli Studi di Firenze, Florence, Italy."
+                  },
+                  {
+                    "affiliation": "davidcharles.burr@unifi.it."
+                  },
+                  {
+                    "affiliation": "https://orcid.org/0000-0003-1541-8832."
+                  }
+                ]
+              },
+              "firstName": "David",
+              "fullName": "Burr D",
+              "initials": "D",
+              "lastName": "Burr"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unit for Visually Impaired People (UVIP), Istituto Italiano di Tecnologia, Genoa, Italy."
+                  },
+                  {
+                    "affiliation": "monica.gori@iit.it."
+                  },
+                  {
+                    "affiliation": "https://orcid.org/0000-0002-5616-865X."
+                  }
+                ]
+              },
+              "firstName": "Monica",
+              "fullName": "Gori M",
+              "initials": "M",
+              "lastName": "Gori"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Psychology, The University of Sydney, Sydney, Australia."
+                  },
+                  {
+                    "affiliation": "david.alais@sydney.edu.au."
+                  },
+                  {
+                    "affiliation": "https://orcid.org/0000-0002-0411-940X."
+                  }
+                ]
+              },
+              "firstName": "David",
+              "fullName": "Alais D",
+              "initials": "D",
+              "lastName": "Alais"
+            }
+          ]
+        },
+        "authorString": "Tonelli A, Burr D, Gori M, Alais D.",
+        "citedByCount": 0,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCompletion": "2025-08-26",
+        "dateOfCreation": "2025-08-19",
+        "dateOfRevision": "2025-08-26",
+        "doi": "10.1167/jov.25.10.10",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2025-08-22",
+        "firstPublicationDate": "2025-08-01",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12369911"
+          ]
+        },
+        "fullTextReceivedDate": "2025-11-29",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1167/jov.25.10.10"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12369911"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12369911?pdf=render"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "European Research Council",
+              "grantId": "832813",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "40828482",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2025 Aug",
+          "issue": "10",
+          "journal": {
+            "essn": "1534-7362",
+            "isoabbreviation": "J Vis",
+            "issn": "1534-7362",
+            "medlineAbbreviation": "J Vis",
+            "nlmid": "101147197",
+            "title": "Journal of vision"
+          },
+          "journalIssueId": 3986331,
+          "monthOfPublication": 8,
+          "printPublicationDate": "2025-08-01",
+          "volume": "25",
+          "yearOfPublication": 2025
+        },
+        "language": "eng",
+        "license": "cc by-nc-nd",
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "descriptorName": "Humans",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Acoustic Stimulation",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Photic Stimulation",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Auditory Perception",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Sensory Thresholds",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Motion Perception",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Adult",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Female",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Male",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Young Adult",
+              "majorTopic_YN": "N"
+            }
+          ]
+        },
+        "nihAuthMan": "N",
+        "pageInfo": "10",
+        "pmcid": "PMC12369911",
+        "pmid": "40828482",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2025",
+        "publicationStatus": "ppublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "Continuous tracking of audiovisual motion."
+      }
+    ]
+  },
+  "version": "6.9"
+}

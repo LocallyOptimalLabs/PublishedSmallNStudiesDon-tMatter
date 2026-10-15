@@ -157,6 +157,14 @@ def build_candidates() -> list[dict[str, Any]]:
     decisions = read_tsv(GPT_DECISIONS)
     handoff = indexed(read_tsv(GPT_HANDOFF))
     proposal = read_tsv(PROMOTION_PROPOSAL)
+    promoted_candidate_ids = set()
+    if not proposal.empty and {"candidate_id", "promotion_decision"}.issubset(proposal.columns):
+        promoted_candidate_ids = set(
+            proposal.loc[
+                proposal["promotion_decision"].eq("promote_to_harvested_pair_contract"),
+                "candidate_id",
+            ]
+        )
     proposal = proposal[proposal.get("promotion_decision", "").ne("promote_to_harvested_pair_contract")].copy()
     proposal_by_candidate = indexed(proposal)
 
@@ -167,6 +175,8 @@ def build_candidates() -> list[dict[str, Any]]:
     for _, decision in decisions.iterrows():
         candidate_id = clean(decision.get("candidate_id"))
         if clean(decision.get("local_verifier_action")) == "promoted":
+            continue
+        if candidate_id in promoted_candidate_ids:
             continue
         h = handoff.get(candidate_id, {})
         p = proposal_by_candidate.get(candidate_id, {})

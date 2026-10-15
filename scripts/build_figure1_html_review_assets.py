@@ -66,10 +66,13 @@ STRICT_FIG = FIG_DIR / "figure1a_strict_current_d_pairs.png"
 STRICT_APPROX_CI_FIG = FIG_DIR / "figure1a_strict_current_d_pairs_approx_ci.png"
 STRICT_CI_COMPAT_FIG = FIG_DIR / "figure1a_original_ci_replication_compatibility.png"
 STRICT_CI_DENSITY_FIG = FIG_DIR / "figure1a_original_ci_replication_density_standalone.png"
+STRICT_CI_DENSITY_ONESIDED_FIG = FIG_DIR / "figure1a_original_ci_replication_density_standalone_one_sided.png"
 ALT_PANELS_FIG = FIG_DIR / "figure1bc_alternative_route_subplots.png"
 COVERAGE_FIG = FIG_DIR / "figure1_coverage_loss_bars.png"
 STRICT_APPROX_CI_TSV = DATASET_DERIVED / "figure1_strict_pairs_approx_ci.tsv"
 STRICT_CI_COMPAT_TSV = DATASET_DERIVED / "figure1_strict_pairs_original_ci_compatibility.tsv"
+STRICT_APPROX_CI_ONESIDED_TSV = DATASET_DERIVED / "figure1_strict_pairs_approx_ci_one_sided.tsv"
+STRICT_CI_COMPAT_ONESIDED_TSV = DATASET_DERIVED / "figure1_strict_pairs_original_ci_compatibility_one_sided.tsv"
 
 
 def read_strict_rows() -> pd.DataFrame:
@@ -212,34 +215,62 @@ def draw_strict_figure(strict: pd.DataFrame) -> dict[str, float | int]:
     }
 
 
-def approximate_d_ci(strict: pd.DataFrame) -> pd.DataFrame:
+def approximate_d_ci(
+    strict: pd.DataFrame,
+    *,
+    z_crit: float = 1.96,
+    test_assumption: str = "two_sided_95_ci",
+    interval_type: str = "two_sided_central",
+    approx_tsv: Path = STRICT_APPROX_CI_TSV,
+    compat_tsv: Path = STRICT_CI_COMPAT_TSV,
+) -> pd.DataFrame:
     out = strict.copy()
+    if interval_type not in {"two_sided_central", "one_sided_lower"}:
+        raise ValueError(f"Unsupported interval_type: {interval_type}")
     for side in ["original", "replication"]:
         d = pd.to_numeric(out[f"D_{side}"], errors="coerce")
         n = pd.to_numeric(out[f"N_{side}"], errors="coerce")
         se = np.sqrt((4.0 / n) + ((d * d) / (2.0 * (n - 2.0))))
         out[f"D_{side}_approx_se_equal_arm"] = se
-        out[f"D_{side}_approx_ci95_low_equal_arm"] = d - 1.96 * se
-        out[f"D_{side}_approx_ci95_high_equal_arm"] = d + 1.96 * se
+        out[f"D_{side}_approx_ci95_low_equal_arm"] = d - z_crit * se
+        if interval_type == "one_sided_lower":
+            out[f"D_{side}_approx_ci95_high_equal_arm"] = np.inf
+        else:
+            out[f"D_{side}_approx_ci95_high_equal_arm"] = d + z_crit * se
+    out["ci_test_assumption"] = test_assumption
+    out["ci_z_crit"] = float(z_crit)
+    out["ci_interval_type"] = interval_type
     original_low = out["D_original_approx_ci95_low_equal_arm"]
     original_high = out["D_original_approx_ci95_high_equal_arm"]
-    original_half_width = (original_high - original_low) / 2.0
     replication_d = out["D_replication"]
     replication_se = out["D_replication_approx_se_equal_arm"]
     original_d = out["D_original"]
     original_se = out["D_original_approx_se_equal_arm"]
+    original_half_width = z_crit * original_se
     predictive_se = np.sqrt((original_se * original_se) + (replication_se * replication_se))
 
-    out["replication_vs_original_ci_direction"] = np.select(
-        [replication_d < original_low, replication_d > original_high],
-        ["below_original_ci", "above_original_ci"],
-        default="inside_original_ci",
-    )
-    out["replication_signed_gap_to_original_ci"] = np.select(
-        [replication_d < original_low, replication_d > original_high],
-        [replication_d - original_low, replication_d - original_high],
-        default=0.0,
-    )
+    if interval_type == "one_sided_lower":
+        out["replication_vs_original_ci_direction"] = np.where(
+            replication_d < original_low,
+            "below_original_ci",
+            "inside_original_ci",
+        )
+        out["replication_signed_gap_to_original_ci"] = np.where(
+            replication_d < original_low,
+            replication_d - original_low,
+            0.0,
+        )
+    else:
+        out["replication_vs_original_ci_direction"] = np.select(
+            [replication_d < original_low, replication_d > original_high],
+            ["below_original_ci", "above_original_ci"],
+            default="inside_original_ci",
+        )
+        out["replication_signed_gap_to_original_ci"] = np.select(
+            [replication_d < original_low, replication_d > original_high],
+            [replication_d - original_low, replication_d - original_high],
+            default=0.0,
+        )
     out["replication_signed_gap_in_original_ci_half_widths"] = (
         out["replication_signed_gap_to_original_ci"] / original_half_width.replace(0, np.nan)
     )
@@ -250,15 +281,26 @@ def approximate_d_ci(strict: pd.DataFrame) -> pd.DataFrame:
         predictive_se / original_half_width.replace(0, np.nan)
     )
     out["replication_delta_combined_se_z"] = (replication_d - original_d) / predictive_se.replace(0, np.nan)
-    out["expected_probability_inside_original_ci_under_common_effect"] = norm.cdf(
-        (original_high - original_d) / predictive_se
-    ) - norm.cdf((original_low - original_d) / predictive_se)
-    out["replication_probability_mass_inside_original_ci"] = norm.cdf((original_high - replication_d) / replication_se) - norm.cdf(
-        (original_low - replication_d) / replication_se
-    )
+    if interval_type == "one_sided_lower":
+        out["expected_probability_inside_original_ci_under_common_effect"] = 1.0 - norm.cdf(
+            (original_low - original_d) / predictive_se
+        )
+        out["replication_probability_mass_inside_original_ci"] = 1.0 - norm.cdf(
+            (original_low - replication_d) / replication_se
+        )
+    else:
+        out["expected_probability_inside_original_ci_under_common_effect"] = norm.cdf(
+            (original_high - original_d) / predictive_se
+        ) - norm.cdf((original_low - original_d) / predictive_se)
+        out["replication_probability_mass_inside_original_ci"] = norm.cdf(
+            (original_high - replication_d) / replication_se
+        ) - norm.cdf((original_low - replication_d) / replication_se)
 
     keep = [
         "figure1_replication_pair_id",
+        "ci_test_assumption",
+        "ci_z_crit",
+        "ci_interval_type",
         "source_family_label",
         "source_dataset",
         "original_title",
@@ -286,8 +328,8 @@ def approximate_d_ci(strict: pd.DataFrame) -> pd.DataFrame:
     ]
     keep = [col for col in keep if col in out.columns]
     DATASET_DERIVED.mkdir(parents=True, exist_ok=True)
-    out[keep].to_csv(STRICT_APPROX_CI_TSV, sep="\t", index=False)
-    out[keep].to_csv(STRICT_CI_COMPAT_TSV, sep="\t", index=False)
+    out[keep].to_csv(approx_tsv, sep="\t", index=False)
+    out[keep].to_csv(compat_tsv, sep="\t", index=False)
     return out
 
 
@@ -502,7 +544,17 @@ def draw_original_ci_compatibility_figure(strict_ci: pd.DataFrame) -> None:
     plt.close(fig)
 
 
-def draw_original_ci_density_standalone(strict_ci: pd.DataFrame) -> None:
+def draw_original_ci_density_standalone(
+    strict_ci: pd.DataFrame,
+    *,
+    out_path: Path = STRICT_CI_DENSITY_FIG,
+    title_suffix: str = "",
+    x_label: str = "Replication location relative to original 95% CI (original-CI half-width units)",
+    implied_label: str = "Implied confidence intervals",
+    tail_probs: tuple[float, float] = (0.025, 0.975),
+    tail_label: str = "2.5%",
+    one_sided_lower: bool = False,
+) -> None:
     df = strict_ci.copy()
     delta_ci_units = pd.to_numeric(df["replication_delta_in_original_ci_half_widths"], errors="coerce")
     delta_ci_units = delta_ci_units[np.isfinite(delta_ci_units)]
@@ -527,7 +579,11 @@ def draw_original_ci_density_standalone(strict_ci: pd.DataFrame) -> None:
         rng = np.random.default_rng(20260504)
         component_sigmas = rng.choice(sigma_values, size=250_000, replace=True)
         implied_samples = rng.normal(loc=0.0, scale=component_sigmas)
-        implied_tail_low, implied_tail_high = np.quantile(implied_samples, [0.025, 0.975])
+        if one_sided_lower:
+            implied_tail_low = float(np.quantile(implied_samples, tail_probs[0]))
+            implied_tail_high = float("nan")
+        else:
+            implied_tail_low, implied_tail_high = np.quantile(implied_samples, tail_probs)
     else:
         implied_tail_low, implied_tail_high = np.nan, np.nan
 
@@ -566,7 +622,6 @@ def draw_original_ci_density_standalone(strict_ci: pd.DataFrame) -> None:
     if len(sigma_values):
         implied_center_height = float(np.interp(0.0, grid, expected_density))
         low_tail = grid <= implied_tail_low
-        high_tail = grid >= implied_tail_high
         ax.fill_between(
             grid[low_tail],
             0,
@@ -576,15 +631,17 @@ def draw_original_ci_density_standalone(strict_ci: pd.DataFrame) -> None:
             linewidth=0,
             zorder=1,
         )
-        ax.fill_between(
-            grid[high_tail],
-            0,
-            expected_density[high_tail],
-            color="#C8741F",
-            alpha=0.18,
-            linewidth=0,
-            zorder=1,
-        )
+        if not one_sided_lower and np.isfinite(implied_tail_high):
+            high_tail = grid >= implied_tail_high
+            ax.fill_between(
+                grid[high_tail],
+                0,
+                expected_density[high_tail],
+                color="#C8741F",
+                alpha=0.18,
+                linewidth=0,
+                zorder=1,
+            )
         observed_left_tail_excess = (
             np.isfinite(observed_density)
             & (grid <= implied_tail_low)
@@ -603,16 +660,18 @@ def draw_original_ci_density_standalone(strict_ci: pd.DataFrame) -> None:
                 zorder=2,
             )
         ax.plot(grid, expected_density, color="#C8741F", linewidth=2.9, zorder=4)
-        ax.vlines(
-            [implied_tail_low, implied_tail_high],
-            0,
-            np.interp([implied_tail_low, implied_tail_high], grid, expected_density),
-            color="#C8741F",
-            linestyle=":",
-            linewidth=1.05,
-            alpha=0.8,
-            zorder=5,
-        )
+        tail_lines = [value for value in [implied_tail_low, implied_tail_high] if np.isfinite(value)]
+        if tail_lines:
+            ax.vlines(
+                tail_lines,
+                0,
+                np.interp(tail_lines, grid, expected_density),
+                color="#C8741F",
+                linestyle=":",
+                linewidth=1.05,
+                alpha=0.8,
+                zorder=5,
+            )
         ax.vlines(
             0,
             0,
@@ -626,9 +685,11 @@ def draw_original_ci_density_standalone(strict_ci: pd.DataFrame) -> None:
 
     ax.set_xlim(-4, 4)
     ax.set_ylim(bottom=0)
-    ax.set_xlabel("Replication location relative to original 95% CI (original-CI half-width units)")
+    ax.set_xlabel(x_label)
     ax.set_ylabel("Density (area = 1)")
     title = "Published Confidence Intervals Systematically Overstate Coverage and Symmetry"
+    if title_suffix:
+        title = f"{title} ({title_suffix})"
     subtitle = (
         f"n = {len(delta_ci_units):,} replications; "
         f"{observed_inside_rate:.0%} inside interval vs {expected_inside_rate:.0%} expected; "
@@ -650,7 +711,7 @@ def draw_original_ci_density_standalone(strict_ci: pd.DataFrame) -> None:
     ax.text(
         0.48,
         0.655,
-        "Implied confidence intervals",
+        implied_label,
         color="#C8741F",
         fontsize=12.2,
         fontweight="bold",
@@ -659,7 +720,7 @@ def draw_original_ci_density_standalone(strict_ci: pd.DataFrame) -> None:
         ax.text(
             -3.82,
             0.105,
-            f"2.5% left-tail events\noccur in {observed_left_tail_rate:.0%}\nof replications",
+            f"{tail_label} lower-tail events\noccur in {observed_left_tail_rate:.0%}\nof replications",
             color="#234E70",
             fontsize=10.2,
             fontweight="bold",
@@ -668,7 +729,7 @@ def draw_original_ci_density_standalone(strict_ci: pd.DataFrame) -> None:
         )
     add_strict_scatter_inset(ax, df)
     fig.tight_layout(rect=[0, 0, 1, 0.88])
-    fig.savefig(STRICT_CI_DENSITY_FIG, dpi=220, bbox_inches="tight")
+    fig.savefig(out_path, dpi=220, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -756,6 +817,11 @@ def write_fragment(stats: dict[str, float | int]) -> None:
         "</figure>",
         "",
         "<figure class=\"working-figure-review\">",
+        "<img src=\"_generated/figures/figure1a_original_ci_replication_density_standalone_one_sided.png\" alt=\"One-sided-test equivalent original interval and replication compatibility density diagnostic\" style=\"width:100%; max-width:1180px; display:block; margin:auto;\">",
+        "<figcaption>One-sided-test equivalent version of the same original-CI / replication compatibility diagnostic. This keeps the same rows and uncertainty model, but uses the z = 1.645 lower confidence bound corresponding to a one-sided p &lt; .05 test. The upper side is open-ended; the shaded orange region marks only the implied 5% lower tail. These are not extracted source-reported confidence intervals.</figcaption>",
+        "</figure>",
+        "",
+        "<figure class=\"working-figure-review\">",
         "<img src=\"_generated/figures/figure1bc_alternative_route_subplots.png\" alt=\"Working additional Figure 1 route panels\" style=\"width:100%; max-width:1180px; display:block; margin:auto;\">",
         "<figcaption>Additional Figure 1 route panels. Panel B keeps comparative binary endpoints on a D-equivalent axis; Panel C keeps response-rate rows on a native logit axis; Panel D shows local row buckets.</figcaption>",
         "</figure>",
@@ -827,14 +893,36 @@ def patch_data_paper_plot1_fragments(strict: pd.DataFrame) -> None:
 def main() -> None:
     strict = read_strict_rows()
     strict_ci = approximate_d_ci(strict)
+    strict_ci_one_sided = approximate_d_ci(
+        strict,
+        z_crit=float(norm.ppf(0.95)),
+        test_assumption="one_sided_p05_lower_confidence_bound",
+        interval_type="one_sided_lower",
+        approx_tsv=STRICT_APPROX_CI_ONESIDED_TSV,
+        compat_tsv=STRICT_CI_COMPAT_ONESIDED_TSV,
+    )
     stats = draw_strict_figure(strict_ci)
     draw_approx_ci_figure(strict_ci)
     draw_original_ci_compatibility_figure(strict_ci)
     draw_original_ci_density_standalone(strict_ci)
+    draw_original_ci_density_standalone(
+        strict_ci_one_sided,
+        out_path=STRICT_CI_DENSITY_ONESIDED_FIG,
+        title_suffix="One-Sided p < .05 Equivalent",
+        x_label=(
+            "Replication location relative to original one-sided p < .05 lower bound "
+            "(z = 1.645 lower-bound units)"
+        ),
+        implied_label="Implied one-sided lower bound",
+        tail_probs=(0.05, 0.95),
+        tail_label="5%",
+        one_sided_lower=True,
+    )
     copy_existing_figures()
     write_fragment(stats)
     patch_data_paper_plot1_fragments(strict)
     print(f"Wrote {STRICT_FIG.relative_to(ROOT)}")
+    print(f"Wrote {STRICT_CI_DENSITY_ONESIDED_FIG.relative_to(ROOT)}")
     print(f"Wrote {FRAGMENT_OUT.relative_to(ROOT)}")
 
 

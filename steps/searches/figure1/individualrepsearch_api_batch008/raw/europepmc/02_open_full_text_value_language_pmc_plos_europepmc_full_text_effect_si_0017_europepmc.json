@@ -1,0 +1,1057 @@
+{
+  "hitCount": 23921,
+  "nextCursorMark": "AoIIQJNo4Cg1NDI4Mjc3NA==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(\"effect size\" \"replication\" \"original\" \"sample size\") AND FIRST_PDATE:[1990-01-01 TO 2026-12-31]&cursorMark=AoIIQJNo4Cg1NDI4Mjc3NA==&resultType=core&pageSize=5&format=json",
+  "request": {
+    "cursorMark": "*",
+    "pageSize": 5,
+    "queryString": "(\"effect size\" \"replication\" \"original\" \"sample size\") AND FIRST_PDATE:[1990-01-01 TO 2026-12-31]",
+    "resultType": "core",
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "abstractText": "Translation failure, in which promising animal study results can not be reproduced in human trials, is a challenge in biomedical research. Metrics for replication success are widely used to evaluate reproducibility, i.e., the extent to which the results of a study agree with those of replication studies. The relevance of these metrics in assessing animal-to-human translation success (or faillure) is unclear. We conducted a simulation study to examine whether these metrics can quantify translation success and how their performance varies under different conditions. Using parameters from a meta-analysis on prenatal amino acid supplementation and maternal blood pressure, we simulated animal and human studies under 648 scenarios, varying effect sizes, heterogeneity, animal sample sizes and number of pooled animal studies. Nine metrics were assessed, namely the two-trials rule, meta-analysis, replication Bayes factor, unweighted and weighted Edgington\u2019s methods, golden sceptical  p -value and three versions of controlled sceptical  p -value. Most metrics, except meta-analysis and replication Bayes factor, controlled false positive rates under no heterogeneity, but became liberal as heterogeneity increased, particularly between human studies. Translation power (i.e., the probability of true positive translation success) was constrained by the weaker evidence of the two findings; e.g., small sample size in the animal studies resulted in lower translation power. The metric based on meta-analysis frequently indicated success when either of the species found strong evidence, while sceptical  p -values were more conservative. The sceptical  p -value that controls overall type-one error and the weighted version of Edgington\u2019s method performed relatively consistently across scenarios. No metric was uniformly optimal. Metrics developed for replication studies can inform assessments of translation, but their utility depends on the underlying evidence and assumptions. Using multiple metrics in combination, with attention to their strengths and limitations, is recommended for evaluating the translation of animal findings to human outcomes.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7531-4333"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1362-4819"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2779-320X"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Master Program in Biostatistics, Epidemiology, Biostatistics and Prevention Institute, , ,"
+                  },
+                  {
+                    "affiliation": "Newborn Research, Department of Neonatology, University and , ,"
+                  }
+                ]
+              },
+              "firstName": "Carolyne Jie",
+              "fullName": "Huang CJ",
+              "initials": "CJ",
+              "lastName": "Huang"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biostatistics, Epidemiology, Biostatistics and Prevention Institute, , ,"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2779-320X"
+              },
+              "firstName": "Samuel",
+              "fullName": "Pawel S",
+              "initials": "S",
+              "lastName": "Pawel"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anesthesiology, Pain and Palliative Medicine, , ,"
+                  }
+                ]
+              },
+              "firstName": "Kimberley Elaine",
+              "fullName": "Wever KE",
+              "initials": "KE",
+              "lastName": "Wever"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Research, , ,"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1362-4819"
+              },
+              "firstName": "Benjamin Victor",
+              "fullName": "Ineichen BV",
+              "initials": "BV",
+              "lastName": "Ineichen"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Reproducible Science and Research Synthesis, Epidemiology, Biostatistics and Prevention Institute, , ,"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7531-4333"
+              },
+              "firstName": "Rachel",
+              "fullName": "Heyard R",
+              "initials": "R",
+              "lastName": "Heyard"
+            }
+          ]
+        },
+        "authorString": "Huang CJ, Pawel S, Wever KE, Ineichen BV, Heyard R.",
+        "bookOrReportDetails": {
+          "publisher": "medRxiv",
+          "yearOfPublication": 2025
+        },
+        "citedByCount": 0,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "recommended_reviews",
+            "supporting_data"
+          ]
+        },
+        "dateOfCreation": "2025-11-10",
+        "doi": "10.1101/2025.11.07.25339757",
+        "epmcAuthMan": "Y",
+        "firstIndexDate": "2025-11-10",
+        "firstPublicationDate": "2025-11-09",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PPR1116195"
+          ]
+        },
+        "fullTextReceivedDate": "2025-11-25",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/2025.11.07.25339757"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/article/PPR/PPR1116195"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1116195&type=FILE&fileName=EMS210551-pdf.pdf&mimeType=application/pdf"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Swiss National Science Foundation",
+              "grantId": "206504",
+              "orderIn": 0
+            },
+            {
+              "agency": "Swiss National Science Foundation",
+              "grantId": "407940",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "Y",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "N",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "hasTextMinedTerms": "Y",
+        "id": "PPR1116195",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "isOpenAccess": "Y",
+        "license": "cc by",
+        "manuscriptId": "EMS210551",
+        "nihAuthMan": "N",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "pubYear": "2025",
+        "source": "PPR",
+        "title": "Evaluating the applicability of replication success metrics in animal-to-human translation: A simulation study",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        }
+      },
+      {
+        "abstractText": "The role of perceiver differences in impression formation remains relatively poorly understood. One line of research has tried to understand these differences by exploring the role of perceivers' needs and motivations, reasoning that perceivers should form more positive impressions of targets who appear more likely to address their needs. For example, a perceiver with a stronger affiliation motive might have a more positive impression of someone who looks more (vs. less) extraverted. We conducted two preregistered replication studies of proposed associations between three individual difference variables and likeability impressions of individuals varying in perceived extraversion. Using the original stimuli and study design (Study 1, <i>n</i> = 273) and two additional stimulus sets and an improved study design (Study 2, <i>n</i> = 367), we did not find that individual differences in (a) affiliative needs, (b) pathogen concern, or (c) sociosexual orientation were associated with likeability impressions of individuals varying in perceived extraversion. Bayesian analyses supported this conclusion. Our findings highlight the need for additional research to understand how individual differences shape social perception.",
+        "affiliation": "Department of Social Psychology, Tilburg University, Tilburg, The Netherlands.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4398-9731"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6668-5773"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8805-4884"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9694-8300"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3600-3644"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Social Psychology, Tilburg University, Tilburg, The Netherlands."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4398-9731"
+              },
+              "firstName": "Bastian",
+              "fullName": "Jaeger B",
+              "initials": "B",
+              "lastName": "Jaeger"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology, Swansea University, Swansea, United Kingdom."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3600-3644"
+              },
+              "firstName": "Alex L",
+              "fullName": "Jones AL",
+              "initials": "AL",
+              "lastName": "Jones"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Psychology, Sport, and Health Sciences, University of Portsmouth, United Kingdom."
+                  },
+                  {
+                    "affiliation": "Research and Innovation, University of Winchester, United Kingdom."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8805-4884"
+              },
+              "firstName": "Liam",
+              "fullName": "Satchell L",
+              "initials": "L",
+              "lastName": "Satchell"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology, University of M\u00fcnster, M\u00fcnster, Germany."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6668-5773"
+              },
+              "firstName": "Christoph",
+              "fullName": "Schild C",
+              "initials": "C",
+              "lastName": "Schild"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Social Psychology, Tilburg University, Tilburg, The Netherlands."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9694-8300"
+              },
+              "firstName": "Florian",
+              "fullName": "van Leeuwen F",
+              "initials": "F",
+              "lastName": "van Leeuwen"
+            }
+          ]
+        },
+        "authorString": "Jaeger B, Jones AL, Satchell L, Schild C, van Leeuwen F.",
+        "citedByCount": 0,
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "PPR338569",
+              "note": "Link created based on a title-first author match",
+              "orderIn": 10002,
+              "source": "PPR",
+              "type": "Preprint in"
+            }
+          ]
+        },
+        "dateOfCompletion": "2026-03-30",
+        "dateOfCreation": "2026-03-30",
+        "dateOfRevision": "2026-03-30",
+        "doi": "10.5334/irsp.996",
+        "electronicPublicationDate": "2026-03-26",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2026-03-30",
+        "firstPublicationDate": "2026-03-26",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13025157"
+          ]
+        },
+        "fullTextReceivedDate": "2026-03-28",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.5334/irsp.996"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13025157"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13025157?pdf=render"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "N",
+        "hasPDF": "Y",
+        "hasReferences": "N",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "41907574",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2026 ",
+          "journal": {
+            "essn": "2397-8570",
+            "isoabbreviation": "Int Rev Soc Psychol",
+            "medlineAbbreviation": "Int Rev Soc Psychol",
+            "nlmid": "9918994894206676",
+            "title": "International review of social psychology"
+          },
+          "journalIssueId": 4164237,
+          "monthOfPublication": 0,
+          "printPublicationDate": "2026-01-01",
+          "volume": "39",
+          "yearOfPublication": 2026
+        },
+        "keywordList": {
+          "keyword": [
+            "Needs",
+            "Extraversion",
+            "Social Perception",
+            "Motives",
+            "Impression Formation"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by",
+        "nihAuthMan": "N",
+        "pageInfo": "2",
+        "pmcid": "PMC13025157",
+        "pmid": "41907574",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2026",
+        "publicationStatus": "epublish",
+        "source": "MED",
+        "title": "Who Likes Extraverts? Testing the Interplay Between Perceiver Needs and Target Appearance in Impression Formation."
+      },
+      {
+        "abstractText": "Two-way interaction effects in linear regression occur when the relation between two variables changes depending on the level of a third. Despite their frequent use, interactions are notoriously difficult to estimate accurately and test for statistical significance because of small effect sizes and low reliability. In this study, we used Monte Carlo simulations to establish stability thresholds for two-way interactions between continuous variables across combinations of reliability (0.7-1.0), main effect size (0.1-0.5), collinearity (0.1-0.5), and interaction effect size (0.05-0.2). Stability was defined as the consistency of estimated effect sizes across repeated samples of the same size from the same population and operationalized using modified definitions of the corridor of stability and point of stability from Sch\u00f6nbrodt and Perugini. Results show that the stability of interaction estimates is primarily determined by sample size and predictor reliability. The case representing a realistic psychology field study, in which researchers have limited control over variables, stabilized at n=3,800 , requiring 72% statistical power. At n\u2264100 , 11% to 45% of the estimates were incorrectly signed (i.e., negative when the true effect was positive). Most psychology studies enroll far fewer than 500 participants, and our results indicate many published interactions may be unstable. Analyses involving highly reliable predictors, such as group assignment in experimental designs, may stabilize at lower sample sizes because they attenuate the expected effect size less than variables with more measurement error. Researchers are encouraged to avoid routine tests of two-way interactions unless sample size and reliability are adequate and hypotheses are specified a priori.",
+        "affiliation": "Department of Psychological Sciences, Purdue University, West Lafayette, Indiana.",
+        "authMan": "Y",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8306-498X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3005-0688"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6659-357X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1280-2863"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-2899-8439"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychological Sciences, Purdue University, West Lafayette, Indiana."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-2899-8439"
+              },
+              "firstName": "Andrew",
+              "fullName": "Castillo A",
+              "initials": "A",
+              "lastName": "Castillo"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology, University of Georgia, Athens, Georgia."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1280-2863"
+              },
+              "firstName": "Joshua D",
+              "fullName": "Miller JD",
+              "initials": "JD",
+              "lastName": "Miller"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology, University of Pittsburgh, Pittsburgh, Pennsylvania."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3005-0688"
+              },
+              "firstName": "Colin",
+              "fullName": "Vize C",
+              "initials": "C",
+              "lastName": "Vize"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Medical College of Wisconsin, Milwaukee, Wisconsin."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6659-357X"
+              },
+              "firstName": "David A A",
+              "fullName": "Baranger DAA",
+              "initials": "DAA",
+              "lastName": "Baranger"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychological Sciences, Purdue University, West Lafayette, Indiana."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8306-498X"
+              },
+              "firstName": "Donald R",
+              "fullName": "Lynam DR",
+              "initials": "DR",
+              "lastName": "Lynam"
+            }
+          ]
+        },
+        "authorString": "Castillo A, Miller JD, Vize C, Baranger DAA, Lynam DR.",
+        "citedByCount": 0,
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "PPR1118118",
+              "note": "Link created based on a title-first author match",
+              "orderIn": 10002,
+              "source": "PPR",
+              "type": "Preprint in"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCreation": "2026-03-12",
+        "dateOfRevision": "2026-03-13",
+        "doi": "10.1177/25152459251407860",
+        "electronicPublicationDate": "2026-02-19",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2026-03-12",
+        "firstPublicationDate": "2026-01-01",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12975032"
+          ]
+        },
+        "fullTextReceivedDate": "2026-03-11",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1177/25152459251407860"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12975032"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12975032?pdf=render"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "acronym": "MH",
+              "agency": "NIMH NIH HHS",
+              "grantId": "K01 MH130746",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "N",
+        "id": "41815790",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2026 Jan-Mar",
+          "issue": "1",
+          "journal": {
+            "essn": "2515-2467",
+            "isoabbreviation": "Adv Methods Pract Psychol Sci",
+            "issn": "2515-2459",
+            "medlineAbbreviation": "Adv Methods Pract Psychol Sci",
+            "nlmid": "101731526",
+            "title": "Advances in methods and practices in psychological science"
+          },
+          "journalIssueId": 4148576,
+          "monthOfPublication": 0,
+          "printPublicationDate": "2026-01-01",
+          "volume": "9",
+          "yearOfPublication": 2026
+        },
+        "keywordList": {
+          "keyword": [
+            "Stability",
+            "Power",
+            "Sample size",
+            "Interactions",
+            "Moderation",
+            "Open Data",
+            "Preregistration",
+            "Open Materials"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by-nc",
+        "manuscriptId": "NIHMS2139821",
+        "nihAuthMan": "Y",
+        "pmcid": "PMC12975032",
+        "pmid": "41815790",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2026",
+        "publicationStatus": "ppublish",
+        "source": "MED",
+        "title": "When Do Interaction/Moderation Effects Stabilize in Linear Regression?"
+      },
+      {
+        "abstractText": "Data from rating scales underlie very specific restrictions: They have a lower limit, an upper limit, and they only consist of a few integers. These characteristics produce particular dependencies between means and standard deviations. A mean that is a non-integer, for example, can never be associated with zero variability, while a mean equal to one of the scale's limits can only be associated with zero variability. The relationship can be described by umbrella plots for which we present a formalization. We use that formalization to explore implications for statistical power and for the relationship between heterogeneity in unstandardized and standardized effect sizes. The analysis illustrates that power is not only affected by the mean difference and sample size, but also by the position of a mean within the respective scale. Further, the umbrella restrictions of rating scales can impede interpretability of meta-analytic heterogeneity. Estimations of relative heterogeneity can diverge between unstandardized and standardized effects, raising questions about which of the two patterns of heterogeneity we would want to explain (for example, through moderators). We reanalyze data from the Many Labs projects to illustrate the issue and finally discuss the implications of our observations as well as ways to utilize these properties of rating scales. To facilitate in-depth exploration and practical application of our formalization, we developed the Shiny Umbrellas app, which is publicly available at https://www.apps.meta-rep.lmu.de/shiny_umbrellas/ .",
+        "affiliation": "University of Erfurt, Nordh\u00e4user Str. 63, 99089, Erfurt, Germany. Jens.Fuenderich@uni-erfurt.de.",
+        "authMan": "N",
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Erfurt, Nordh\u00e4user Str. 63, 99089, Erfurt, Germany. Jens.Fuenderich@uni-erfurt.de."
+                  },
+                  {
+                    "affiliation": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen, Munich, Germany. Jens.Fuenderich@uni-erfurt.de."
+                  }
+                ]
+              },
+              "firstName": "Jens H",
+              "fullName": "F\u00fcnderich JH",
+              "initials": "JH",
+              "lastName": "F\u00fcnderich"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Erfurt, Nordh\u00e4user Str. 63, 99089, Erfurt, Germany."
+                  }
+                ]
+              },
+              "firstName": "Lukas J",
+              "fullName": "Beinhauer LJ",
+              "initials": "LJ",
+              "lastName": "Beinhauer"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Erfurt, Nordh\u00e4user Str. 63, 99089, Erfurt, Germany."
+                  }
+                ]
+              },
+              "firstName": "Frank",
+              "fullName": "Renkewitz F",
+              "initials": "F",
+              "lastName": "Renkewitz"
+            }
+          ]
+        },
+        "authorString": "F\u00fcnderich JH, Beinhauer LJ, Renkewitz F.",
+        "citedByCount": 0,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCompletion": "2025-11-25",
+        "dateOfCreation": "2025-11-25",
+        "dateOfRevision": "2026-02-19",
+        "doi": "10.3758/s13428-025-02879-w",
+        "electronicPublicationDate": "2025-11-24",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2025-11-25",
+        "firstPublicationDate": "2025-11-24",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12644166"
+          ]
+        },
+        "fullTextReceivedDate": "2025-12-23",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3758/s13428-025-02879-w"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12644166"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12644166?pdf=render"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Universit\u00e4t Erfurt",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "41286207",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2025 Nov",
+          "issue": "1",
+          "journal": {
+            "essn": "1554-3528",
+            "isoabbreviation": "Behav Res Methods",
+            "issn": "1554-351X",
+            "medlineAbbreviation": "Behav Res Methods",
+            "nlmid": "101244316",
+            "title": "Behavior research methods"
+          },
+          "journalIssueId": 4051773,
+          "monthOfPublication": 11,
+          "printPublicationDate": "2025-11-01",
+          "volume": "58",
+          "yearOfPublication": 2025
+        },
+        "keywordList": {
+          "keyword": [
+            "Heterogeneity",
+            "Power",
+            "Error",
+            "Rating Scales",
+            "Meta-science"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by",
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "descriptorName": "Humans",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Data Interpretation, Statistical",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Models, Statistical",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Sample Size",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Meta-Analysis as Topic",
+              "majorTopic_YN": "N"
+            }
+          ]
+        },
+        "nihAuthMan": "N",
+        "pageInfo": "5",
+        "pmcid": "PMC12644166",
+        "pmid": "41286207",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2025",
+        "publicationStatus": "epublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "Under my umbrella: Rating scales obscure statistical power and effect size heterogeneity."
+      },
+      {
+        "abstractText": "<h4>Background</h4>Underpowered study designs undermine the reliability of experimental research, with growing concerns regarding randomised controlled trials (RCTs) informing musculoskeletal injury management. We assessed the statistical power and sample size calculations of such RCTs.<h4>Methods</h4>Electronic searches (MEDLINE and PEDro searched up to March 2024) identified meta-analyses of RCTs comparing conservative interventions for musculoskeletal injury, without restrictions on demographics, injury type, or outcome. Statistical power was estimated using two approaches: (1) meta-analytic-the RCT's power to detect the summary effect of the meta-analysis it contributed to, and (2) conventional-the RCT's power to detect Cohen's small (d\u2009=\u20090.2), medium (d\u2009=\u20090.5), and large (d\u2009=\u20090.8) effect sizes. The RCTs' manuscripts and registry entries were screened for sample size planning details.<h4>Results</h4>The search identified 4737 articles, with 41 eligible meta-analyses of 266 RCTs. The median power was 42% (54% among RCTs within statistically significant meta-analyses). Less than 1 in 3 RCTs from statistically significant meta-analyses had\u2009\u2265\u200980% power to detect the corresponding summary effect. The number of RCTs with \u2265\u200980% power to detect small, medium, and large effects was 0%, 7.9%, and 37.6%, respectively. One in four RCTs reported sample size calculations; 80% expected larger effects than they observed. RCTs not reporting sample size calculations were smaller and reported larger effects.<h4>Conclusion</h4>Low statistical power permeates musculoskeletal injury research, limiting the clinical utility of many RCTs. The underlying causes of low power in this field are multifactorial and extend beyond sample size calculation alone. Enhancing study power requires methodological improvements, including robust planning, stronger theoretical frameworks, multi-center collaboration, data sharing, and the use of valid, reliable outcome measures.",
+        "affiliation": "School of Health Sciences, Ulster University, Belfast, Northern Ireland. c.bleakley@ulster.ac.uk.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9032-9691"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Health Sciences, Ulster University, Belfast, Northern Ireland. c.bleakley@ulster.ac.uk."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9032-9691"
+              },
+              "firstName": "Chris",
+              "fullName": "Bleakley C",
+              "initials": "C",
+              "lastName": "Bleakley"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Health Sciences, Ulster University, Belfast, Northern Ireland."
+                  }
+                ]
+              },
+              "firstName": "Natalie",
+              "fullName": "Klempel N",
+              "initials": "N",
+              "lastName": "Klempel"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium."
+                  }
+                ]
+              },
+              "firstName": "Jente",
+              "fullName": "Wagemans J",
+              "initials": "J",
+              "lastName": "Wagemans"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Quantify Research, Stockholm, Sweden."
+                  }
+                ]
+              },
+              "firstName": "Fredh",
+              "fullName": "Netterstr\u00f6m-Wedin F",
+              "initials": "F",
+              "lastName": "Netterstr\u00f6m-Wedin"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Medicine, Tufts University, Seattle, United States of America."
+                  }
+                ]
+              },
+              "firstName": "James",
+              "fullName": "Smoliga J",
+              "initials": "J",
+              "lastName": "Smoliga"
+            }
+          ]
+        },
+        "authorString": "Bleakley C, Klempel N, Wagemans J, Netterstr\u00f6m-Wedin F, Smoliga J.",
+        "citedByCount": 0,
+        "dateOfCompletion": "2025-11-21",
+        "dateOfCreation": "2025-11-21",
+        "dateOfRevision": "2025-11-24",
+        "doi": "10.1186/s40798-025-00908-8",
+        "electronicPublicationDate": "2025-11-21",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2025-11-21",
+        "firstPublicationDate": "2025-11-21",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12638596"
+          ]
+        },
+        "fullTextReceivedDate": "2025-11-24",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s40798-025-00908-8"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12638596"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12638596?pdf=render"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "N",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "41269466",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2025 Nov",
+          "issue": "1",
+          "journal": {
+            "essn": "2198-9761",
+            "isoabbreviation": "Sports Med Open",
+            "issn": "2199-1170",
+            "medlineAbbreviation": "Sports Med Open",
+            "nlmid": "101662568",
+            "title": "Sports medicine - open"
+          },
+          "journalIssueId": 4043332,
+          "monthOfPublication": 11,
+          "printPublicationDate": "2025-11-01",
+          "volume": "11",
+          "yearOfPublication": 2025
+        },
+        "language": "eng",
+        "license": "cc by-nc-nd",
+        "nihAuthMan": "N",
+        "pageInfo": "134",
+        "pmcid": "PMC12638596",
+        "pmid": "41269466",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2025",
+        "publicationStatus": "epublish",
+        "source": "MED",
+        "title": "Statistical Power in Musculoskeletal Research: A Meta-Review of 266 Randomised Controlled Trials."
+      }
+    ]
+  },
+  "version": "6.9"
+}

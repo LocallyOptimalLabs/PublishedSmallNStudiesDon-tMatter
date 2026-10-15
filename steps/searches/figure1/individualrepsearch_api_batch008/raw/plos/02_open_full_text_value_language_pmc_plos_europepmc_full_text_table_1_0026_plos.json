@@ -1,0 +1,83 @@
+{
+  "response": {
+    "docs": [
+      {
+        "abstract": [
+          "\nThe quality of psychological studies is currently a major concern. The Many Labs Project (MLP) and the Open-Science-Collaboration (OSC) have collected key data on replicability and statistical effect sizes. We build on this work by investigating the role played by three measurement types: ratings, proportions and unbounded (measures without conceptual upper limits, e.g. time). Both replicability and effect sizes are dependent on the amount of variability due to extraneous factors. We predicted that the role of such extraneous factors might depend on measurement type, and would be greatest for ratings, intermediate for proportions and least for unbounded. Our results support this conjecture. OSC replication rates for unbounded, 43% and proportion 40% combined are reliably higher than those for ratings at 20% (effect size, w = .20). MLP replication rates for the original studies are: proportion = .74, ratings = .40 (effect size w = .33). Original effect sizes (Cohen\u2019s d) are highest for: unbounded OSC cognitive = 1.45, OSC social = .90); next for proportions (OSC cognitive = 1.01, OSC social = .84, MLP = .82); and lowest for ratings (OSC social = .64, MLP = .31). These findings are of key importance to scientific methodology and design, even if the reasons for their occurrence are still at the level of conjecture.\n"
+        ],
+        "author_display": [
+          "Diana E. Kornbrot",
+          "Richard Wiseman",
+          "George J. Georgiou"
+        ],
+        "id": "10.1371/journal.pone.0192808",
+        "journal": "PLOS ONE",
+        "publication_date": "2018-02-12T00:00:00Z",
+        "title": "Quality science from quality measurement: The role of measurement type with respect to replication and effect size magnitude in psychological research"
+      },
+      {
+        "abstract": [
+          "Background: The importance of replication in the social and behavioural sciences has been emphasized for decades. Various frequentist and Bayesian approaches have been proposed to qualify a replication study as successful or unsuccessful. One of them is meta-analysis. The focus of the present study is on the way meta-analysis functions as a replication success metric. To investigate this, original and replication studies that are part of two large-scale replication projects were used. For each original study, the probability of replication success was calculated using meta-analysis under different assumptions of the underlying population effect when replication results were unknown. The accuracy of the predicted overall replication success was evaluated once replication results became available using adjusted Brier scores. Results: Our results showed that meta-analysis performed poorly when used as a replication success metric. In many cases, quantifying replication success using meta-analysis resulted in the conclusion where the replication was deemed a success regardless of the results of the replication study. Discussion: We conclude that when using meta-analysis as a replication success metric, it has a relatively high probability of finding evidence in favour of a non-zero population effect even when it is zero. This behaviour largely results from the significance of the original study. Furthermore, we argue that there are fundamental reasons against using meta-analysis as a metric for replication success. "
+        ],
+        "author_display": [
+          "Jasmine Muradchanian",
+          "Rink Hoekstra",
+          "Henk Kiers",
+          "Don van Ravenzwaaij"
+        ],
+        "id": "10.1371/journal.pone.0308495",
+        "journal": "PLOS ONE",
+        "publication_date": "2024-12-11T00:00:00Z",
+        "title": "Evaluating meta-analysis as a replication success measure"
+      },
+      {
+        "abstract": [
+          "\nThe Varicella Zoster Virus (VZV) is a ubiquitous human alpha-herpesvirus that is the causative agent of chicken pox and shingles. Although an attenuated VZV vaccine (v-Oka) has been widely used in children in the United States, chicken pox outbreaks are still seen, and the shingles vaccine only reduces the risk of shingles by 50%. Therefore, VZV still remains an important public health concern. Knowledge of VZV replication and pathogenesis remains limited due to its highly cell-associated nature in cultured cells, the difficulty of generating recombinant viruses, and VZV's almost exclusive tropism for human cells and tissues. In order to circumvent these hurdles, we cloned the entire VZV (p-Oka) genome into a bacterial artificial chromosome that included a dual-reporter system (GFP and luciferase reporter genes). We used PCR-based mutagenesis and the homologous recombination system in the E. coli to individually delete each of the genome's 70 unique ORFs. The collection of viral mutants obtained was systematically examined both in MeWo cells and in cultured human fetal skin organ samples. We use our genome-wide deletion library to provide novel functional annotations to 51% of the VZV proteome. We found 44 out of 70 VZV ORFs to be essential for viral replication. Among the 26 non-essential ORF deletion mutants, eight have discernable growth defects in MeWo. Interestingly, four ORFs were found to be required for viral replication in skin organ cultures, but not in MeWo cells, suggesting their potential roles as skin tropism factors. One of the genes (ORF7) has never been described as a skin tropic factor. The global profiling of the VZV genome gives further insights into the replication and pathogenesis of this virus, which can lead to improved prevention and therapy of chicken pox and shingles.\nAuthor Summary: The Varicella Zoster Virus (VZV) is the causative agent of chicken pox and shingles. The long-term efficacy of the current chickenpox vaccine is yet to be determined, and the current shingles vaccine fails to provide protective immunity for a substantial number of individuals. Shingles can also lead to post-herpetic neuralgia (PHN), a debilitating condition associated with an intractable pain that can linger for life. Therefore, VZV remains an important public health concern. We use growth-rate analysis of our genome-wide deletion library to determine the essentiality of all known VZV genes, including novel annotations for 51% of the VZV proteome. We also discovered a novel skin-tropic factor encoded by ORF7. Overall, our identification of genes essential for VZV replication and pathogenesis will serve as the basis for multiple in-depth genetic studies of VZV, which can lead to improved prevention and therapy of chicken pox and shingles. For example, essential genes may be appealing drug targets and genes whose deletion causes a substantial growth defect may be prospective candidates for novel live attenuated vaccines. "
+        ],
+        "author_display": [
+          "Zhen Zhang",
+          "Anca Selariu",
+          "Charles Warden",
+          "Grace Huang",
+          "Ying Huang",
+          "Oluleke Zaccheus",
+          "Tong Cheng",
+          "Ningshao Xia",
+          "Hua Zhu"
+        ],
+        "id": "10.1371/journal.ppat.1000971",
+        "journal": "PLoS Pathogens",
+        "publication_date": "2010-07-01T00:00:00Z",
+        "title": "Genome-Wide Mutagenesis Reveals That ORF7 Is a Novel VZV Skin-Tropic Factor"
+      },
+      {
+        "abstract": [
+          "\nIs it permissible to harm one to save many? Classic moral dilemmas are often defined by the conflict between a putatively rational response to maximize aggregate welfare (i.e., the utilitarian judgment) and an emotional aversion to harm (i.e., the non-utilitarian judgment). Here, we address two questions. First, what specific aspect of emotional responding is relevant for these judgments? Second, is this aspect of emotional responding selectively reduced in utilitarians or enhanced in non-utilitarians? The results reveal a key relationship between moral judgment and empathic concern in particular (i.e., feelings of warmth and compassion in response to someone in distress). Utilitarian participants showed significantly reduced empathic concern on an independent empathy measure. These findings therefore reveal diminished empathic concern in utilitarian moral judges.\n"
+        ],
+        "author_display": [
+          "Ezequiel Gleichgerrcht",
+          "Liane Young"
+        ],
+        "id": "10.1371/journal.pone.0060418",
+        "journal": "PLoS ONE",
+        "publication_date": "2013-04-04T00:00:00Z",
+        "title": "Low Levels of Empathic Concern Predict Utilitarian Moral Judgment"
+      },
+      {
+        "abstract": [
+          "\n        The basis on which people make social judgments from the image of a face remains an important open problem in fields ranging from psychology to neuroscience and economics. Multiple cues from facial appearance influence the judgments that viewers make. Here we investigate the contribution of a novel cue: the change in appearance due to the perspective distortion that results from viewing distance. We found that photographs of faces taken from within personal space elicit lower investments in an economic trust game, and lower ratings of social traits (such as trustworthiness, competence, and attractiveness), compared to photographs taken from a greater distance. The effect was replicated across multiple studies that controlled for facial image size, facial expression and lighting, and was not explained by face width-to-height ratio, explicit knowledge of the camera distance, or whether the faces are perceived as typical. These results demonstrate a novel facial cue influencing a range of social judgments as a function of interpersonal distance, an effect that may be processed implicitly.\n      "
+        ],
+        "author_display": [
+          "Ronnie Bryan",
+          "Pietro Perona",
+          "Ralph Adolphs"
+        ],
+        "id": "10.1371/journal.pone.0045301",
+        "publication_date": "2012-09-21T00:00:00Z",
+        "title": "Perspective Distortion from Interpersonal Distance Is an Implicit Visual Cue for Social Judgments of Faces"
+      }
+    ],
+    "numFound": 16672,
+    "start": 0
+  }
+}

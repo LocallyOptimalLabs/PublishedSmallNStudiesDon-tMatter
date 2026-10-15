@@ -1,0 +1,458 @@
+{
+  "message": {
+    "facets": {},
+    "items": [
+      {
+        "DOI": "10.1111/biom.13603",
+        "URL": "https://doi.org/10.1111/biom.13603",
+        "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>In many randomized clinical trials of therapeutics for COVID-19, the primary outcome is an ordinal categorical variable, and interest focuses on the odds ratio (OR; active agent vs control) under the assumption of a proportional odds model. Although at the final analysis the outcome will be determined for all subjects, at an interim analysis, the status of some participants may not yet be determined, for example, because ascertainment of the outcome may not be possible until some prespecified follow-up time. Accordingly, the outcome from these subjects can be viewed as censored. A valid interim analysis can be based on data only from those subjects with full follow-up; however, this approach is inefficient, as it does not exploit additional information that may be available on those for whom the outcome is not yet available at the time of the interim analysis. Appealing to the theory of semiparametrics, we propose an estimator for the OR in a proportional odds model with censored, time-lagged categorical outcome that incorporates additional baseline and time-dependent covariate information and demonstrate that it can result in considerable gains in efficiency relative to simpler approaches. A byproduct of the approach is a covariate-adjusted estimator for the OR based on the full data that would be available at a final analysis.</jats:p>",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Department of Statistics, North Carolina State University , Raleigh, North Carolina"
+              }
+            ],
+            "family": "Tsiatis",
+            "given": "Anastasios A.",
+            "sequence": "first"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9202-6341",
+            "affiliation": [
+              {
+                "name": "Department of Statistics, North Carolina State University , Raleigh, North Carolina"
+              }
+            ],
+            "authenticated-orcid": false,
+            "family": "Davidian",
+            "given": "Marie",
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Statistics, North Carolina State University , Raleigh, North Carolina"
+              }
+            ],
+            "family": "Holloway",
+            "given": "Shannon T.",
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biometrics"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              26
+            ]
+          ]
+        },
+        "title": [
+          "Estimation of the Odds Ratio in a Proportional Odds Model with Censored Time-Lagged Outcome in a Randomized Clinical Trial"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1097/00001648-199509000-00027",
+        "URL": "https://doi.org/10.1097/00001648-199509000-00027",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "&NA;",
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Epidemiology"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              1995,
+              9
+            ]
+          ]
+        },
+        "title": [
+          "Odds and Odds Ratio"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1002/sim.7059",
+        "URL": "https://doi.org/10.1002/sim.7059",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Department of Medicine, Division of Infectious Diseases; University of Alabama at Birmingham; Birmingham AL U.S.A."
+              }
+            ],
+            "family": "Tamhane",
+            "given": "Ashutosh R.",
+            "sequence": "first"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Medicine, Division of Infectious Diseases; University of Alabama at Birmingham; Birmingham AL U.S.A."
+              },
+              {
+                "name": "Department of Biostatistics; University of Alabama at Birmingham; Birmingham AL U.S.A."
+              }
+            ],
+            "family": "Westfall",
+            "given": "Andrew O.",
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Medicine, Division of Infectious Diseases; University of Alabama at Birmingham; Birmingham AL U.S.A."
+              }
+            ],
+            "family": "Burkholder",
+            "given": "Greer A.",
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [
+              {
+                "name": "Department of Biostatistics; University of Alabama at Birmingham; Birmingham AL U.S.A."
+              }
+            ],
+            "family": "Cutter",
+            "given": "Gary R.",
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Statistics in Medicine"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              26
+            ]
+          ]
+        },
+        "title": [
+          "Prevalence odds ratio versus prevalence ratio: choice comes with consequences"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.csda.2018.08.018",
+        "URL": "https://doi.org/10.1016/j.csda.2018.08.018",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Chowdhury",
+            "given": "Shrabanti",
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Tiwari",
+            "given": "Ram C.",
+            "sequence": "additional"
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3117-7055",
+            "affiliation": [],
+            "authenticated-orcid": false,
+            "family": "Ghosh",
+            "given": "Samiran",
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Computational Statistics &amp; Data Analysis"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              4
+            ]
+          ]
+        },
+        "title": [
+          "Non-inferiority testing for risk ratio, odds ratio and number needed to treat in three-arm trial"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1007/s10940-021-09494-w",
+        "URL": "https://doi.org/10.1007/s10940-021-09494-w",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Wilson",
+            "given": "David B.",
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Journal of Quantitative Criminology"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              11
+            ]
+          ]
+        },
+        "title": [
+          "The Relative Incident Rate Ratio Effect Size for Count-Based Impact Evaluations: When an Odds Ratio is Not an Odds Ratio"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1111/j.0006-341x.1999.01193.x",
+        "URL": "https://doi.org/10.1111/j.0006-341x.1999.01193.x",
+        "abstract": "<jats:p><jats:bold>Summary. </jats:bold> We compared several validation study designs for estimating the odds ratio of disease with misclassified exposure. We assumed that the outcome and misclassified binary covariate are available and that the error\u2010free binary covariate is measured in a subsample, the validation sample. We considered designs in which the total size of the validation sample is fixed and the probability of selection into the validation sample may depend on outcome and misclassified covariate values. Design comparisons were conducted for rare and common disease scenarios, where the optimal design is the one that minimizes the variance of the maximum likelihood estimator of the true log odds ratio relating the outcome to the exposure of interest. Misclassification rates were assumed to be independent of the outcome. We used a sensitivity analysis to assess the effect of misspecifying the misclassification rates. Under the scenarios considered, our results suggested that a balanced design, which allocates equal numbers of validation subjects into each of the four outcome/mismeasured covariate categories, is preferable for its simplicity and good performance. A user\u2010friendly Fortran program is available from the second author, which calculates the optimal sampling fractions for all designs considered and the efficiencies of these designs relative to the optimal hybrid design for any scenario of interest.</jats:p>",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Holcroft",
+            "given": "Christina A.",
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Spiegelman",
+            "given": "Donna",
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Biometrics"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              1999,
+              12
+            ]
+          ]
+        },
+        "title": [
+          "Design of Validation Studies for Estimating the Odds Ratio of Exposure\u2013Disease Relationships When Exposure Is Misclassified"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.23880/jqhe-16000278",
+        "URL": "https://doi.org/10.23880/jqhe-16000278",
+        "abstract": "<jats:p>The Odds Ratio is one of several statistics used to assist clinicians determine whether to use a particular treatment in clinical practice. The Odds Ratio fits into the category of effect-size statistics because the larger size of the Odds Ratio statistic, the stronger the relationship between the treatment and the outcome. However, its interpretation is not as clear and direct as that of a correlation. The Odds Ratio is typically used when the outcome of interest is relatively rare. Most Odds Ratio calculations are set up as two by two tables. Therefore, the preferred significance statistic is the Maximum Likelihood Ratio Chi-Square. However, in some circumstances. The Fisher\u2019s Exact Probability statistic or Pearson\u2019s Chi-Square can also be used. As a simple statistic to calculate, it can be hand calculated in a clinic if necessary to determine the odds of a particular event for a patient at risk for that event. Interpretation of the statistic, and how the Odds Ratio table should be set up require care as misinterpretation can easily occur.</jats:p>",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "McHugh",
+            "given": "Mary L",
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Journal of Quality in Health Care &amp; Economics"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "title": [
+          "Use of the Odds Ratio in Clinical Research"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.21037/apm-2022-01",
+        "URL": "https://doi.org/10.21037/apm-2022-01",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Zhao",
+            "given": "Gangmei",
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Zhang",
+            "given": "Yizhong",
+            "sequence": "additional"
+          },
+          {
+            "affiliation": [],
+            "family": "Liu",
+            "given": "Chunbo",
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Annals of Palliative Medicine"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              4
+            ]
+          ]
+        },
+        "title": [
+          "Odds ratio form randomized controlled trial applied in meta-analysis"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1177/095148489701000109",
+        "URL": "https://doi.org/10.1177/095148489701000109",
+        "abstract": "<jats:p>The National Health Service reforms have led to a growing need to determine the efficiency and cost effectiveness of health care provision. Resource utilization and the factors that influence it form a vital part of the information procured by commissioners of health care. Currently, the most comprehensive source of routinely collected data is the Hospital Episode Statistics database. This database provides the most complete coverage of all areas of hospital inpatient services; these services account for up to 70% of the health care budget. Several studies have investigated the integrity of these data, but they have been concerned only with a subset of the data or with particular hospitals. This paper derives a method of data validation that can be applied either regionally or nationally to two key fields within the database: in this instance, consultant specialty and principal diagnosis. The process uses the Mantel\u2014Haenszel odds ratio estimate to reveal large anomalies within either specialty or diagnostic coding. Within the West Midlands, it was generally observed that diagnosis codes are coded more consistently than consultant codes. However, problems occur due to incomplete or incorrect diagnostic entries and these anomalies are irregular across provider units. In contrast, anomalies within Korner specialty codes are associated predominantly with maternity, obstetrics, geriatric and general medicine. A large number of these anomalies are well understood within the context of local practice variation. Nevertheless, many anomalies remain within a wide range of other specialties where further investigation is warranted. Where systematic error is found, provider units should be notified in order to improve data consistency and enhance quality for future data users and health care planners.</jats:p>",
+        "author": [
+          {
+            "affiliation": [
+              {
+                "name": "Department of Public Health and Epidemiology, The Medical School, University of Birmingham, Birmingham, UK (at time of writing)"
+              }
+            ],
+            "family": "Gilthorpe",
+            "given": "M. S.",
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Health Services Management Research"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              1997,
+              2
+            ]
+          ]
+        },
+        "title": [
+          "Application of the Mantel\u2014Haenszel Odds Ratio in Validation of Hospital Episode Statistics Data"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1002/sim.4166",
+        "URL": "https://doi.org/10.1002/sim.4166",
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>For testing the non\u2010inferiority (or equivalence) of a generic drug to a standard drug, the odds ratio (OR) of patient response rates has been recommended to measure the relative treatment efficacy. On the basis of a random effects logistic regression model, we develop asymptotic test procedures for testing non\u2010inferiority and equivalence with respect to the OR of patient response rates under a simple crossover design. We further derive exact test procedures, which are especially useful for the situations in which the number of patients in a crossover trial is small. We address sample size calculation for testing non\u2010inferiority and equivalence based on the asymptotic test procedures proposed here. We also discuss estimation of the OR of patient response rates for both the treatment and period effects. Finally, we include two examples, one comparing two solution aerosols in treating asthma, and the other one studying two inhalation devices for asthmatics, to illustrate the use of the proposed test procedures and estimators. Copyright \u00a9 2011 John Wiley &amp; Sons, Ltd.</jats:p>",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "Lui",
+            "given": "Kung\u2010Jong",
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Chang",
+            "given": "Kuang\u2010Chao",
+            "sequence": "additional"
+          }
+        ],
+        "container-title": [
+          "Statistics in Medicine"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              1,
+              12
+            ]
+          ]
+        },
+        "title": [
+          "Test non\u2010inferiority (and equivalence) based on the odds ratio under a simple crossover trial"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.25132/raac.v115.n4.cymmli",
+        "URL": "https://doi.org/10.25132/raac.v115.n4.cymmli",
+        "abstract": "<jats:p>elative risk (RR) and odds ratio (OR) are wellknown concepts, but often not well understood. The aim of this article is to introduce the basic concepts in a didactic fashion, and to provide clarity on those contents that I consider fundamental for their better understanding.  The RR and OR are used to compare how often a specific event happens in two different groups - one exposed to a risk factor and one not - as defined by de la asignaci\u00f3n aleatorizada de grupos para un tratamiento u otro. En Epidemiolog\u00eda se crea una base de datos con los individuos incluidos y se observa la ocurrencia o no del evento en forma prospectiva. Los modelos de regresi\u00f3n log\u00edstica generan OR, o log Odds que deben ser transformados. En los estudios prospectivos es conveniente ajustarlos a RR cuando el riego del evento de inter\u00e9s es mayor de 0,1 (10%) debido a la sobreestimaci\u00f3n mencionada antes9. La lectura que se puede hacer no debe ser independiente del riesgo absoluto previamente conocido en la poblaci\u00f3n y, para esto, se usa la prevalencia del evento en la poblaci\u00f3n10. Si el evento es raro, un ejemplo: 0,02%, un RR o OR de 2 elevar\u00eda el riesgo de 0,02 a 0,04%.  Si el evento es frecuente, por ejemplo, del 20%, al aumento del riesgo con el tratamiento o exposici\u00f3n, se duplica al 40%. De manera que no debemos limitarnos a los an\u00e1lisis de nuestra tabla porque perder\u00edamos de vista la perspectiva de la poblaci\u00f3n definida en los criterios de inclusi\u00f3n. Reducci\u00f3n del RR (RRR) Si el RR es mayor de 1 es RR \u2013 1, si es menor de 1, es 1 \u2013 RR4,10 En este caso es 2,57 - 1 = 1,57. Eso significa, sin analizar en profundidad, que aumentar\u00eda 1,57 veces el efecto beneficioso del tratamiento, lo cual es desmentido por su intervalo de confianza. Del RR al n\u00famero necesario para tratar (NNT)11 Aunque estamos ante una situaci\u00f3n estad\u00edstica lim\u00edtrofe, usar\u00e9 los mismos resultados para agregar otros conceptos. RAR: reducci\u00f3n absoluta del riesgo es la diferencia entre el riesgo de los expuestos y no expuestos, o tratamiento y placebo. Si vamos a la tabla 3, la diferencia de los riesgos absolutos entre los grupos tratamiento y placebo es 0,16 \u2013 0,06 = 0,10. Vamos a asumir que el evento es una respuesta favorable al tratamiento. El NNT es la inversa de la RAR, 1 / RAR = 1/  0.10 = 10. Diez es el n\u00famero de pacientes para tratar a fin de lograr un paciente adicional con efecto beneficioso. Si el evento es favorable al paciente, es recomendable usar la sigla NNTB , si es desfavorable, usar NNTD con la \u201cd\u201d de da\u00f1o (NNTH, number needed to harm). El c\u00e1lculo del IC del NNT es complejo y se hace a partir del IC del RAR12. Son asim\u00e9tricos porque no se ajustan a la distribuci\u00f3n normal. Los valores est\u00e1n en la tabla 4. TABLA 4 L\u00edmite inf Valor L\u00edmite sup RAR 0,005 0,10 0,195 NNT 5 10 213 Tabla 4. RAR: reducci\u00f3n absoluta del riesgo. NNT: n\u00famero necesario para tratar. Se expresan los valores y l\u00edmites inferiores y superiores del IC del 95%. El NNT se redonde\u00f3 con n\u00fameros enteros. En este caso, el resultado es respuesta al tratamiento y hay una diferencia a favor del grupo tratado. Sin embargo, la amplitud del intervalo de confianza de ambas medidas no permite establecer una conclusi\u00f3n v\u00e1lida en esta situaci\u00f3n, aunque el RR es de 2,57 y el OR de 2,87. La dimensi\u00f3n tiempo Voy a finalizar con la traducci\u00f3n de una frase de Chittaranjan Andrade9 que me gust\u00f3 mucho: \u201cUn tratamiento que duplica el \u2018riesgo\u2019 de 2 a\u00f1os de supervivencia en un c\u00e1ncer es m\u00e1s deseable que otro que duplica el \u2018riesgo\u2019 de 2 meses de supervivencia\u201d. Ac\u00e1 hablamos en ambos casos de un RR = 2. Riesgo entre comillas, porque no es un efecto negativo. La interpretaci\u00f3n de los resultados est\u00e1 sujeta a un juicio cl\u00ednico cr\u00edtico y exhaustivo y no se debe omitir la prevalencia del riesgo en la poblaci\u00f3n porque nuestras estimaciones se basan en una muestra. Las medidas descriptas sin sus intervalos de confianza tienen un valor muy limitado y pueden conducir a conclusiones no v\u00e1lidas o, peor a\u00fan,  incorrectas. the investigator. The risk factor can be a treatment, an intervention or any other condition also defined by the investigator. The term \u201crisk\u201d, used as probability, does not always imply a negative result. Risk factors are also called predictor variables; the consequence or result obtained is whether the event happens or not.</jats:p>",
+        "author": [
+          {
+            "affiliation": [],
+            "name": "Director Revista",
+            "sequence": "first"
+          },
+          {
+            "affiliation": [],
+            "family": "Iovaldi",
+            "given": "Mario L.",
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "Revista Argentina de Cirug\u00eda"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ]
+        },
+        "title": [
+          "Relative risk and odds ratio: basic concepts"
+        ],
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.2139/ssrn.3194541",
+        "URL": "https://doi.org/10.2139/ssrn.3194541",
+        "author": [
+          {
+            "affiliation": [],
+            "family": "van Herk",
+            "given": "Mark F. J.",
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "SSRN Electronic Journal"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "title": [
+          "Business Valuation with ODDS: Odds as a Financial Ratio in Business Valuation Theory"
+        ],
+        "type": "journal-article"
+      }
+    ],
+    "items-per-page": 12,
+    "query": {
+      "search-terms": null,
+      "start-index": 0
+    },
+    "total-results": 1090437
+  },
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "status": "ok"
+}

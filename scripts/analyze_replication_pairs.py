@@ -62,6 +62,14 @@ SITE_LEVEL_REPLICATION_SOURCES = {
     "Eerland 2016 imagery.csv",
 }
 
+ONE_TO_MANY_SOURCE_DATASETS = SITE_LEVEL_REPLICATION_SOURCES | {
+    "Altmejd harmonized Many Labs 1 site-level rows",
+    "Altmejd harmonized Many Labs 3 site-level rows",
+    "Many Labs 5 site-level single effects",
+    "Eyewitness ten-country paper table rescue",
+    "Public-admin blame Wiley table reconstruction",
+}
+
 MANUAL_SITE_SHADOWS = {
     "RRR O'Donnell 2018 (manual)": "O'Donnell 2018 site-level meta csvs",
     "RRR Wagenmakers 2016 (manual)": "Wagenmakers 2016 site csv",
@@ -214,6 +222,24 @@ def pooled_d_from_summary(
     return abs((mean_1 - mean_2) / math.sqrt(pooled_var))
 
 
+def d_from_two_arm_proportion_text(text: object, expected_n: object) -> float:
+    """Parse Boyce-style `prop:a/n,c/n` rows when counts exactly define N."""
+    s = HELPERS.normalize_ascii_stat_text(text).replace(" ", "")
+    match = re.fullmatch(rf"(?:raw)?prop:?({NUM_RE})/({NUM_RE}),({NUM_RE})/({NUM_RE})", s, flags=re.I)
+    if not match:
+        return np.nan
+    event_1, total_1, event_0, total_0 = (float(value) for value in match.groups())
+    expected = pd.to_numeric(pd.Series([expected_n]), errors="coerce").iloc[0]
+    if not (np.isfinite(expected) and abs((total_1 + total_0) - expected) < 1e-9):
+        return np.nan
+    non_event_1 = total_1 - event_1
+    non_event_0 = total_0 - event_0
+    if min(event_1, event_0, non_event_1, non_event_0, total_1, total_0) <= 0:
+        return np.nan
+    odds_ratio = (event_1 * non_event_0) / (non_event_1 * event_0)
+    return odds_ratio_to_d(odds_ratio)
+
+
 def clean_author_key(text: object) -> str:
     s = HELPERS.normalize_ascii_stat_text(text).strip().lower()
     if not s:
@@ -310,11 +336,19 @@ def parse_test_text_to_d(text: object, n: float = np.nan) -> float:
 
 
 def fred_effect_to_d(value: object, effect_type: object, n: float = np.nan) -> float:
-    if pd.isna(value) or pd.isna(effect_type):
+    if pd.isna(value):
+        return np.nan
+
+    value_text = str(value).strip()
+    if re.search(r"(?i)\b(?:t|f|z|sobel)\s*(?:\(|=|<|>|<=|>=|≤|≥)|\b(?:chi2|x2)\s*(?:\(|=)", value_text):
+        stat_d = parse_test_text_to_d(value_text, n)
+        if np.isfinite(stat_d):
+            return stat_d
+
+    if pd.isna(effect_type):
         return np.nan
 
     effect_label = str(effect_type).strip().lower()
-    value_text = str(value).strip()
     numeric = pd.to_numeric(pd.Series([value_text]), errors="coerce").iloc[0]
 
     if effect_label in {
@@ -337,9 +371,18 @@ def fred_effect_to_d(value: object, effect_type: object, n: float = np.nan) -> f
         "r",
         "partial correlation",
         "partial r",
+        "semipartial correlation",
+        "semi-partial correlation",
+        "part correlation",
         "phi",
         "cramer's v",
         "wilcoxon r",
+        "rho (spearman's rank cor)",
+        "spearman rho",
+        "rank_bis",
+        "rank biserial",
+        "rank biserial correlation",
+        "rank-biserial correlation",
     } and np.isfinite(numeric):
         return scalar_r_to_d(float(numeric))
 
@@ -830,6 +873,31 @@ def build_score_pairs() -> pd.DataFrame:
         .fillna("claim_" + merged["claim_id"].astype(str))
     )
 
+    def score_original_d(row: pd.Series) -> float:
+        conv_r = pd.to_numeric(pd.Series([row.get("orig_conv_r")]), errors="coerce").iloc[0]
+        if np.isfinite(conv_r) and abs(conv_r) < 0.999999:
+            return scalar_r_to_d(conv_r)
+
+        stat_type = str(row.get("orig_stat_type") or "").strip().lower()
+        stat_value = pd.to_numeric(pd.Series([row.get("orig_stat_value")]), errors="coerce").iloc[0]
+        df1 = pd.to_numeric(pd.Series([row.get("orig_stat_dof_1")]), errors="coerce").iloc[0]
+        df2 = pd.to_numeric(pd.Series([row.get("orig_stat_dof_2")]), errors="coerce").iloc[0]
+        sample_n = pd.to_numeric(pd.Series([row.get("orig_sample_size_value")]), errors="coerce").iloc[0]
+        if stat_type == "t" and np.isfinite(stat_value) and np.isfinite(df2) and df2 > 0:
+            return d_from_t_df(stat_value, df2)
+        if stat_type == "z" and np.isfinite(stat_value) and np.isfinite(sample_n) and sample_n > 0:
+            return abs(2 * stat_value / math.sqrt(sample_n))
+        if (
+            stat_type == "f"
+            and np.isfinite(stat_value)
+            and np.isfinite(df1)
+            and abs(df1 - 1) < 1e-9
+            and np.isfinite(df2)
+            and df2 > 0
+        ):
+            return d_from_f_df(stat_value, df2)
+        return np.nan
+
     out = pair_frame(
         source_dataset="SCORE analyst join",
         project="SCORE",
@@ -839,7 +907,7 @@ def build_score_pairs() -> pd.DataFrame:
         original_doi=merged["DOI"].fillna("").astype(str),
         replication_doi="",
         outcome=outcome.astype(str),
-        D_original=pd.to_numeric(merged["orig_conv_r"], errors="coerce").apply(scalar_r_to_d),
+        D_original=merged.apply(score_original_d, axis=1),
         N_original=pd.to_numeric(merged["orig_sample_size_value"], errors="coerce"),
         D_replication=pd.to_numeric(merged["repli_conv_r"], errors="coerce").apply(scalar_r_to_d),
         N_replication=pd.to_numeric(merged["repli_sample_size_value"], errors="coerce"),
@@ -1178,6 +1246,15 @@ def build_boyce_pairs() -> pd.DataFrame:
     path = RAW_REPL / "boyce_student" / "boyce_2023_data.csv"
     d = pd.read_csv(path)
     d = d.loc[d["status"].eq("done")].copy()
+    target_d = pd.to_numeric(d["target_d_calc"], errors="coerce").abs()
+    replication_d = pd.to_numeric(d["rep_d_calc"], errors="coerce").abs()
+    target_prop_d = d.apply(lambda r: d_from_two_arm_proportion_text(r["target_raw_stat"], r["target_N"]), axis=1)
+    replication_prop_d = d.apply(
+        lambda r: d_from_two_arm_proportion_text(r["replication_raw_stat"], r["replication_N"]),
+        axis=1,
+    )
+    target_d = target_d.where(np.isfinite(target_d), target_prop_d)
+    replication_d = replication_d.where(np.isfinite(replication_d), replication_prop_d)
 
     out = pair_frame(
         source_dataset="Boyce student replication corpus",
@@ -1188,9 +1265,9 @@ def build_boyce_pairs() -> pd.DataFrame:
         original_doi="",
         replication_doi="",
         outcome=d["target_raw_stat"].fillna("").astype(str),
-        D_original=pd.to_numeric(d["target_d_calc"], errors="coerce").abs(),
+        D_original=target_d,
         N_original=pd.to_numeric(d["target_N"], errors="coerce"),
-        D_replication=pd.to_numeric(d["rep_d_calc"], errors="coerce").abs(),
+        D_replication=replication_d,
         N_replication=pd.to_numeric(d["replication_N"], errors="coerce"),
         raw_file=str(path),
         match_author=d["target_lastauthor_year"].fillna("").astype(str),
@@ -1209,11 +1286,23 @@ def build_rescue_pairs() -> pd.DataFrame:
 
     boyce = boyce.loc[boyce["status"].eq("done")].copy()
     boyce["base_target"] = boyce["target_lastauthor_year"].map(student_target_base)
+    boyce_target_d = pd.to_numeric(boyce["target_d_calc"], errors="coerce").abs()
+    boyce_replication_d = pd.to_numeric(boyce["rep_d_calc"], errors="coerce").abs()
+    boyce_target_prop_d = boyce.apply(
+        lambda r: d_from_two_arm_proportion_text(r["target_raw_stat"], r["target_N"]),
+        axis=1,
+    )
+    boyce_replication_prop_d = boyce.apply(
+        lambda r: d_from_two_arm_proportion_text(r["replication_raw_stat"], r["replication_N"]),
+        axis=1,
+    )
+    boyce_target_d = boyce_target_d.where(np.isfinite(boyce_target_d), boyce_target_prop_d)
+    boyce_replication_d = boyce_replication_d.where(np.isfinite(boyce_replication_d), boyce_replication_prop_d)
     boyce_overlap = filter_usable_pairs(
         pair_frame(
-            D_original=pd.to_numeric(boyce["target_d_calc"], errors="coerce").abs(),
+            D_original=boyce_target_d,
             N_original=pd.to_numeric(boyce["target_N"], errors="coerce"),
-            D_replication=pd.to_numeric(boyce["rep_d_calc"], errors="coerce").abs(),
+            D_replication=boyce_replication_d,
             N_replication=pd.to_numeric(boyce["replication_N"], errors="coerce"),
         )
     )
@@ -2551,6 +2640,9 @@ def build_all_pairs() -> pd.DataFrame:
         ],
         ignore_index=True,
     )
+    pairs = pairs.loc[
+        ~pairs["source_dataset"].fillna("").astype(str).isin(ONE_TO_MANY_SOURCE_DATASETS)
+    ].copy()
     pairs = collapse_endpoint_pairs(pairs)
     pairs = assign_match_keys(pairs, "match_author")
     return annotate_pair_flags(pairs)
@@ -3618,7 +3710,7 @@ def build_source_catalog(all_pairs: pd.DataFrame) -> pd.DataFrame:
             "file_rows": 176,
             "usable_pair_rows": counts.get("Boyce student replication corpus", 0),
             "raw_file": str(RAW_REPL / "boyce_student" / "boyce_2023_data.csv"),
-            "notes": "Current integration is conservative: only rows with explicit `target_d_calc`, `rep_d_calc`, and both sample sizes are used.",
+            "notes": "Current integration is conservative: rows use explicit `target_d_calc`/`rep_d_calc`, with a narrow fallback for two-arm `prop:a/n,c/n` raw-stat cells only when denominators exactly sum to the recorded sample size.",
         },
         {
             "project": "251 Rescue Projects",

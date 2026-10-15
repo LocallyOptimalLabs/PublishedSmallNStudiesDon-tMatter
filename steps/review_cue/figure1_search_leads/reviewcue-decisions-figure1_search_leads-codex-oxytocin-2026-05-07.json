@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "review_id": "review_figure1_search_leads_115f5ee33aea",
+      "lead_key": "title:absence_of_a_meaningful_effect_of_intranasal_oxytocin_on_trusting_behavior_a_registered_report_with_pooled_equivalence_t",
+      "decision": "route_to_individual_replication_paper_worklist",
+      "confidence": "high",
+      "reason": "The PCI-RR/OSF Stage 2 manuscript and PCI recommendation explicitly identify Kroll et al. (2026) as a large-scale replication of Kosfeld et al. (2005), and local mirrored source objects now contain matched D/N values for a conservative own-data Figure 1 row.",
+      "next_action": "Already verified locally and promoted through scripts/scan_individual_replication_batch001_values.py as batch013_value_oxytocin_trust_kroll_2026; keep cue receipt so the lead is skipped in future review-cue builds.",
+      "sources_checked": [
+        "data/raw/replication_projects/review_cue_figure1_search_leads/oxytocin_trust_kroll_2026/pci_rr_article_1136.html",
+        "data/raw/replication_projects/review_cue_figure1_search_leads/oxytocin_trust_kroll_2026/kroll_2026_stage2_manuscript_osf_kgz8h.pdf",
+        "data/raw/replication_projects/review_cue_figure1_search_leads/oxytocin_trust_kroll_2026/kroll_2026_stage2_manuscript_osf_kgz8h.txt",
+        "data/raw/replication_projects/review_cue_figure1_search_leads/oxytocin_trust_kroll_2026/kosfeld_2005_nature_oxytocin_increases_trust.pdf",
+        "data/raw/replication_projects/review_cue_figure1_search_leads/oxytocin_trust_kroll_2026/kosfeld_2005_nature_oxytocin_increases_trust.txt"
+      ],
+      "promote_payload": {},
+      "route_payload": {
+        "replication_relation_evidence_status": "explicit_self_described_replication",
+        "replication_relation_evidence": "The PCI recommendation states Kroll et al. conducted a replication of Kosfeld et al. (2005), and the Stage 2 manuscript says it performed a large-scale replication of Kosfeld et al. (2005), with own-data n=211 and mirrored result text for Hedges' g=-.12."
+      },
+      "user_gpt_prompt_request": ""
+    }
+  ]
+}

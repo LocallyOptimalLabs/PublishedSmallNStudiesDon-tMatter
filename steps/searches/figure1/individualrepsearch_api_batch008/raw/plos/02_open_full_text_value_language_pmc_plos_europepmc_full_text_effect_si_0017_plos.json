@@ -1,0 +1,84 @@
+{
+  "response": {
+    "docs": [
+      {
+        "abstract": [
+          "\nLarge sample size (N) is seen as a key criterion in judging the replicability of psychological research, a phenomenon we refer to as the N-Heuristic. This heuristic has led to the incentivization of fast, online, non-behavioral studies\u2014to the potential detriment of psychological science. While large N should in principle increase statistical power and thus the replicability of effects, in practice it may not. Large-N studies may have other attributes that undercut their power or validity. Consolidating data from all systematic, large-scale attempts at replication (N = 307 original-replication study pairs), we find that the original study\u2019s sample size did not predict its likelihood of being replicated (rs = -0.02, p = 0.741), even with study design and research area controlled. By contrast, effect size emerged as a substantial predictor (rs = 0.21, p < 0.001), which held regardless of the study\u2019s sample size. N may be a poor predictor of replicability because studies with larger N investigated smaller effects (rs = -0.49, p < 0.001). Contrary to these results, a survey of 215 professional psychologists, presenting them with a comprehensive list of methodological criteria, found sample size to be rated as the most important criterion in judging a study\u2019s replicability. Our findings strike a cautionary note with respect to the prioritization of large N in judging the replicability of psychological science.\n"
+        ],
+        "author_display": [
+          "Xingyu Li",
+          "Jiting Liu",
+          "Weijia Gao",
+          "Geoffrey L. Cohen"
+        ],
+        "id": "10.1371/journal.pone.0306911",
+        "journal": "PLOS ONE",
+        "publication_date": "2024-08-23T00:00:00Z",
+        "title": "Challenging the N-Heuristic: Effect size, not sample size, predicts the replicability of psychological science"
+      },
+      {
+        "abstract": [
+          "\nThe vast majority of published results in the literature is statistically significant, which raises concerns about their reliability. The Reproducibility Project Psychology (RPP) and Experimental Economics Replication Project (EE-RP) both replicated a large number of published studies in psychology and economics. The original study and replication were statistically significant in 36.1% in RPP and 68.8% in EE-RP suggesting many null effects among the replicated studies. However, evidence in favor of the null hypothesis cannot be examined with null hypothesis significance testing. We developed a Bayesian meta-analysis method called snapshot hybrid that is easy to use and understand and quantifies the amount of evidence in favor of a zero, small, medium and large effect. The method computes posterior model probabilities for a zero, small, medium, and large effect and adjusts for publication bias by taking into account that the original study is statistically significant. We first analytically approximate the methods performance, and demonstrate the necessity to control for the original study\u2019s significance to enable the accumulation of evidence for a true zero effect. Then we applied the method to the data of RPP and EE-RP, showing that the underlying effect sizes of the included studies in EE-RP are generally larger than in RPP, but that the sample sizes of especially the included studies in RPP are often too small to draw definite conclusions about the true effect size. We also illustrate how snapshot hybrid can be used to determine the required sample size of the replication akin to power analysis in null hypothesis significance testing and present an easy to use web application (https://rvanaert.shinyapps.io/snapshot/) and R code for applying the method.\n"
+        ],
+        "author_display": [
+          "Robbie C. M. van Aert",
+          "Marcel A. L. M. van Assen"
+        ],
+        "id": "10.1371/journal.pone.0175302",
+        "journal": "PLOS ONE",
+        "publication_date": "2017-04-07T00:00:00Z",
+        "title": "Bayesian evaluation of effect size after replicating an original study"
+      },
+      {
+        "abstract": [
+          "Background: The importance of replication in the social and behavioural sciences has been emphasized for decades. Various frequentist and Bayesian approaches have been proposed to qualify a replication study as successful or unsuccessful. One of them is meta-analysis. The focus of the present study is on the way meta-analysis functions as a replication success metric. To investigate this, original and replication studies that are part of two large-scale replication projects were used. For each original study, the probability of replication success was calculated using meta-analysis under different assumptions of the underlying population effect when replication results were unknown. The accuracy of the predicted overall replication success was evaluated once replication results became available using adjusted Brier scores. Results: Our results showed that meta-analysis performed poorly when used as a replication success metric. In many cases, quantifying replication success using meta-analysis resulted in the conclusion where the replication was deemed a success regardless of the results of the replication study. Discussion: We conclude that when using meta-analysis as a replication success metric, it has a relatively high probability of finding evidence in favour of a non-zero population effect even when it is zero. This behaviour largely results from the significance of the original study. Furthermore, we argue that there are fundamental reasons against using meta-analysis as a metric for replication success. "
+        ],
+        "author_display": [
+          "Jasmine Muradchanian",
+          "Rink Hoekstra",
+          "Henk Kiers",
+          "Don van Ravenzwaaij"
+        ],
+        "id": "10.1371/journal.pone.0308495",
+        "journal": "PLOS ONE",
+        "publication_date": "2024-12-11T00:00:00Z",
+        "title": "Evaluating meta-analysis as a replication success measure"
+      },
+      {
+        "abstract": [
+          "\nThe need for replication of initial results has been rediscovered only recently in many fields of research. In preclinical biomedical research, it is common practice to conduct exact replications with the same sample sizes as those used in the initial experiments. Such replication attempts, however, have lower probability of replication than is generally appreciated. Indeed, in the common scenario of an effect just reaching statistical significance, the statistical power of the replication experiment assuming the same effect size is approximately 50%\u2014in essence, a coin toss. Accordingly, we use the provocative analogy of \u201creplicating\u201d a neuroprotective drug animal study with a coin flip to highlight the need for larger sample sizes in replication experiments. Additionally, we provide detailed background for the probability of obtaining a significant p value in a replication experiment and discuss the variability of p values as well as pitfalls of simple binary significance testing in both initial preclinical experiments and replication studies with small sample sizes. We conclude that power analysis for determining the sample size for a replication study is obligatory within the currently dominant hypothesis testing framework. Moreover, publications should include effect size point estimates and corresponding measures of precision, e.g., confidence intervals, to allow readers to assess the magnitude and direction of reported effects and to potentially combine the results of initial and replication study later through Bayesian or meta-analytic approaches.\n\nUsing a coin toss to \u2018replicate\u2019 a neuroprotective effect of valproic acid, this study highlights the fact that exact replications of biomedical experiments are usually underpowered, often with power of approximately 50%.\n"
+        ],
+        "author_display": [
+          "Sophie K. Piper",
+          "Ulrike Grittner",
+          "Andre Rex",
+          "Nico Riedel",
+          "Felix Fischer",
+          "Robert Nadon",
+          "Bob Siegerink",
+          "Ulrich Dirnagl"
+        ],
+        "id": "10.1371/journal.pbio.3000188",
+        "journal": "PLOS Biology",
+        "publication_date": "2019-04-09T00:00:00Z",
+        "title": "Exact replication: Foundation of science or game of chance?"
+      },
+      {
+        "abstract": [
+          "\nPreviously observed negative correlations between sample size and effect size (n-ES correlation) in psychological research have been interpreted as evidence for publication bias and related undesirable biases. Here, we present two studies aimed at better understanding to what extent negative n-ES correlations reflect such biases or might be explained by unproblematic adjustments of sample size to expected effect sizes. In Study 1, we analysed n-ES correlations in 150 meta-analyses from cognitive, organizational, and social psychology and in 57 multiple replications, which are free from relevant biases. In Study 2, we used a random sample of 160 psychology papers to compare the n-ES correlation for effects that are central to these papers and effects selected at random from these papers. n-ES correlations proved inconspicuous in meta-analyses. In line with previous research, they do not suggest that publication bias and related biases have a strong impact on meta-analyses in psychology. A much higher n-ES correlation emerged for publications\u2019 focal effects. To what extent this should be attributed to publication bias and related biases remains unclear.\n"
+        ],
+        "author_display": [
+          "Audrey Helen Linden",
+          "Thomas V. Pollet",
+          "Johannes H\u00f6nekopp"
+        ],
+        "id": "10.1371/journal.pone.0297075",
+        "journal": "PLOS ONE",
+        "publication_date": "2024-02-15T00:00:00Z",
+        "title": "Publication bias in psychology: A closer look at the correlation between sample size and effect size"
+      }
+    ],
+    "numFound": 7466,
+    "start": 0
+  }
+}

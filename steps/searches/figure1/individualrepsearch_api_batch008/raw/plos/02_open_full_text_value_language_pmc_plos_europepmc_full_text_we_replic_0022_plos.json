@@ -1,0 +1,79 @@
+{
+  "response": {
+    "docs": [
+      {
+        "abstract": [
+          "\nThe quality of psychological studies is currently a major concern. The Many Labs Project (MLP) and the Open-Science-Collaboration (OSC) have collected key data on replicability and statistical effect sizes. We build on this work by investigating the role played by three measurement types: ratings, proportions and unbounded (measures without conceptual upper limits, e.g. time). Both replicability and effect sizes are dependent on the amount of variability due to extraneous factors. We predicted that the role of such extraneous factors might depend on measurement type, and would be greatest for ratings, intermediate for proportions and least for unbounded. Our results support this conjecture. OSC replication rates for unbounded, 43% and proportion 40% combined are reliably higher than those for ratings at 20% (effect size, w = .20). MLP replication rates for the original studies are: proportion = .74, ratings = .40 (effect size w = .33). Original effect sizes (Cohen\u2019s d) are highest for: unbounded OSC cognitive = 1.45, OSC social = .90); next for proportions (OSC cognitive = 1.01, OSC social = .84, MLP = .82); and lowest for ratings (OSC social = .64, MLP = .31). These findings are of key importance to scientific methodology and design, even if the reasons for their occurrence are still at the level of conjecture.\n"
+        ],
+        "author_display": [
+          "Diana E. Kornbrot",
+          "Richard Wiseman",
+          "George J. Georgiou"
+        ],
+        "id": "10.1371/journal.pone.0192808",
+        "journal": "PLOS ONE",
+        "publication_date": "2018-02-12T00:00:00Z",
+        "title": "Quality science from quality measurement: The role of measurement type with respect to replication and effect size magnitude in psychological research"
+      },
+      {
+        "abstract": [
+          "\nThe neurohormone Oxytocin (OT) has been one of the most studied peptides in behavioral sciences over the past two decades. Many studies have suggested that OT could increase trusting behaviors. A previous study, based on the \u201cEnvelope Task\u201d paradigm, where trust is assessed by the degree of openness of an envelope containing participant\u2019s confidential information, showed that OT increases trusting behavior and reported one of the most powerful effects of OT on a behavioral variable. In this paper we present two failed replications of this effect, despite sufficient power to replicate the original large effect. The non-significant results of these two failed replications clearly exclude a large effect of OT on trust in this paradigm but are compatible with either a null effect of OT on trust, or a small effect, undetectable with small sample size (N = 95 and 61 in Study 1 and 2, respectively). Taken together, our results question the purported size of OT\u2019s effect on trust and emphasize the need for replications.\n"
+        ],
+        "author_display": [
+          "Anthony Lane",
+          "Mo\u00efra Mikolajczak",
+          "Evelyne Treinen",
+          "Dana Samson",
+          "Olivier Corneille",
+          "Philippe de Timary",
+          "Olivier Luminet"
+        ],
+        "id": "10.1371/journal.pone.0137000",
+        "journal": "PLOS ONE",
+        "publication_date": "2015-09-14T00:00:00Z",
+        "title": "Failed Replication of Oxytocin Effects on Trust: The Envelope Task Case"
+      },
+      {
+        "abstract": [
+          "\n        The basis on which people make social judgments from the image of a face remains an important open problem in fields ranging from psychology to neuroscience and economics. Multiple cues from facial appearance influence the judgments that viewers make. Here we investigate the contribution of a novel cue: the change in appearance due to the perspective distortion that results from viewing distance. We found that photographs of faces taken from within personal space elicit lower investments in an economic trust game, and lower ratings of social traits (such as trustworthiness, competence, and attractiveness), compared to photographs taken from a greater distance. The effect was replicated across multiple studies that controlled for facial image size, facial expression and lighting, and was not explained by face width-to-height ratio, explicit knowledge of the camera distance, or whether the faces are perceived as typical. These results demonstrate a novel facial cue influencing a range of social judgments as a function of interpersonal distance, an effect that may be processed implicitly.\n      "
+        ],
+        "author_display": [
+          "Ronnie Bryan",
+          "Pietro Perona",
+          "Ralph Adolphs"
+        ],
+        "id": "10.1371/journal.pone.0045301",
+        "publication_date": "2012-09-21T00:00:00Z",
+        "title": "Perspective Distortion from Interpersonal Distance Is an Implicit Visual Cue for Social Judgments of Faces"
+      },
+      {
+        "abstract": [
+          "\nWhen given privileged information of an object\u2019s true location, adults often overestimate the likelihood that a protagonist holding a false belief will search in the correct location for that object. This type of egocentric bias is often labelled the \u2018curse of knowledge\u2019. Interestingly, the magnitude of this bias may be modulated by the social distance between the perspective taker and target. However, this social distance effect has yet to be fully demonstrated when adults reason about false beliefs. Using a continuous false belief task, we investigated i) whether adults were biased by their own knowledge when reasoning about another\u2019s false belief, ii) whether the magnitude of this egocentric bias was modulated by social distance, and iii) whether this social distance effect extended to a heterospecific out-group, namely a dog. To test these hypotheses we conducted three experiments. In Experiment 1 (N = 283), we used an established continuous false belief task, in Experiment 2 (N = 281) we modified this task, and Experiment 3 (N = 744) was a direct replication of Experiment 2. Across these experiments, the curse of knowledge effect was reliably replicated when adults mentalised about an in-group protagonist, and replicated in two of the three studies (Experiments 1 and 3) when adults mentalised about out-group protagonists. In an internal-meta analysis, the curse of knowledge effect was present across all conditions, and there was no effect of social distance. Hence, overall these data are not consistent with the hypothesis that social distance modulates adults\u2019 egocentric biases when reasoning about false beliefs. The finding that egocentric biases of a similar magnitude were observed when adults mentalised about an in-group protagonist and a dog suggests that interpersonal dissimilarity is not in itself sufficient to reduce egocentric bias when reasoning about false beliefs.\n"
+        ],
+        "author_display": [
+          "Benjamin G. Farrar",
+          "Ljerka Ostoji\u0107"
+        ],
+        "id": "10.1371/journal.pone.0198616",
+        "journal": "PLOS ONE",
+        "publication_date": "2018-06-08T00:00:00Z",
+        "title": "Does social distance modulate adults\u2019 egocentric biases when reasoning about false beliefs?"
+      },
+      {
+        "abstract": [
+          "\nIs it permissible to harm one to save many? Classic moral dilemmas are often defined by the conflict between a putatively rational response to maximize aggregate welfare (i.e., the utilitarian judgment) and an emotional aversion to harm (i.e., the non-utilitarian judgment). Here, we address two questions. First, what specific aspect of emotional responding is relevant for these judgments? Second, is this aspect of emotional responding selectively reduced in utilitarians or enhanced in non-utilitarians? The results reveal a key relationship between moral judgment and empathic concern in particular (i.e., feelings of warmth and compassion in response to someone in distress). Utilitarian participants showed significantly reduced empathic concern on an independent empathy measure. These findings therefore reveal diminished empathic concern in utilitarian moral judges.\n"
+        ],
+        "author_display": [
+          "Ezequiel Gleichgerrcht",
+          "Liane Young"
+        ],
+        "id": "10.1371/journal.pone.0060418",
+        "journal": "PLoS ONE",
+        "publication_date": "2013-04-04T00:00:00Z",
+        "title": "Low Levels of Empathic Concern Predict Utilitarian Moral Judgment"
+      }
+    ],
+    "numFound": 10962,
+    "start": 0
+  }
+}

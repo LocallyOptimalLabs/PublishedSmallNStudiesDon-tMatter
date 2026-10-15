@@ -1,0 +1,77 @@
+{
+  "response": {
+    "docs": [
+      {
+        "abstract": [
+          "\nThe present study investigated whether measurable verbal differences occur when people vocalize their true and false intentions. To test potential differences, we used an experimental set-up where liars planned a criminal act (i.e., installing a virus on a network computer) and truth-tellers a non-criminal act (i.e., installing a new presentation program \u201cSlideDog\u201d on a network computer). Before they could carry out these acts, a confederate intercepted the participant and interviewed them about their intentions and the planning phase by using both anticipated and unanticipated questions. Liars used a cover story to mask their criminal intentions while truth-tellers told the entire truth. In contrast to our hypotheses, both human and automated coding did not show any evidence that liars and truth-tellers differed in plausibility or detailedness. Furthermore, results showed that asking unanticipated questions resulted in lengthier answers than anticipated questions. These results are in line with the mixed findings in the intention literature and suggest that plausibility and detailedness are less diagnostic cues for deception about intentions.\n"
+        ],
+        "author_display": [
+          "Glynis Bogaard",
+          "Joyce van der Mark",
+          "Ewout H. Meijer"
+        ],
+        "id": "10.1371/journal.pone.0226257",
+        "journal": "PLOS ONE",
+        "publication_date": "2019-12-11T00:00:00Z",
+        "title": "Detecting false intentions using unanticipated questions"
+      },
+      {
+        "abstract": [
+          "\nA 2013 article reported two experiments suggesting that the mere presence of a cellphone (vs. a notebook) can impair the relationship quality between strangers. The purpose of the present research is twofold: (1) closely replicate this article\u2019s findings, and (2) examine whether there may be an impact of the mere presence of a phone on creativity, whether at a group- or an individual- level. In two experiments (N = 356 participants, 136 groups), we followed the original procedure in the 2013 article. In particular, groups of participants who had never seen each other before the study had a conversation in the mere presence of either a smartphone or a notebook. The participants then carried out creative tasks, in groups (Studies 1 and 2) or alone (Study 1). In both studies, we failed to replicate the original results on relationship quality. We also failed to find any effect of the mere presence of a phone on creativity. We discuss possible reasons which may have caused differences between our results and the original ones. Our main conclusion is an effect of the mere presence of a phone on relationship quality and creativity is at minimum harder to find than what was previously assumed in the literature. More generally, this research contributes to qualify the view that smartphones are harmful.\n"
+        ],
+        "author_display": [
+          "Claire Linares",
+          "Anne-Laure Sellier"
+        ],
+        "id": "10.1371/journal.pone.0251451",
+        "journal": "PLOS ONE",
+        "publication_date": "2021-06-09T00:00:00Z",
+        "title": "How bad is the mere presence of a phone? A replication of Przybylski and Weinstein (2013) and an extension to creativity"
+      },
+      {
+        "abstract": [
+          "\nRecently, researchers claimed that people are intuitively inclined to cooperate with reflection causing them to behave selfishly. Empirical support for this claim came from experiments using a 4-player public goods game with a marginal return of 0.5 showing that people contributed more money to a common project when they had to decide quickly (i.e., a decision based on intuition) than when they were instructed to reflect and decide slowly. This intuitive-cooperation effect is of high scientific and practical importance because it argues against a central assumption of traditional economic and evolutionary models. The first experiment of present study was set up to examine the generality of the intuitive-cooperation effect and to further validate the experimental task producing the effect. In Experiment 1, we investigated Amazon Mechanical Turk (AMT) workers' contributions to a 4-player public goods game with a marginal return of 0.5 while we manipulated the knowledge about the other players' contribution to the public goods game (contribution known vs. contribution unknown), the identity of the other players (humans vs. computers randomly generating contributions) and the time constraint (time pressure/intuition vs. forced delay/reflection). However, the results of Experiment 1 failed to reveal an intuitive-cooperation effect. Furthermore, four subsequent direct replications attempts with AMT workers (Experiments 2a, 2b, 2c and Experiment 3, which was conducted with na\u00efve/inexperienced participants) also failed to demonstrate intuitive-cooperation effects. Taken together, the results of the present study could not corroborate the idea that people are intuitively cooperative, hence suggesting that the theoretical relationship between intuition and cooperation should be further scrutinized.\n"
+        ],
+        "author_display": [
+          "Peter P. J. L. Verkoeijen",
+          "Samantha Bouwmeester"
+        ],
+        "id": "10.1371/journal.pone.0096654",
+        "journal": "PLoS ONE",
+        "publication_date": "2014-05-06T00:00:00Z",
+        "title": "Does Intuition Cause Cooperation?"
+      },
+      {
+        "abstract": [
+          "\nAudit studies demonstrate that unemployed people are less likely to receive a callback when they apply for a job than employed candidates, the reason for this is unclear. Across two experiments (N = 461), we examine whether the perceived competence of unemployed candidates accounts for this disparity. In both studies, participants assessed one of two equivalent curriculum vitae\u2019s, differing only on the current employment status. We find that unemployed applicants are less likely to be offered an interview or hired. The relationship between the employment status of the applicant and these employment-related outcomes is mediated by the perceived competence of the applicant. We conducted a mini meta-analysis, finding that the effect size for the difference in employment outcomes was d = .274 and d = .307 respectively, while the estimated indirect effect was -.151[-.241, -.062]. These results offer a mechanism for the differential outcomes of job candidates by employment status.\n"
+        ],
+        "author_display": [
+          "Celestin Okoroji",
+          "Ilka H. Gleibs",
+          "Simon Howard"
+        ],
+        "id": "10.1371/journal.pone.0280596",
+        "journal": "PLOS ONE",
+        "publication_date": "2023-03-09T00:00:00Z",
+        "title": "Inferring incompetence from employment status: An audit-like experiment"
+      },
+      {
+        "abstract": [
+          "\nThe Meaning Maintenance Model posits that individuals seek to resolve uncertainty by searching for patterns in the environment, yet little is known about how this is accomplished. Four studies investigated whether uncertainty has an effect on people\u2019s cognitive functioning. In particular, we investigated whether meaning threats lead to increased working memory capacity. In each study, we exposed participants to either an uncertain stimulus used to threaten meaning in past studies, or a control stimulus. Participants then completed a working memory measure, where they either had to recall lists of words (Studies 1, 2), or strings of digits (Studies 3, 4). We used both a frequentist approach and Bayesian analysis to evaluate our findings. Across the four studies, we find a small but consistent effect, where participants in the meaning threat condition show improved performance on the working memory tasks. Overall, our findings were consistent with the hypothesis that working memory capacity increases when people experience a meaning threat, which may help to explain improved pattern recognition. Additionally, our results highlight the value of using a Bayesian analytic approach, particularly when studying phenomena with high variance.\n"
+        ],
+        "author_display": [
+          "Daniel Randles",
+          "Rachele Benjamin",
+          "Jason P. Martens",
+          "Steven J. Heine"
+        ],
+        "id": "10.1371/journal.pone.0204640",
+        "journal": "PLOS ONE",
+        "publication_date": "2018-10-03T00:00:00Z",
+        "title": "Searching for answers in an uncertain world: Meaning threats lead to increased working memory capacity"
+      }
+    ],
+    "numFound": 42,
+    "start": 0
+  }
+}

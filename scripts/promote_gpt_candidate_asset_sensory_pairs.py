@@ -16,11 +16,11 @@ from __future__ import annotations
 
 import math
 import re
-from io import StringIO
 from pathlib import Path
 from typing import Any
 
 import pandas as pd
+from bs4 import BeautifulSoup
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -45,7 +45,7 @@ SENSORY_PROMOTED = PROMOTED_DIR / "sensory_marketing_replications__promoted_pair
 AUDIT_TSV = AUDIT_DIR / "gpt_candidate_asset_sensory_pair_mining.tsv"
 
 ASSET_REPLICATION_DOI = "10.2139/ssrn.5048949"
-SENSORY_REPLICATION_DOI = "10.1016/j.jbusres.2022.05.006"
+SENSORY_REPLICATION_DOI = "10.3389/fcomm.2022.1048896"
 
 
 def clean_text(value: Any) -> str:
@@ -59,6 +59,14 @@ def clean_text(value: Any) -> str:
 
 def compact_text(value: Any) -> str:
     return re.sub(r"\s+", " ", clean_text(value)).strip()
+
+
+def normalize_frontiers_label(value: Any) -> str:
+    text = compact_text(value)
+    text = re.sub(r"\(\s+", "(", text)
+    text = re.sub(r"\s+\)", ")", text)
+    text = re.sub(r"\s+,", ",", text)
+    return text
 
 
 def slug(value: str) -> str:
@@ -92,9 +100,35 @@ def rel(path: Path) -> str:
         return str(path)
 
 
+def rel_path_value(value: Any) -> str:
+    text = clean_text(value)
+    if not text:
+        return ""
+    return rel(Path(text))
+
+
 def ensure_dirs() -> None:
     PROMOTED_DIR.mkdir(parents=True, exist_ok=True)
     AUDIT_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def read_html_tables(path: Path) -> list[pd.DataFrame]:
+    """Read simple HTML tables without relying on optional pandas HTML parsers."""
+    soup = BeautifulSoup(path.read_text(errors="ignore"), "html.parser")
+    tables: list[pd.DataFrame] = []
+    for table in soup.find_all("table"):
+        rows: list[list[str]] = []
+        for tr in table.find_all("tr"):
+            cells = tr.find_all(["th", "td"])
+            if not cells:
+                continue
+            rows.append([compact_text(cell.get_text(" ", strip=True)) for cell in cells])
+        if not rows:
+            continue
+        width = max(len(row) for row in rows)
+        padded = [row + [""] * (width - len(row)) for row in rows]
+        tables.append(pd.DataFrame(padded))
+    return tables
 
 
 def common_promoted_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -375,8 +409,8 @@ def build_asset_rows() -> pd.DataFrame:
                 "N_original": float(spec["n_orig"]),
                 "D_replication": d_replication,
                 "N_replication": float(spec["n_rep"]),
-                "raw_file": str(ASSET_APPENDIX),
-                "n_source_file": str(ASSET_MANUSCRIPT),
+                "raw_file": rel(ASSET_APPENDIX),
+                "n_source_file": rel(ASSET_MANUSCRIPT),
                 "source_locator": spec["source_locator"],
                 "verbatim_n_text_original": spec["verbatim_n_orig"],
                 "verbatim_n_text_replication": f"{spec['verbatim']} ; replication n = {spec['n_rep']}",
@@ -430,13 +464,15 @@ def workbook_n_map() -> dict[str, tuple[int, Path, str]]:
 def sensory_original_n_text() -> dict[str, tuple[int, str, str]]:
     if not SENSORY_ARTICLE.exists():
         raise FileNotFoundError(SENSORY_ARTICLE)
-    tables = pd.read_html(StringIO(SENSORY_ARTICLE.read_text(errors="ignore")))
+    tables = read_html_tables(SENSORY_ARTICLE)
     selected = tables[0]
     text_by_author: dict[str, tuple[str, str]] = {}
     for row in selected.itertuples(index=False):
-        author = compact_text(row[0])
+        author = normalize_frontiers_label(row[0])
         sample_text = clean_text(row[1])
         effect_text = clean_text(row[3])
+        if not author or author == "Author(s), Year, Journal":
+            continue
         text_by_author[author] = (sample_text, effect_text)
     return {
         "Klink (2000), Study 1": (
@@ -496,7 +532,7 @@ def build_sensory_rows() -> pd.DataFrame:
     if not SENSORY_ARTICLE.exists():
         raise FileNotFoundError(SENSORY_ARTICLE)
 
-    tables = pd.read_html(StringIO(SENSORY_ARTICLE.read_text(errors="ignore")))
+    tables = read_html_tables(SENSORY_ARTICLE)
     table = tables[4].copy()
     original_n = sensory_original_n_text()
     rep_n = workbook_n_map()
@@ -505,7 +541,7 @@ def build_sensory_rows() -> pd.DataFrame:
     rows: list[dict[str, Any]] = []
     for idx, row in table.iterrows():
         values = [clean_text(value) for value in row.tolist()]
-        label = values[0]
+        label = normalize_frontiers_label(values[0])
         orig_r = parse_float(values[1])
         rep_r = parse_float(values[4])
         if not math.isfinite(orig_r) or not math.isfinite(rep_r):
@@ -531,8 +567,8 @@ def build_sensory_rows() -> pd.DataFrame:
                 "N_original": float(n_orig),
                 "D_replication": r_to_d(rep_r),
                 "N_replication": float(n_rep),
-                "raw_file": str(SENSORY_ARTICLE),
-                "n_source_file": str(workbook_path),
+                "raw_file": rel(SENSORY_ARTICLE),
+                "n_source_file": rel(workbook_path),
                 "source_locator": f"Article Table 5 row {idx}; replication N from {workbook_name}",
                 "verbatim_n_text_original": n_orig_text,
                 "verbatim_n_text_replication": f"{workbook_name} mirrored locally has {n_rep} data rows in its first worksheet.",
@@ -573,8 +609,8 @@ def main() -> None:
         ignore_index=True,
         sort=False,
     )
-    audit["raw_file"] = audit["raw_file"].map(lambda path: rel(Path(path)))
-    audit["n_source_file"] = audit["n_source_file"].map(lambda path: rel(Path(path)) if clean_text(path) else "")
+    audit["raw_file"] = audit["raw_file"].map(rel_path_value)
+    audit["n_source_file"] = audit["n_source_file"].map(rel_path_value)
     audit.to_csv(AUDIT_TSV, sep="\t", index=False)
 
     print(f"Wrote asset-market promoted rows: {len(asset)} -> {ASSET_PROMOTED}")
